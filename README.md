@@ -1,5 +1,9 @@
 # ansur
 
+This project is built using
+- Nuxt JS
+- Tailwind CSS
+
 ## Build Setup
 
 ```bash
@@ -17,4 +21,4 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org) and [TailwindCSS docs](https://https://tailwindcss.com/).
