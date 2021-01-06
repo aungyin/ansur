@@ -96,8 +96,9 @@
               </div>
             </div>
           </div>
-          <div class="lg:w-2/5 w-full h-full bg-gradient-to-r from-indigo-400 to-blue-400 lg:absolute lg:bottom-0 lg:right-0 lg:-mb-8 ">
-            <div class=" ">
+          <div class="relative w-full h-full lg:w-2/5 my-auto">
+            <div class="absolute w-full h-full rounded-lg bg-gray-400"  style="transform: rotate(5deg)"></div>
+            <div class="relative w-full h-full rounded-lg bg-gradient-to-r from-indigo-400 to-blue-400">
               <div class="py-16 flex flex-wrap lg:flex-col justify-around items-center">
                 <div class=" w-48">
                   <img src="~/assets/svg/product.svg" alt="Product">
