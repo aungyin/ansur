@@ -7,14 +7,14 @@
         <img class="block md:hidden absolute h-full w-full object-cover bg-center" src="~/assets/img/company-sm.jpg" alt="Company">
         <img class="hidden md:block absolute h-full w-full object-cover bg-center" src="~/assets/img/company.jpg" alt="Company">
       </div>
-      <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-blue-800 text-gray-100 shadow-3xl">
+      <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-gradient-to-r from-indigo-400 to-blue-400 text-gray-100 shadow-3xl">
         <h1 class=" font-light text-2xl md:text-5xl leading-none tracking-widest">PHILOSOPHY</h1>
         <p class=" mt-1 font-thin text-base md:text-2xl tracking-widest">経営理念</p>
       </div>
     </section>
 
     <!-- 経営理念 -->
-    <section class="philosophy px-8 mt-16 md:mt-24 md:pb-20 md:px-20">
+    <section class="philosophy px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto mt-16 md:mt-24 md:pb-20">
       <div class="text-xs md:text-sm">
         <p class="text-base md:text-xl"><span class="border-b w-1/3 border-branding-light-blue">Thank you for your thanks</span> ～私達は誰からもありがたいと思われる会社をつくります～</p>
         <br>

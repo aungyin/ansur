@@ -7,20 +7,16 @@
         <img class="block md:hidden absolute h-full w-full object-cover bg-center" src="~/assets/img/company-sm.jpg" alt="Company">
         <img class="hidden md:block absolute h-full w-full object-cover bg-center" src="~/assets/img/company.jpg" alt="Company">
       </div>
-      <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-blue-800 text-gray-100 shadow-3xl">
+      <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-gradient-to-r from-indigo-400 to-blue-400 text-gray-100 shadow-3xl">
         <h1 class=" font-light text-2xl md:text-5xl leading-none tracking-widest">ORGANIZATION</h1>
         <p class=" mt-1 font-thin text-base md:text-2xl tracking-widest">組織構成</p>
       </div>
     </section>
 
     <!-- 組織構成 -->
-    <section class="organization py-10 md:px-20">
-      <!-- <div class=" ml-4 md:ml-0 pl-2 border-l-4 border-branding-light-blue">
-          <h2 class=" text-2xl md:text-3xl tracking-widest">ORGANIZATION</h2>
-          <div class="tracking-widest">組織構成</div>
-      </div> -->
+    <section class="organization py-10 px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
       <div class="mt-4 md:mt-10">
-        <img src="~/assets/img/organization.jpg" alt="Organization">
+        <img src="~/assets/img/organization.jpg" alt="Organization" class="mx-auto">
       </div>
     </section>
 

@@ -6,7 +6,7 @@
         <img class="block md:hidden absolute h-full w-full object-cover bg-center" src="~/assets/img/service-sm.jpg" alt="Service">
         <img class="hidden md:block absolute h-full w-full object-cover bg-center" src="~/assets/img/service.jpg" alt="Service">
       </div>
-      <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-blue-800 text-gray-100 shadow-3xl">
+      <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-gradient-to-r from-indigo-400 to-blue-400 text-gray-100 shadow-3xl">
         <h1 class=" font-light text-2xl md:text-5xl leading-none tracking-widest">SERVICE</h1>
         <p class=" mt-1 font-thin text-xs md:text-2xl tracking-widest">事業内容</p>
       </div>
@@ -14,8 +14,8 @@
 
     <!-- SES -->
     <section id="ses" class="ses md:mt-6">
-      <div class="px-10 md:px-20 py-16">
-        <h2 class=" text-2xl md:text-4xl mb-6 text-center tracking-widest">SES事業</h2>
+      <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto py-16">
+        <h2 class=" text-2xl md:text-4xl mb-6 text-center tracking-widest"><span class="border-double border-b bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-500">SES事業</span></h2>
         <div class="flex justify-between flex-col md:flex-row">
           <div class=" w-56 md:w-64 flex-shrink-0 mx-auto">
             <div class="w-full h-full">
@@ -33,8 +33,8 @@
 
     <!-- 受託開発 -->
     <section id="contracted-development" class="contracted-development bg-gray-100">
-      <div class="px-10 md:px-20 py-16">
-        <h2 class=" text-2xl md:text-4xl mb-6 text-center tracking-widest">受託開発</h2>
+      <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto py-16">
+        <h2 class=" text-2xl md:text-4xl mb-6 text-center tracking-widest"><span class="border-double border-b bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-500">受託開発</span></h2>
         <div class="flex justify-between flex-col md:flex-row">
           <div class=" w-56 md:w-64 flex-shrink-0 mx-auto">
             <div class="w-full h-full">
@@ -50,8 +50,8 @@
 
     <!-- オフショア開発 -->
     <section id="offshore" class="offshore">
-      <div class="px-10 md:px-20 py-16">
-        <h2 class=" text-2xl md:text-4xl mb-6 text-center tracking-widest">オフショア開発</h2>
+      <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto py-16">
+        <h2 class=" text-2xl md:text-4xl mb-6 text-center tracking-widest"><span class="border-double border-b bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-500">オフショア開発</span></h2>
         <div class="flex justify-between flex-col md:flex-row">
           <div class=" w-56 md:w-64 flex-shrink-0 mx-auto">
             <div class="w-full h-full">
@@ -66,77 +66,79 @@
     </section>
 
     <!-- 開発分野・技術者開発言語構成 -->
-    <section class=" pb-20 px-10 md:px-20 area-developer-profile bg-gray-100">
-      <!-- 開発分野 -->
-      <div class="py-10 md:py-16">
-        <h2 class=" text-3xl md:text-4xl text-center tracking-widest">開発分野</h2>
-        <p class=" mt-2 text-center text-sm md:text-xl">ノウハウを活用しお客様に最適なサービスをご提供します</p>
-      </div>
-      <div class=" px-4 py-10 md:p-10 bg-white rounded">
-        <div class="flex flex-col md:flex-row sm:items-center justify-evenly border-b-0 md:border-b md:border-gray-200">
-          <div class="pb-10 flex mx-auto md:mx-0">
-            <div>
-              <img class="h-20 md:h-24" src="~/assets/svg/finance.svg" alt="Finance">
+    <section class="area-developer-profile bg-gray-100">
+      <div class="pb-20 px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
+        <!-- 開発分野 -->
+        <div class="py-10 md:pt-16">
+          <h2 class=" text-3xl md:text-4xl text-center tracking-widest bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-500">開発分野</h2>
+          <p class=" text-center text-sm md:text-xl">ノウハウを活用しお客様に最適なサービスをご提供します</p>
+        </div>
+        <div class=" px-4 py-10 md:p-10 bg-white rounded">
+          <div class="flex flex-col md:flex-row sm:items-center justify-evenly border-b-0 md:border-b md:border-gray-200">
+            <div class="pb-10 flex mx-auto md:mx-0">
+              <div>
+                <img class="h-20 md:h-24" src="~/assets/svg/finance.svg" alt="Finance">
+              </div>
+              <span class=" ml-6 lg:ml-12 text-xl md:text-2xl tracking-wider flex items-center justify-center">金融</span>
             </div>
-            <span class=" ml-6 lg:ml-12 text-xl md:text-2xl tracking-wider flex items-center justify-center">金融</span>
-          </div>
-          <div class=" hidden md:flex pb-48 border-r border-gray-200"></div>
-          <div class="pb-10 flex mx-auto md:mx-0">
-            <div>
-              <img class="h-20 md:h-24" src="~/assets/svg/public.svg" alt="Public">
+            <div class=" hidden md:flex pb-48 border-r border-gray-200"></div>
+            <div class="pb-10 flex mx-auto md:mx-0">
+              <div>
+                <img class="h-20 md:h-24" src="~/assets/svg/public.svg" alt="Public">
+              </div>
+              <span class=" ml-6 lg:ml-12 text-xl md:text-2xl tracking-wider flex items-center justify-center">公共</span>
             </div>
-            <span class=" ml-6 lg:ml-12 text-xl md:text-2xl tracking-wider flex items-center justify-center">公共</span>
           </div>
-        </div>
-        <div class=" flex flex-col md:flex-row sm:items-center justify-evenly">
-          <div class="pt-0 md:pt-10 flex mx-auto md:mx-0">
-            <div>
-              <img class="h-20 md:h-24" src="~/assets/svg/medical.svg" alt="Medical">
+          <div class=" flex flex-col md:flex-row sm:items-center justify-evenly">
+            <div class="pt-0 md:pt-10 flex mx-auto md:mx-0">
+              <div>
+                <img class="h-20 md:h-24" src="~/assets/svg/medical.svg" alt="Medical">
+              </div>
+              <span class=" ml-6 lg:ml-12 text-xl md:text-2xl tracking-wider flex items-center justify-center">医療</span>
             </div>
-            <span class=" ml-6 lg:ml-12 text-xl md:text-2xl tracking-wider flex items-center justify-center">医療</span>
-          </div>
-          <div class=" hidden md:flex pt-48 border-r border-gray-200"></div>
-          <div class="pt-10 flex mx-auto md:mx-0">
-            <div>
-              <img class="h-20 md:h-24" src="~/assets/svg/logistic.svg" alt="Logistic">
+            <div class=" hidden md:flex pt-48 border-r border-gray-200"></div>
+            <div class="pt-10 flex mx-auto md:mx-0">
+              <div>
+                <img class="h-20 md:h-24" src="~/assets/svg/logistic.svg" alt="Logistic">
+              </div>
+              <span class=" ml-6 lg:ml-12 text-xl md:text-2xl tracking-wider flex items-center justify-center">流通</span>
             </div>
-            <span class=" ml-6 lg:ml-12 text-xl md:text-2xl tracking-wider flex items-center justify-center">流通</span>
           </div>
         </div>
-      </div>
-
-      <!-- 技術者開発言語構成 -->
-      <div class="py-10 md:py-16">
-        <h2 class=" text-2xl md:text-4xl text-center tracking-widest">技術者開発言語構成</h2>
-      </div>
-      <div class="px-4 py-10 md:p-16 md:py-12 bg-white rounded">
-        <div class="">
-          <div>Java</div>
-          <div class="mt-2  bg-indigo-600 h-6 w-2/3"></div>
+  
+        <!-- 技術者開発言語構成 -->
+        <div class="py-10 md:pt-16">
+          <h2 class=" text-2xl md:text-4xl text-center tracking-widest bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-500">技術者開発言語構成</h2>
         </div>
-        <div class=" my-3">
-          <div>C#</div>
-          <div class="mt-2  bg-indigo-600 h-6 w-1/3"></div>
-        </div>
-        <div class=" my-3">
-          <div>C/C++</div>
-          <div class="mt-2  bg-indigo-600 h-6 w-1/6"></div>
-        </div>
-        <div class=" my-3">
-          <div>Javascript</div>
-          <div class="mt-2  bg-indigo-600 h-6 w-2/5"></div>
-        </div>
-        <div class=" my-3">
-          <div>PHP</div>
-          <div class="mt-2  bg-indigo-600 h-6 w-1/4"></div>
-        </div>
-        <div class=" my-3">
-          <div>Python</div>
-          <div class="mt-2  bg-indigo-600 h-6 w-2/12"></div>
-        </div>
-        <div class=" my-3">
-          <div>その他</div>
-          <div class="mt-2  bg-indigo-600 h-6 w-1/12"></div>
+        <div class="px-4 py-10 md:p-16 md:py-12 bg-white rounded">
+          <div class="">
+            <div>Java</div>
+            <div class="mt-2  bg-indigo-600 h-6 w-2/3"></div>
+          </div>
+          <div class=" my-3">
+            <div>C#</div>
+            <div class="mt-2  bg-indigo-600 h-6 w-1/3"></div>
+          </div>
+          <div class=" my-3">
+            <div>C/C++</div>
+            <div class="mt-2  bg-indigo-600 h-6 w-1/6"></div>
+          </div>
+          <div class=" my-3">
+            <div>Javascript</div>
+            <div class="mt-2  bg-indigo-600 h-6 w-2/5"></div>
+          </div>
+          <div class=" my-3">
+            <div>PHP</div>
+            <div class="mt-2  bg-indigo-600 h-6 w-1/4"></div>
+          </div>
+          <div class=" my-3">
+            <div>Python</div>
+            <div class="mt-2  bg-indigo-600 h-6 w-2/12"></div>
+          </div>
+          <div class=" my-3">
+            <div>その他</div>
+            <div class="mt-2  bg-indigo-600 h-6 w-1/12"></div>
+          </div>
         </div>
       </div>
     </section>

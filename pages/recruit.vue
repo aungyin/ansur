@@ -7,13 +7,13 @@
         <img class="block md:hidden absolute h-full w-full object-cover bg-center" src="~/assets/img/recruit-sm.jpg" alt="Recruit">
         <img class="hidden md:block absolute h-full w-full object-cover bg-center" src="~/assets/img/recruit.jpg" alt="Recruit">
       </div>
-      <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-blue-800 text-gray-100 shadow-3xl">
+      <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-gradient-to-r from-indigo-400 to-blue-400 text-gray-100 shadow-3xl">
         <h1 class=" font-light text-2xl md:text-5xl leading-none tracking-widest">RECRUIT</h1>
         <p class=" mt-1 font-thin text-base md:text-2xl tracking-widest">採用情報</p>
       </div>
     </section>
 
-    <div class="px-4 md:px-20 pb-10 md:pb-20 mt-16 md:mt-24">
+    <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto pb-10 md:pb-20 mt-16 md:mt-24">
       <!-- Links -->
       <section class="mb-10 py-3 bg-blue-100">
         <div class="flex flex-row justify-center space-x-5 md:space-x-10 text-xs md:text-base">

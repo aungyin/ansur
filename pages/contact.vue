@@ -7,13 +7,13 @@
         <img class="block md:hidden absolute h-full w-full object-cover bg-center" src="~/assets/img/contact-sm.jpg" alt="Contact">
         <img class="hidden md:block absolute h-full w-full object-cover bg-center" src="~/assets/img/contact.jpg" alt="Contact">
       </div>
-      <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-blue-800 text-gray-100 shadow-3xl">
+      <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-gradient-to-r from-indigo-400 to-blue-400 text-gray-100 shadow-3xl">
         <h1 class=" font-light text-2xl md:text-5xl leading-none tracking-widest">CONTACT</h1>
         <p class=" mt-1 font-thin text-base md:text-2xl tracking-widest">お問い合わせ</p>
       </div>
     </section>
 
-    <div class="px-4 mt-16 md:mt-24 md:pb-20 md:px-20">
+    <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto mt-16 md:mt-24 md:pb-20">
       <!-- お問い合わせ -->
       <section class="contact">
         <div class=" text-xs md:text-sm align-middle">
@@ -28,37 +28,37 @@
               <tbody>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">お名前<span class="px-1 ml-1 text-xs font-light bg-orange-500 text-gray-100 align-baseline">必須</span></th>
-                  <td class=" px-2 md:px-6 py-2 border-b border-gray-200">
+                  <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
                     <input required class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="お名前" id="name" maxlength="48">
                   </td>
                 </tr>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">ふりがな<span class="px-1 ml-1 text-xs font-light bg-orange-500 text-gray-100 align-baseline">必須</span></th>
-                  <td class=" px-2 md:px-6 py-2 border-b border-gray-200">
+                  <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
                     <input required class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="ふりがな" id="furigana" maxlength="48">
                   </td>
                 </tr>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">御社名</th>
-                  <td class=" px-2 md:px-6 py-2 border-b border-gray-200">
+                  <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
                     <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="御社名" id="company-name" maxlength="255">
                   </td>
                 </tr>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">部署名</th>
-                  <td class=" px-2 md:px-6 py-2 border-b border-gray-200">
+                  <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
                     <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="部署名" id="department-name" maxlength="48">
                   </td>
                 </tr>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">電話番号</th>
-                  <td class=" px-2 md:px-6 py-2 border-b border-gray-200">
+                  <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
                     <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="tel" name="電話番号" id="phone-num" maxlength="255">
                   </td>
                 </tr>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">メールアドレス<br class="block lg:hidden"><span class="px-1 ml-1 text-xs font-light bg-orange-500 text-gray-100 align-baseline">必須</span></th>
-                  <td class=" px-2 md:px-6 py-2 border-b border-gray-200">
+                  <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
                     <input required class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" 
                       type="email" 
                       title="有効なメールアドレスを入力してください" 
@@ -69,7 +69,7 @@
                 </tr>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light bg-blue-700">お問い合わせ内容<br class="block lg:hidden"><span class="px-1 ml-1 text-xs font-light bg-orange-500 text-gray-100 align-baseline">必須</span></th>
-                  <td class=" px-2 md:px-6 py-2 md:py-6">
+                  <td class=" px-2 md:px-6 py-1 md:py-6">
                     <div class="flex items-center justify-left">
                       <input class="h-4 w-4 md:h-6 md:w-6" type="radio" name="inqury-choice" id="business-partner" checked>
                       <label class="ml-2" for="business-partner">ビジネスパートナー</label>

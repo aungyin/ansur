@@ -3,7 +3,7 @@
   <!-- FOOTER -->
   <footer class=" bg-blue-700 text-gray-100">
 
-    <div class="px-4 md:px-20 py-12 mx-auto flex items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
+    <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto py-12 flex items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
 
       <!-- Company Info -->
       <div class="md:w-2/4 lg:w-1/3 flex-shrink-0 pl-4 md:pr-10 md:mx-0 text-left text-xs md:border-r md:border-gray-500">

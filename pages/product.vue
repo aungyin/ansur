@@ -2,7 +2,7 @@
   <main class="">
 
     <!-- HERO -->
-    <section class="hero mt-6 px-10 md:px-20 overflow-hidden">
+    <section class="hero mt-6 px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto overflow-hidden">
       <div class="relative flex-col md:block pt-16 pb-1/12 md:pb-16 lg:pb-1/6 xl:pb-1/5">
         <div class=" w-full md:w-3/5 lg:w-8/12 xl:w-7/12 md:absolute md:top-0 md:mt-16 md:right-0 -mr-10">
           <img src="~/assets/svg/product_responsive.svg" alt="Product">
@@ -17,34 +17,38 @@
     </section>
 
     <!-- 目的 -->
-    <section class="aim py-16 md:py-20 px-10 md:px-20 border-gray-100 border-t border-b bg-gray-100">
-      <h2 class=" font-light text-2xl md:text-4xl tracking-widest">小学校受験サービス</h2>
-      <p class="text-sm md:text-base mt-2">
-        中学受験に次いで最近増えているのが小学校受験です。その勉強のために欠かせないのが問題集。公文・学研・こぐま会など幼児教育を得意とする塾から、様々な小学校受験用問題集が販売されています。しかし、種類が多く、どれを選べば良いのか迷ってしまうという親御さんも多いのではないでしょうか。
-        <br>そこで、全国の問題集を簡単にアクセスおよび受験できるサービスを提供しています。
-      </p>
+    <section class="aim py-16 md:py-20 border-gray-100 border-t border-b bg-gray-100">
+      <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
+        <h2 class=" font-light text-2xl md:text-4xl tracking-widest">小学校受験サービス</h2>
+        <p class="text-sm md:text-base mt-2">
+          中学受験に次いで最近増えているのが小学校受験です。その勉強のために欠かせないのが問題集。公文・学研・こぐま会など幼児教育を得意とする塾から、様々な小学校受験用問題集が販売されています。しかし、種類が多く、どれを選べば良いのか迷ってしまうという親御さんも多いのではないでしょうか。
+          <br>そこで、全国の問題集を簡単にアクセスおよび受験できるサービスを提供しています。
+        </p>
+      </div>
     </section>
 
     <!-- ガイド -->
-    <section class="guide py-16 md:py-20 px-10 md:px-20">
-      <div class="flex flex-col md:flex-row md:space-x-10">
-        <div class=" w-full md:w-1/2 text-center md:text-left">
-          <div>
-            <img class="w-20 mx-auto md:mx-0" src="~/assets/svg/paper.svg" alt="Paper">
-            <h4 class="mt-6">豊富な問題集</h4>
+    <section class="guide py-16 md:py-20">
+      <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
+        <div class="px-2 flex flex-col md:flex-row md:space-x-10">
+          <div class=" w-full md:w-1/2 text-center md:text-left">
+            <div>
+              <img class="w-20 mx-auto md:mx-0" src="~/assets/svg/paper.svg" alt="Paper">
+              <h4 class="mt-6">豊富な問題集</h4>
+            </div>
+            <p class="mt-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor sem vel tortor tellus. Amet dictumst vel pulvinar enim varius blandit urna, eu feugiat. Rutrum viverra risus et amet.
+            </p>
           </div>
-          <p class="mt-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor sem vel tortor tellus. Amet dictumst vel pulvinar enim varius blandit urna, eu feugiat. Rutrum viverra risus et amet.
-          </p>
-        </div>
-        <div class=" w-full md:w-1/2 mt-10 md:mt-0 text-center md:text-left">
-          <div>
-            <img class="w-20 mx-auto md:mx-0" src="~/assets/svg/printer.svg" alt="Printer">
-            <h4 class="mt-6">問題集を簡単にプラント</h4>
+          <div class=" w-full md:w-1/2 mt-10 md:mt-0 text-center md:text-left">
+            <div>
+              <img class="w-20 mx-auto md:mx-0" src="~/assets/svg/printer.svg" alt="Printer">
+              <h4 class="mt-6">問題集を簡単にプラント</h4>
+            </div>
+            <p class="mt-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam nisl non turpis elementum iaculis. Metus ullamcorper viverra mauris condimentum euismod eu. Integer amet.
+            </p>
           </div>
-          <p class="mt-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam nisl non turpis elementum iaculis. Metus ullamcorper viverra mauris condimentum euismod eu. Integer amet.
-          </p>
         </div>
       </div>
     </section>
