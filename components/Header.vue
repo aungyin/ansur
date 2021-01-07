@@ -44,7 +44,7 @@
             <li><NuxtLink to="/" class=" hover:text-branding-light-blue text-sm">HOME</NuxtLink></li>
             <li><NuxtLink to="/service" class=" hover:text-branding-light-blue text-sm">サービス</NuxtLink></li>
             <li><NuxtLink to="/product" class=" hover:text-branding-light-blue text-sm">製品</NuxtLink></li>
-            <li class="relative"
+            <li class="relative my-auto"
               @mouseover="isHover = true"
               @mouseleave="isHover = false"
               @click="isHover = false">
