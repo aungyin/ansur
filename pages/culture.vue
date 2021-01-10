@@ -30,7 +30,7 @@
               <div class="w-56 -ml-0 md:-ml-6 lg:-ml-16 text-sm leading-loose">
                 <p>今年の忘年会はお家で！</p>
                 <p>飲みながらゲームを！</p>
-                <p>友達の家でパティー参加してたメンバーも出席したらしい〜</p>
+                <p>パティー参加してたメンバーも出席したらしい〜</p>
               </div>
               <img class="mt-4 mr-4 md:mr-0 w-64" src="~/assets/img/culture/2020_YearEndParty.jpg" alt="2020 YearEndParty">
             </div>
@@ -47,7 +47,7 @@
           <h1 class="absolute top-0 right-0 text-5xl leading-none tracking-wider" style="color: #605D56">2019忘年会</h1>
           <div class="pt-20 md:pt-0 flex flex-wrap md:grid grid-cols-2">
             <div><img src="~/assets/img/culture/2019_YearEndPartyGroup.jpg" alt="2019 Year End Party Group Photo"></div>
-            <p class="p-12 md:p-16 flex items-center mx-auto text-sm leading-loose">今年はミャンマー人新入社員も増え一層飛躍の年になりそうです！<br>2019年は大変お世話になりありがとうございました！</p>
+            <p class="p-12 md:p-16 flex items-center mx-auto text-sm leading-loose">今年は日本人、中国人、ミャンマー人の新入社員も増え一層飛躍の年になりそうです！<br>2019年は大変お世話になりありがとうございました！</p>
           </div>
           <div class="flex flex-wrap-reverse md:grid md:grid-cols-2">
             <p class="p-12 md:p-16 flex items-center mx-auto text-sm leading-loose">BINGO賞貰ってる中国人のメンバー</p>

@@ -24,7 +24,7 @@
           </button>
         </div>
         <div class="flex flex-col px-8 py-10">
-          <NuxtLink to="/" class="my-2 py-1 text-sm text-gray-300 lg:mx-4 md:mx-2 focus:outline-none">HOME</NuxtLink>
+          <NuxtLink to="/" class="my-2 py-1 text-sm text-gray-300 lg:mx-4 md:mx-2 focus:outline-none">ホーム</NuxtLink>
           <NuxtLink to="/service" class="my-2 py-1 text-sm text-gray-300 lg:mx-4 md:mx-2 focus:outline-none">サービス</NuxtLink>
           <NuxtLink to="/product" class="my-2 py-1 text-sm text-gray-300 lg:mx-4 md:mx-2 focus:outline-none">製品</NuxtLink>
           <NuxtLink to="/company" class="my-2 py-1 text-sm text-gray-300 lg:mx-4 md:mx-2 focus:outline-none">会社概要</NuxtLink>
@@ -40,7 +40,7 @@
       <div class="hidden md:block">
         <nav>
           <ul class="flex justify-center space-x-3 lg:space-x-8 xl:space-x-10 list-none">
-            <li><NuxtLink to="/" class=" hover:text-branding-light-blue text-sm">HOME</NuxtLink></li>
+            <li><NuxtLink to="/" class=" hover:text-branding-light-blue text-sm">ホーム</NuxtLink></li>
             <li><NuxtLink to="/service" class=" hover:text-branding-light-blue text-sm">サービス</NuxtLink></li>
             <li><NuxtLink to="/product" class=" hover:text-branding-light-blue text-sm">製品</NuxtLink></li>
             <li class="relative my-auto"
