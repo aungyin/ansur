@@ -39,3 +39,30 @@
     </div>
   </main>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'このページは株式会社アンスールの個人情報保護方針のページです。システムコンサルティングからソフトウェアの企画・設計・開発まで、アンスールにお任せ下さい'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: '個人情報保護方針,システムコンサルティング,システム企画,システム開発,自社製品開発,ソフトウェア設計,ソフトウェア開発'
+        }
+      ]
+    }
+  },
+  data() {
+    return {
+      title: '個人情報保護方針｜株式会社アンスール'
+    }
+  }
+}
+</script>

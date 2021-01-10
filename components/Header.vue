@@ -14,7 +14,6 @@
       <div class="flex items-center md:hidden">
         <button @click="toggle()" class=" text-gray-900 focus:outline-none">
           <svg v-if="!isOpen" class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-          <!-- <svg v-if="isOpen" class="h-6 w-6 fill-current text-gray-300 relative z-50"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"/></svg> -->
         </button>
       </div>
       <div v-if="isOpen" @click="toggle()" class="fixed inset-0 min-w-full min-h-full bg-gray-800 pt-2 z-40">
@@ -40,7 +39,7 @@
       <!-- PC menu -->
       <div class="hidden md:block">
         <nav>
-          <ul class="flex justify-center space-x-3 lg:space-x-6 list-none">
+          <ul class="flex justify-center space-x-3 lg:space-x-8 xl:space-x-10 list-none">
             <li><NuxtLink to="/" class=" hover:text-branding-light-blue text-sm">HOME</NuxtLink></li>
             <li><NuxtLink to="/service" class=" hover:text-branding-light-blue text-sm">サービス</NuxtLink></li>
             <li><NuxtLink to="/product" class=" hover:text-branding-light-blue text-sm">製品</NuxtLink></li>
@@ -54,13 +53,10 @@
               </NuxtLink>
               <!-- Sub-menu -->
               <div :class="isHover ? 'block' : 'hidden'" class="absolute top-auto inset-x-auto z-10">
-                <svg class="h-4 w-6 fill-current text-gray-200 shadow-2xl mx-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
-                  <path d="M11 0l10.392 18H.608L11 0z"/>
-                </svg>
-                <div class=" bg-gray-200 rounded shadow-2xl w-auto">
+                <div class="mt-4 border border-gray-200 bg-white rounded shadow-2xl w-48">
                   <div class="flex flex-col py-4">
-                    <NuxtLink to="/philosophy" class="px-6 py-2 focus:outline-none hover:bg-white hover:text-branding-light-blue text-sm">経営理念</NuxtLink>
-                    <NuxtLink to="/organization" class="px-6 py-2 focus:outline-none hover:bg-white hover:text-branding-light-blue text-sm">組織構成</NuxtLink>
+                    <NuxtLink to="/philosophy" class="px-6 py-2 focus:outline-none hover:text-branding-light-blue text-sm">経営理念</NuxtLink>
+                    <NuxtLink to="/organization" class="px-6 py-2 focus:outline-none hover:text-branding-light-blue text-sm">組織構成</NuxtLink>
                   </div>
                 </div>
               </div>

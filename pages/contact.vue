@@ -122,7 +122,7 @@
                 <input @click="toggle()" type="checkbox" name="agreement" id="agreement" class="h-4 w-4 md:h-6 md:w-6 rounded border border-gray-200">
                 <label class="ml-2" for="agreement">個人情報の取り扱いについて同意する</label>
               </div>
-              <div class="my-10 md:mt-16 text-center">
+              <div class="mt-10 md:mt-16 text-center">
                 <input :disabled="!isActive" class="px-10 py-4 cursor-pointer  rounded" :class="isActive ? 'bg-branding-lighter-blue text-gray-100 hover:bg-branding-light-blue' : 'bg-gray-400'" type="submit" id="confirm" value="内容を確認する">
               </div>
             </div>
@@ -141,8 +141,26 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'このページは株式会社アンスールのお問い合わせのページです。システムコンサルティングからソフトウェアの企画・設計・開発まで、アンスールにお任せ下さい'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'お問い合わせ,システムコンサルティング,システム企画,システム開発,自社製品開発,ソフトウェア設計,ソフトウェア開発'
+        }
+      ]
+    }
+  },
   data() {
     return {
+      title: 'お問い合わせ｜株式会社アンスール',
       isActive: false
     }
   },
