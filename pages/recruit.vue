@@ -215,9 +215,9 @@
 </template>
 
 <style scoped>
-  h2 {
-    scroll-margin-top: 24rem;
-  }
+  /* h2 {
+    scroll-margin-top: 24;
+  } */
 </style>
 
 <script>

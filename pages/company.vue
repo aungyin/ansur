@@ -4,8 +4,7 @@
     <!-- HERO -->
     <section class="hero relative">
       <div class="relative h-56 md:h-84 pb-1/3 md:pb-1/5">
-        <img class="block md:hidden absolute h-full w-full object-cover bg-center" src="~/assets/img/company-sm.jpg" alt="Company">
-        <img class="hidden md:block absolute h-full w-full object-cover bg-center" src="~/assets/img/company.jpg" alt="Company">
+        <img class="absolute h-full w-full object-cover bg-center" src="~/assets/img/company.jpg" alt="Company">
       </div>
       <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-gradient-to-r from-indigo-400 to-blue-400 text-gray-100 shadow-3xl">
         <h1 class=" font-light text-2xl md:text-5xl leading-none tracking-widest">COMPANY</h1>
@@ -42,25 +41,37 @@
               </tr>
               <tr>
                 <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">東京事務所</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">〒103-0006　東京都中央区日本橋富沢町3-18<br>サンウォールビル　4階 　＜アクセス＞</td>
+                <td class="border border-gray-200 pl-2 md:pl-10 py-2">〒103-0006　東京都中央区日本橋富沢町3-18<br>サンウォールビル　4階 　<NuxtLink class="border-b hover:text-branding-light-blue border-gray-400 hover:border-branding-light-blue" to="#access-tokyo">＜アクセス＞</NuxtLink></td>
               </tr>
               <tr>
                 <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">大阪事務所</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">〒541-0053　大阪市中央区本町4丁目2番12号<br>東芝大阪ビル　8階 　＜アクセス＞</td>
+                <td class="border border-gray-200 pl-2 md:pl-10 py-2">〒541-0053　大阪市中央区本町4丁目2番12号<br>東芝大阪ビル　8階 　<NuxtLink class="border-b hover:text-branding-light-blue border-gray-400 hover:border-branding-light-blue" to="#access-osaka">＜アクセス＞</NuxtLink></td>
               </tr>
               <tr>
                 <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">一般派遣</th>
                 <td class="border border-gray-200 pl-2 md:pl-10 py-2">派13-314658</td>
               </tr>
               <tr>
+                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">プライバシーマーク</th>
+                <td class="border border-gray-200 pl-2 md:pl-10 py-2 flex flex-wrap items-center">
+                  <img class="h-auto w-20" src="~/assets/img/privacy_mark.jpg" alt="Privacy Mark">
+                  <div class="mt-2 ml-2">
+                    一般派遣番号：派13-314658<br>
+                    有料職業紹介番号：13-ユ-311868<br>
+                    プライバシーマーク番号：17003937
+                  </div>
+                </td>
+              </tr>
+              <tr>
                 <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">事業概要</th>
                 <td class="border border-gray-200 pl-2 md:pl-10 py-2">
                   ・ソフトウェア企画、開発、サポート支援、保守<br>
+                  ・インフラ設計構築・保守サービス<br>
                   ・Salesforce導入開発支援、人材育成業務<br>
                   ・ホームページの制作、更新、保守、SEO<br>
-                  ・海外進出コンサルティング業務<br>
+                  ・小学校受験に関するシステム上での情報提供、運営<br>
                   ・小学校受験に関する情報誌発行、教室運営<br>
-                  ・中国語教室、教師派遣
+                  ・海外進出コンサルティング業務
                 </td>
               </tr>
               <tr>
@@ -84,14 +95,14 @@
       </section>
   
       <!-- アクセス -->
-      <section class="access mt-0 mb-10 md:mb-20">
+      <section class="access mb-10 md:mb-20">
         <!-- 住所 -->
         <div class="pl-2 border-l-4 border-branding-light-blue">
           <h2 class=" text-2xl md:text-3xl tracking-widest">ACCESS</h2>
           <div class="tracking-widest">アクセス</div>
         </div>
-        <div class="mt-6 leading-loose text-xs md:text-sm">
-          <p>■東京本社所在地</p>
+        <div id="access-tokyo" class="leading-loose text-xs md:text-sm pt-32 -mt-32 md:pt-40 md:-mt-40">
+          <p class="mt-6">■東京本社所在地</p>
           <p class="pl-4">・東京都中央区日本橋富沢町3-18　サンウォールビル　4階</p>
           <p>■交通アクセス</p>
           <p class="pl-4">
@@ -107,7 +118,7 @@
         </div>
   
         <hr class="my-6">
-        <div class="leading-loose text-xs md:text-sm">
+        <div id="access-osaka" class="leading-loose text-xs md:text-sm pt-20 -mt-20 md:pt-24 md:-mt-24">
           <p>■大阪営業所所在地</p>
           <p class="pl-4">・大阪市中央区本町4丁目2番12号　東芝大阪ビル　8階</p>
           <p>■交通アクセス</p>
@@ -123,7 +134,6 @@
 </template>
 
 <style scoped>
-
 </style>
 
 <script>

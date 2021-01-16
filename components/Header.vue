@@ -53,7 +53,7 @@
               </NuxtLink>
               <!-- Sub-menu -->
               <div :class="isHover ? 'block' : 'hidden'" class="absolute top-auto inset-x-auto z-10">
-                <div class="mt-4 border border-gray-200 bg-white rounded shadow-2xl w-48">
+                <div class="mt-4 border border-gray-200 bg-white rounded shadow-2xl w-40">
                   <div class="flex flex-col py-4">
                     <NuxtLink to="/philosophy" class="px-6 py-2 focus:outline-none hover:text-branding-light-blue text-sm">経営理念</NuxtLink>
                     <NuxtLink to="/organization" class="px-6 py-2 focus:outline-none hover:text-branding-light-blue text-sm">組織構成</NuxtLink>

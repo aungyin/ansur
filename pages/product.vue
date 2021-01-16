@@ -10,7 +10,7 @@
         <div class="relative text-center md:text-left mt-10 md:mt-0">
           <h1 class=" font-light text-2xl md:text-4xl lg:text-5xl xl:text-6xl tracking-widest">小学校受験サービス</h1>
           <p class=" mt-4 font-thin text-lg md:text-xl lg:text-2xl tracking-widest">豊富な問題集でいつでも簡単に<br class="hidden md:block lg:hidden">受験できる。</p>
-          <p class=" mt-8 md:mt-16 mb-8">小学生達為の受験サービスです。</p>
+          <p class=" mt-8 md:mt-16 mb-8">小学生向けの受験サービスです。</p>
           <a class="mt-4 px-10 py-4 bg-branding-lighter-blue hover:bg-branding-light-blue text-gray-100 rounded" href="http://ansurs.com/ItemList/Menu1.aspx" target="_blank" rel="noopener noreferrer">無料問題サンプルをみる</a>
         </div>
       </div>
@@ -21,8 +21,8 @@
       <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
         <h2 class=" font-light text-2xl md:text-4xl tracking-widest">小学校受験サービス</h2>
         <p class="text-sm md:text-base mt-2">
-          中学受験に次いで最近増えているのが小学校受験です。その勉強のために欠かせないのが問題集。公文・学研・こぐま会など幼児教育を得意とする塾から、様々な小学校受験用問題集が販売されています。しかし、種類が多く、どれを選べば良いのか迷ってしまうという親御さんも多いのではないでしょうか。
-          <br>そこで、全国の問題集を簡単にアクセスおよび受験できるサービスを提供しています。
+          幼児教育、国立小学校、私立小学校受験向けポータルサイトです。 鏡図形、変換図形、回転図形、点図形、重ね図形、回転重ね図形、移動図形、季節問題、塗り絵、ちぎり、模試問題など。
+他、ブログ、塾情報、各校偏差値情報、都内受験情報、掲示板、家庭学習方法、筑波大学附属小学校向け、お受験スーツ、学費、制服、服装等の記事があります。
         </p>
       </div>
     </section>

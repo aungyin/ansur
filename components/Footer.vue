@@ -42,7 +42,7 @@
         <!-- Site Map -->
         <div class="flex-grow flex flex-wrap md:pl-8 mt-4 md:mt-0 text-left font-light text-sm">
           <div class="lg:w-1/5 md:w-1/2 w-1/2 px-4">
-            <h2 class="title-font font-medium tracking-widest md:border-b md:border-gray-100 text-sm mb-1">SERVICE</h2>
+            <h2 class="title-font font-medium tracking-widest md:border-b md:border-gray-100 text-sm mb-1">サービス</h2>
             <nav class="list-none mb-4 sm:mb-2">
               <ul>
                 <li class=" leading-relexed">
@@ -58,7 +58,7 @@
             </nav>
           </div>
           <div class="lg:w-1/5 md:w-1/2 w-1/2 px-4">
-            <h2 class="title-font font-medium tracking-widest md:border-b md:border-gray-100 text-sm mb-1">PRODUCT</h2>
+            <h2 class="title-font font-medium tracking-widest md:border-b md:border-gray-100 text-sm mb-1">製品</h2>
             <nav class="list-none mb-4 sm:mb-2">
               <ul>
                 <li class=" leading-relexed">
@@ -68,7 +68,7 @@
             </nav>
           </div>
           <div class="lg:w-1/5 md:w-1/2 w-1/2 px-4">
-            <h2 class="title-font font-medium tracking-widest md:border-b md:border-gray-100 text-sm mb-1">COMPANY</h2>
+            <h2 class="title-font font-medium tracking-widest md:border-b md:border-gray-100 text-sm mb-1">会社情報</h2>
             <nav class="list-none mb-4 sm:mb-2">
               <ul>
                 <li class=" leading-relexed">
@@ -84,7 +84,7 @@
             </nav>
           </div>
           <div class="lg:w-1/5 md:w-1/2 w-1/2 px-4">
-            <h2 class="title-font font-medium tracking-widest md:border-b md:border-gray-100 text-sm mb-1">RECRUIT</h2>
+            <h2 class="title-font font-medium tracking-widest md:border-b md:border-gray-100 text-sm mb-1">採用情報</h2>
             <nav class="list-none mb-4 sm:mb-2">
               <ul>
                 <li class=" leading-relexed">
@@ -100,17 +100,17 @@
             </nav>
           </div>
           <div class="lg:w-1/5 md:w-1/2 w-1/2 pl-4">
-            <h2 class="title-font font-medium tracking-widest md:border-b md:border-gray-100 text-sm mb-1">OTHERS</h2>
+            <h2 class="title-font font-medium tracking-widest md:border-b md:border-gray-100 text-sm mb-1">その他</h2>
             <nav class="list-none mb-4 sm:mb-2">
               <ul>
                 <li class=" leading-relexed">
-                  <NuxtLink to="/contact" class="text-xs hover:text-gray-400">CONTACT</NuxtLink>
+                  <NuxtLink to="/contact" class="text-xs hover:text-gray-400">お問い合わせ</NuxtLink>
                 </li>
                 <li class=" leading-relexed">
-                  <NuxtLink to="/privacy" class="text-xs hover:text-gray-400">PRIVACY</NuxtLink>
+                  <NuxtLink to="/privacy" class="text-xs hover:text-gray-400">プライバシー</NuxtLink>
                 </li>
                 <li class=" leading-relexed">
-                  <NuxtLink to="/privacy-policy" class="text-xs hover:text-gray-400">PRIVACY POLICY</NuxtLink>
+                  <NuxtLink to="/privacy-policy" class="text-xs hover:text-gray-400">個人情報保護方針</NuxtLink>
                 </li>
               </ul>
             </nav>

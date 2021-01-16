@@ -29,6 +29,7 @@
         </div>
       </section>
 
+      <hr class="lg:hidden w-16 md:w-24 mx-auto border-branding-light-blue transform rotate-90">
 
       <!-- SERVICE -->
       <section class="service py-16 px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
@@ -159,12 +160,10 @@
           </div>
           <div class=" md:mt-6 xl:mt-10 flex flex-col md:flex-row md:space-x-10 justify-between">
             <!-- 会社概要 -->
-            <div class=" w-full md:w-1/2 pt-10 md:pt-0 hover:shadow-2xl">
+            <div class="group w-full md:w-1/2 pt-10 md:pt-0 hover:shadow-2xl overflow-hidden">
               <NuxtLink to="/company" class="h-full">
                 <div class=" relative h-full pb-4/6">
-                  <img class="absolute w-full h-full object-cover bg-center rounded" src="~/assets/img/company-sm.jpg" alt="Company">
-                  <!-- <img class="block md:hidden absolute w-full h-full object-cover bg-center rounded shadow-2xl" src="~/assets/img/company-sm.jpg" alt="Company">
-                  <img class="hidden md:block absolute w-full h-full object-cover bg-center rounded shadow-2xl" src="~/assets/img/company.jpg" alt="Company"> -->
+                  <img class="absolute w-full h-full object-cover bg-center rounded transform transition delay-75 duration-300 group-hover:scale-110" src="~/assets/img/company.jpg" alt="Company">
                 </div>
                 <div class=" w-full pt-2 -mt-20 lg:pt-3 lg:-mt-24 xl:pt-8 xl:-mt-40 relative">
                   <div class=" p-5 lg:p-6 xl:p-10 flex justify-between bg-black bg-opacity-50 text-gray-100 rounded-b">
@@ -178,12 +177,10 @@
               </NuxtLink>
             </div>
             <!-- 採用情報 -->
-            <div class=" w-full md:w-1/2 pt-10 md:pt-0 hover:shadow-2xl">
+            <div class="group w-full md:w-1/2 pt-10 md:pt-0 hover:shadow-2xl overflow-hidden">
               <NuxtLink to="/recruit" class="h-full">
                 <div class=" relative h-full pb-4/6">
-                  <img class="absolute w-full h-full object-cover rounded" src="~/assets/img/recruit-sm.jpg" alt="Recruit">
-                  <!-- <img class="block md:hidden absolute w-full h-full object-cover rounded shadow-2xl" src="~/assets/img/recruit-sm.jpg" alt="Recruit">
-                  <img class="hidden md:block absolute w-full h-full object-cover rounded shadow-2xl" src="~/assets/img/recruit.jpg" alt="Recruit"> -->
+                  <img class="absolute w-full h-full object-cover rounded transform transition delay-75 duration-300 group-hover:scale-110" src="~/assets/img/recruit-sm.jpg" alt="Recruit">
                 </div>
                 <div class=" w-full pt-2 -mt-20 lg:pt-3 lg:-mt-24 xl:pt-8 xl:-mt-40 relative">
                   <div class=" p-5 lg:p-6 xl:p-10 flex justify-between bg-black bg-opacity-50 text-gray-100 rounded-b">
@@ -220,9 +217,5 @@ export default {
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
+
 </style>

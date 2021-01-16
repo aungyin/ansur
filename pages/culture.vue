@@ -16,8 +16,8 @@
       <!-- 社風・風土 -->
       <section class="culture-note text-center">
         <div class="max-w-screen-lg mx-auto py-10 md:py-16">
-          <h2 class="culture-title text-4xl leading-loose">ダミーダミーダミーダミーダミーダミー</h2>
-          <p class="text-base md:text-lg md:px-12 mt-4 leading-loose">社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風</p>
+          <h2 class="hidden culture-title text-4xl leading-loose">ダミーダミーダミーダミーダミーダミー</h2>
+          <p class="hidden text-base md:text-lg px-4 md:px-12 mt-4 leading-loose">社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風</p>
         </div>
       </section>
   
