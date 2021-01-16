@@ -206,6 +206,16 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: this.title
+    }
+  },
+  data() {
+    return {
+      title: 'ホーム'
+    }
+  }
 }
 </script>
 

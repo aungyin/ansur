@@ -13,7 +13,7 @@
       </div>
     </section>
 
-    <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto mt-16 md:mt-24 md:pb-20">
+    <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto mt-16 md:mt-24 pb-12 md:pb-20">
       <!-- お問い合わせ -->
       <section class="contact">
         <div class=" text-xs md:text-sm align-middle">
@@ -22,38 +22,38 @@
             お問い合わせにつきましては、後日、メールまたはお電話でご連絡させていただきます。
           </p>
   
-          <form action="#" method="POST">
+          <form action="/contact-confirm" method="GET">
             <table class=" mt-8 mx-auto w-full border-collapse shadow-2xl">
               <thead></thead>
               <tbody>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">お名前<span class="px-1 ml-1 text-xs font-light bg-orange-500 text-gray-100 align-baseline">必須</span></th>
                   <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
-                    <input required class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="お名前" id="name" maxlength="48">
+                    <input required class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="name" id="name" maxlength="48">
                   </td>
                 </tr>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">ふりがな<span class="px-1 ml-1 text-xs font-light bg-orange-500 text-gray-100 align-baseline">必須</span></th>
                   <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
-                    <input required class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="ふりがな" id="furigana" maxlength="48">
+                    <input required class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="furigana" id="furigana" maxlength="48">
                   </td>
                 </tr>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">御社名</th>
                   <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
-                    <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="御社名" id="company-name" maxlength="255">
+                    <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="company-name" id="company-name" maxlength="255">
                   </td>
                 </tr>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">部署名</th>
                   <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
-                    <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="部署名" id="department-name" maxlength="48">
+                    <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="department-name" id="department-name" maxlength="48">
                   </td>
                 </tr>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">電話番号</th>
                   <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
-                    <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="tel" name="電話番号" id="phone-num" maxlength="255">
+                    <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="tel" name="phone-num" id="phone-num" maxlength="255">
                   </td>
                 </tr>
                 <tr>
@@ -62,8 +62,8 @@
                     <input required class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" 
                       type="email" 
                       title="有効なメールアドレスを入力してください" 
-                      name="電話番号" 
-                      id="mail-address" 
+                      name="email" 
+                      id="email" 
                       maxlength="255">
                   </td>
                 </tr>
@@ -83,7 +83,7 @@
                       <label class="ml-2" for="others">その他</label>
                     </div>
                     <textarea required class="mt-2 md:mt-4 px-3 py-4 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" 
-                      name="お問い合わせ内容" id="inqury-detail" cols="72" rows="5" maxlength="600"></textarea>
+                      name="inqury-detail" id="inqury-detail" cols="72" rows="5" maxlength="600"></textarea>
                   </td>
                 </tr>
               </tbody>
@@ -119,7 +119,7 @@
                   ご本人様が当社に個人情報を提供されるかどうかは任意によるものです。 ただし、必要な項目をいただけない場合、適切な対応ができない場合があります。
               </textarea>
               <div class="mt-4 flex items-center justify-center">
-                <input @click="toggle()" type="checkbox" name="agreement" id="agreement" class="h-4 w-4 md:h-6 md:w-6 rounded border border-gray-200">
+                <input v-model="isActive" type="checkbox" name="agreement" id="agreement" class="h-4 w-4 md:h-6 md:w-6 rounded border border-gray-200">
                 <label class="ml-2" for="agreement">個人情報の取り扱いについて同意する</label>
               </div>
               <div class="mt-10 md:mt-16 text-center">
@@ -141,6 +141,19 @@
 
 <script>
 export default {
+  data() {
+    return {
+      title: 'お問い合わせ',
+      isActive: false
+    }
+  },
+  methods: {
+  },
+  computed: {
+    toggleButton: function(){
+    	return !this.isActive;
+    }
+  },
   head() {
     return {
       title: this.title,
@@ -153,20 +166,9 @@ export default {
         {
           hid: 'keywords',
           name: 'keywords',
-          content: 'お問い合わせ,システムコンサルティング,システム企画,システム開発,自社製品開発,ソフトウェア設計,ソフトウェア開発'
+          content: 'お問い合わせ,システムコンサルティング,システム企画,システム開発,自社製品開発,ソフトウェア設計,ソフトウェア開発,ホームページ制作,SEO,幼児教育,国立小学校,私立小学校,お受験問題'
         }
       ]
-    }
-  },
-  data() {
-    return {
-      title: 'お問い合わせ｜株式会社アンスール',
-      isActive: false
-    }
-  },
-  methods: {
-    toggle() {
-      this.isActive = !this.isActive
     }
   }
 }

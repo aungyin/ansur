@@ -14,7 +14,7 @@
     </section>
 
     <!-- お問い合わせ内容確認 -->
-    <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto mt-16 md:mt-24 md:pb-20">
+    <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto mt-16 md:mt-24 pb-12 md:pb-20">
       <section class="contact">
         <div class="text-xs md:text-sm align-middle">
           <p>以下の内容で間違いがなければ、「送信する」ボタンを押してください。</p>
@@ -25,38 +25,50 @@
                 <tbody>
                   <tr>
                     <th class=" py-2 w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-100 bg-blue-700">お名前</th>
-                    <td class=" px-2 md:px-4 lg:px-10 border-b border-gray-200"></td>
+                    <td class=" px-2 md:px-4 lg:px-10 border-b border-gray-200">{{ name }}</td>
+                    <input type="hidden" name="お名前" v-model="name">
                   </tr>
                   <tr>
                     <th class=" py-2 w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-100 bg-blue-700">ふりがな</th>
-                    <td class=" px-2 md:px-4 lg:px-10 border-b border-gray-200"></td>
+                    <td class=" px-2 md:px-4 lg:px-10 border-b border-gray-200">{{ furigana }}</td>
+                    <input type="hidden" name="ふりがな" v-model="furigana">
                   </tr>
                   <tr>
                     <th class=" py-2 w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-100 bg-blue-700">御社名</th>
-                    <td class=" px-2 md:px-4 lg:px-10 border-b border-gray-200"></td>
+                    <td class=" px-2 md:px-4 lg:px-10 border-b border-gray-200">{{ companyName }}</td>
+                    <input type="hidden" name="御社名" v-model="companyName">
                   </tr>
                   <tr>
                     <th class=" py-2 w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">部署名</th>
-                    <td class=" px-2 md:px-4 lg:px-10 border-b border-gray-200"></td>
+                    <td class=" px-2 md:px-4 lg:px-10 border-b border-gray-200">{{ departmentName }}</td>
+                    <input type="hidden" name="部署名" v-model="departmentName">
                   </tr>
                   <tr>
                     <th class=" py-2 w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">電話番号</th>
-                    <td class=" px-2 md:px-4 lg:px-10 border-b border-gray-200"></td>
+                    <td class=" px-2 md:px-4 lg:px-10 border-b border-gray-200">{{ phoneNum }}</td>
+                    <input type="hidden" name="電話番号" v-model="phoneNum">
                   </tr>
                   <tr>
                     <th class=" py-2 w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">メールアドレス</th>
-                    <td class=" px-2 md:px-4 lg:px-10 border-b border-gray-200"></td>
+                    <td class=" px-2 md:px-4 lg:px-10 border-b border-gray-200">{{ email }}</td>
+                    <input type="hidden" name="メールアドレス" v-model="email">
                   </tr>
                   <tr>
+                    <th class=" py-2 w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b bg-blue-700">お問合わせ対象</th>
+                    <td class=" px-2 md:px-4 lg:px-10 border-b border-gray-200">{{ inquryChoice }}</td>
+                    <input type="hidden" name="お問合わせ対象" v-model="inquryChoice">
+                </tr>
+                  <tr>
                     <th class=" py-2 w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light bg-blue-700">お問い合わせ内容</th>
-                    <td class=" px-2 md:px-4 lg:px-10"></td>
+                    <td class=" px-2 md:px-4 lg:px-10 whitespace-pre-line">{{ inquryDetail }}</td>
+                    <input type="hidden" name="お問い合わせ" v-model="inquryDetail">
                   </tr>
                 </tbody>
               </table>
   
               <div class="mt-10 md:mt-16 text-center">
-                  <input class="px-10 py-4 mx-2 bg-branding-lighter-blue text-gray-100 rounded cursor-pointer" type="submit" id="back" disabled="" value="前画面に戻る">
-                  <input class="px-10 py-4 mx-2 bg-branding-lighter-blue text-gray-100 rounded cursor-pointer" type="submit" id="send" disabled="" value="送信する">
+                  <a class="px-10 py-4 mx-2 bg-branding-lighter-blue text-gray-100 rounded cursor-pointer" id="back" @click="$router.go(-1)" value="前画面に戻る">前画面に戻る</a>
+                  <input class="px-10 py-4 mx-2 bg-orange-500 text-gray-100 rounded cursor-pointer" type="submit" id="send" value="送信する">
               </div>
             </form>
           </div>
@@ -73,6 +85,19 @@
 
 <script>
 export default {
+  data() {
+    return {
+      title: 'お問い合わせ内容確認画面',
+      name: this.$route.query.name,
+      furigana: this.$route.query.furigana,
+      companyName: this.$route.query['company-name'],
+      departmentName: this.$route.query['department-name'],
+      phoneNum: this.$route.query['phone-num'],
+      email: this.$route.query.email,
+      inquryChoice: this.$route.query['inqury-choice'],
+      inquryDetail: this.$route.query['inqury-detail'],
+    }
+  },
   head() {
     return {
       title: this.title,
@@ -85,14 +110,9 @@ export default {
         {
           hid: 'keywords',
           name: 'keywords',
-          content: 'お問い合わせ,システムコンサルティング,システム企画,システム開発,自社製品開発,ソフトウェア設計,ソフトウェア開発'
+          content: 'お問い合わせ,システムコンサルティング,システム企画,システム開発,自社製品開発,ソフトウェア設計,ソフトウェア開発,ホームページ制作,SEO,幼児教育,国立小学校,私立小学校,お受験問題'
         }
       ]
-    }
-  },
-  data() {
-    return {
-      title: 'お問い合わせ内容確認画面｜株式会社アンスール'
     }
   }
 }

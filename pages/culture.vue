@@ -12,19 +12,19 @@
       </div>
     </section>
 
-    <div class="bg-gray-200 pt-4 md:pt-8">
+    <div class="pt-4 md:pt-8">
       <!-- 社風・風土 -->
       <section class="culture-note text-center">
-        <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto py-10 md:py-16">
-          <h2 class="text-4xl">社風・風土</h2>
-          <p class="text-base md:text-lg md:px-12">社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風</p>
+        <div class="max-w-screen-lg mx-auto py-10 md:py-16">
+          <h2 class="culture-title text-4xl leading-loose">ダミーダミーダミーダミーダミーダミー</h2>
+          <p class="text-base md:text-lg md:px-12 mt-4 leading-loose">社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風</p>
         </div>
       </section>
   
       <!-- 2020 -->
       <section style="background-color: #C6EBC9">
         <div class="shadow-xl max-w-screen-lg mx-auto py-16 relative" style="background-color: #C6EBC9">
-          <h1 class="absolute top-0 left-0 text-5xl leading-none tracking-wider" style="color: #70AF85">2020忘年会</h1>
+          <h1 class="absolute top-0 left-0 text-5xl lg:text-6xl leading-none tracking-wider" style="color: #70AF85">2020忘年会</h1>
           <div class="mt-4 flex flex-wrap justify-center space-y-4 md:space-x-16">
             <div>
               <div class="w-56 -ml-0 md:-ml-6 lg:-ml-16 text-sm leading-loose">
@@ -44,7 +44,7 @@
       <!-- 2019 -->
       <section style="background-color: #E8DCBF">
         <div class="shadow-xl max-w-screen-lg mx-auto relative" style="background-color: #E8DCBF">
-          <h1 class="absolute top-0 right-0 text-5xl leading-none tracking-wider" style="color: #605D56">2019忘年会</h1>
+          <h1 class="absolute top-0 right-0 text-5xl lg:text-6xl leading-none tracking-wider" style="color: #605D56">2019忘年会</h1>
           <div class="pt-20 md:pt-0 flex flex-wrap md:grid grid-cols-2">
             <div><img src="~/assets/img/culture/2019_YearEndPartyGroup.jpg" alt="2019 Year End Party Group Photo"></div>
             <p class="p-12 md:p-16 flex items-center mx-auto text-sm leading-loose">今年は日本人、中国人、ミャンマー人の新入社員も増え一層飛躍の年になりそうです！<br>2019年は大変お世話になりありがとうございました！</p>
@@ -101,6 +101,10 @@
 </template>
 
 <style scoped>
+  /* .culture-title  {
+    background-image: url('~assets/img/culture/plus.svg');
+    background-size: 1rem;
+  } */
 </style>
 
 <script>
@@ -117,14 +121,14 @@ export default {
         {
           hid: 'keywords',
           name: 'keywords',
-          content: '社風・風土,システムコンサルティング,システム企画,システム開発,自社製品開発,ソフトウェア設計,ソフトウェア開発'
+          content: '社風・風土,システムコンサルティング,システム企画,システム開発,自社製品開発,ソフトウェア設計,ソフトウェア開発,ホームページ制作,SEO,幼児教育,国立小学校,私立小学校,お受験問題'
         }
       ]
     }
   },
   data() {
     return {
-      title: '社風・風土｜株式会社アンスール'
+      title: '社風・風土'
     }
   }
 }
