@@ -29,31 +29,38 @@
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">お名前<span class="px-1 ml-1 text-xs font-light bg-orange-500 text-gray-100 align-baseline">必須</span></th>
                   <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
-                    <input required class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="name" id="name" maxlength="48">
+                    <input required class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="name" v-model.trim="$v.name.$model" id="name" maxlength="48">
+                    <p class="error text-red-700" v-if="$v.name.$dirty && !$v.name.required">お名前を入力してください。</p>
+                    <p class="error text-red-700" v-if="$v.name.$dirty && !$v.name.minLength">お名前を2桁以上入力してください。</p>
                   </td>
                 </tr>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">ふりがな<span class="px-1 ml-1 text-xs font-light bg-orange-500 text-gray-100 align-baseline">必須</span></th>
                   <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
-                    <input required class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="furigana" id="furigana" maxlength="48">
+                    <input required class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="furigana" v-model.trim="$v.furigana.$model" id="furigana" maxlength="48">
+                    <p class="error text-red-700" v-if="$v.furigana.$dirty && !$v.furigana.required">ふりがなを入力してください。</p>
+                    <p class="error text-red-700" v-if="$v.furigana.$dirty && !$v.furigana.minLength">ふりがなを2桁以上入力してください。</p>
                   </td>
                 </tr>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">御社名</th>
                   <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
-                    <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="company-name" id="company-name" maxlength="255">
+                    <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="companyName" id="company-name" maxlength="255">
                   </td>
                 </tr>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">部署名</th>
                   <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
-                    <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="department-name" id="department-name" maxlength="48">
+                    <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="departmentName" id="department-name" maxlength="48">
                   </td>
                 </tr>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">電話番号</th>
                   <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
-                    <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="tel" name="phone-num" id="phone-num" maxlength="255">
+                    <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="tel" name="phoneNum" v-model.trim="$v.phoneNum.$model" id="phone-num" maxlength="255">
+                    <p class="error text-red-700" v-if="$v.phoneNum.$dirty && !$v.phoneNum.numeric">電話番号を入力してください。</p>
+                    <p class="error text-red-700" v-if="$v.phoneNum.$dirty && !$v.phoneNum.minLength">10桁か11桁の電話番号を入力してください。</p>
+                    <p class="error text-red-700" v-if="$v.phoneNum.$dirty && !$v.phoneNum.maxLength">10桁か11桁の電話番号を入力してください。</p>
                   </td>
                 </tr>
                 <tr>
@@ -62,28 +69,34 @@
                     <input required class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" 
                       type="email" 
                       title="有効なメールアドレスを入力してください" 
-                      name="email" 
+                      name="email" v-model.trim="$v.email.$model" 
                       id="email" 
                       maxlength="255">
+                      <p class="error text-red-700" v-if="$v.email.$dirty && !$v.email.required">メールアドレスを入力してください。</p>
+                    <p class="error text-red-700" v-if="$v.email.$dirty && !$v.email.email">メールアドレスを正しく入力してください。</p>
                   </td>
                 </tr>
                 <tr>
                   <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light bg-blue-700">お問い合わせ内容<br class="block lg:hidden"><span class="px-1 ml-1 text-xs font-light bg-orange-500 text-gray-100 align-baseline">必須</span></th>
                   <td class=" px-2 md:px-6 py-1 md:py-6">
                     <div class="flex items-center justify-left">
-                      <input class="h-4 w-4 md:h-6 md:w-6" type="radio" name="inqury-choice" id="business-partner" checked>
+                      <input required class="h-4 w-4 md:h-6 md:w-6" type="radio" name="inquryChoice" v-model.trim="$v.inquryChoice.$model" value="ビジネスパートナー" id="business-partner" checked>
                       <label class="ml-2" for="business-partner">ビジネスパートナー</label>
                     </div>
                     <div class="mt-2 flex items-center justify-left">
-                      <input class="mt-2 h-4 w-4 md:h-6 md:w-6" type="radio" name="inqury-choice" id="product-service">
+                      <input required class="mt-2 h-4 w-4 md:h-6 md:w-6" type="radio" name="inquryChoice" v-model.trim="$v.inquryChoice.$model" value="製品・サービス" id="product-service">
                       <label class="ml-2" for="product-service">製品・サービス</label>
                     </div>
                     <div class="mt-2 flex items-center justify-left">
-                      <input class="mt-2 h-4 w-4 md:h-6 md:w-6" type="radio" name="inqury-choice" id="others">
+                      <input required class="mt-2 h-4 w-4 md:h-6 md:w-6" type="radio" name="inquryChoice" v-model.trim="$v.inquryChoice.$model" value="その他" id="others">
                       <label class="ml-2" for="others">その他</label>
                     </div>
                     <textarea required class="mt-2 md:mt-4 px-3 py-4 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" 
-                      name="inqury-detail" id="inqury-detail" cols="72" rows="5" maxlength="600"></textarea>
+                      name="inquryDetail" v-model.trim="$v.inquryDetail.$model" id="inqury-detail" cols="72" rows="5" maxlength="600"></textarea>
+
+                    <p class="error text-red-700" v-if="$v.inquryChoice.$dirty && !$v.inquryChoice.required">お問い合わせ内容を入力してください。</p>
+                    <p class="error text-red-700" v-if="$v.inquryDetail.$dirty && !$v.inquryDetail.required">お問い合わせ内容を入力してください。</p>
+                    <p class="error text-red-700" v-if="$v.inquryDetail.$dirty && !$v.inquryDetail.minLength">お問い合わせ内容を10桁以上入力してください。</p>
                   </td>
                 </tr>
               </tbody>
@@ -140,11 +153,47 @@
 </style>
 
 <script>
+import { required, minLength, maxLength, email, numeric } from 'vuelidate/lib/validators'
+
 export default {
   data() {
     return {
       title: 'お問い合わせ',
-      isActive: false
+      isActive: false,
+      name: '',
+      furigana: '',
+      companyName: '',
+      departmentName: '',
+      phoneNum: '',
+      email: '',
+      inquryChoice: '',
+      inquryDetail: '',
+    }
+  },
+  validations: {
+    name: {
+      required,
+      minLength: minLength(2)
+    },
+    furigana: {
+      required,
+      minLength: minLength(2)
+    },
+    phoneNum: {
+      numeric,
+      minLength: minLength(10),
+      maxLength: maxLength(11)
+    },
+    email: {
+      required,
+      email
+    },
+    inquryChoice: {
+      required
+    },
+    inquryDetail: {
+      required,
+      minLength: minLength(10),
     }
   },
   methods: {

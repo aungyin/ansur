@@ -57,6 +57,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    '~/plugins/vuelidate'
   ],
   /*
   ** Auto import components
@@ -74,6 +75,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    ['@nuxtjs/axios', { baseURL: '/api/contact' }],
   ],
   /*
   ** Build configuration
@@ -81,11 +83,17 @@ export default {
   */
   build: {
   },
+  /*
+  ** Custom Progress Bar color
+  */
   loading: {
     // color: '#4fd1c5',
     color: '#052CF9',
     height: '4px',
     duration: 1000,
     throttle: 0
-  }
+  },
+  serverMiddleware: [
+    '~/api/contact'
+  ]
 }

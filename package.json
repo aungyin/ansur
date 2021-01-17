@@ -9,7 +9,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.14.0"
+    "@nuxtjs/axios": "^5.12.5",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.17",
+    "nuxt": "^2.14.0",
+    "vuelidate": "^0.7.6"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^2.1.0"
