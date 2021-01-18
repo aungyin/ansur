@@ -119,14 +119,14 @@ export default {
 
       const subject = [this.inquryChoice, 'のお問い合わせ']
       const text = ['=========================================\n',
-                    'お名前', ':', this.name, '\n',
-                    'ふりがな', ':', this.furigana, '\n',
-                    '御社名', ':', this.companyName, '\n',
-                    '部署名', ':', this.departmentName, '\n',
-                    '電話番号', ':', this.phoneNum, '\n',
-                    'メールアドレス', ':', this.email, '\n',
-                    '=========================================\n\n',
-                    '■お問い合わせ内容', '\n\n', this.inquryDetail]
+                    '【お名前】', this.name, '\n',
+                    '【ふりがな】', this.furigana, '\n',
+                    '【御社名】', this.companyName, '\n',
+                    '【部署名】', this.departmentName, '\n',
+                    '【電話番号】', this.phoneNum, '\n',
+                    '【メールアドレス】', this.email, '\n',
+                    '【お問合わせ対象】', this.inquryChoice, '\n',
+                    '【お問い合わせ内容】', '\n', this.inquryDetail]
 
       try {
         await this.$axios.$post('', {
