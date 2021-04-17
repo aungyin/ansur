@@ -37,7 +37,7 @@
               </tr>
               <tr>
                 <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">役員</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">代表取締役  楊 旺</td>
+                <td class="border border-gray-200 pl-2 md:pl-10 py-2">代表取締役  澤田 旺</td>
               </tr>
               <tr>
                 <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">東京事務所</th>
@@ -45,7 +45,7 @@
               </tr>
               <tr>
                 <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">大阪事務所</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">〒541-0053　大阪市中央区本町4丁目2番12号<br>東芝大阪ビル　8階 　<NuxtLink class="border-b hover:text-branding-light-blue border-gray-400 hover:border-branding-light-blue" to="#access-osaka">＜アクセス＞</NuxtLink></td>
+                <td class="border border-gray-200 pl-2 md:pl-10 py-2">〒541-0053　大阪市中央区本町4丁目2番12号<br>野村不動産御堂筋本町ビル　8階 　<NuxtLink class="border-b hover:text-branding-light-blue border-gray-400 hover:border-branding-light-blue" to="#access-osaka">＜アクセス＞</NuxtLink></td>
               </tr>
               <tr>
                 <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">一般派遣</th>
@@ -89,6 +89,10 @@
                 <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">お問い合わせ先</th>
                 <td class="border border-gray-200 pl-2 md:pl-10 py-2">TEL：03-6222-8295　/　FAX：03-6222-8296<br>またはお問い合わせ</td>
               </tr>
+              <tr>
+                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">加盟団体</th>
+                <td class="border border-gray-200 pl-2 md:pl-10 py-2">一般社団法人日本情報システム・ユーザー協会<br>IoT推進コンソーシアム</td>
+              </tr>
             </tbody>
           </table>
         </div>
@@ -120,7 +124,7 @@
         <hr class="my-6">
         <div id="access-osaka" class="leading-loose text-xs md:text-sm pt-20 -mt-20 md:pt-24 md:-mt-24">
           <p>■大阪営業所所在地</p>
-          <p class="pl-4">・大阪市中央区本町4丁目2番12号　東芝大阪ビル　8階</p>
+          <p class="pl-4">・大阪市中央区本町4丁目2番12号　野村不動産御堂筋本町ビル　8階</p>
           <p>■交通アクセス</p>
           <p class="pl-4">・大阪メトロ御堂筋線｜中央線｜四つ橋線：本町駅・徒歩1分</p>
         </div>

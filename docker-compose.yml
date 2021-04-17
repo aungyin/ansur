@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  php-apache:
+    container_name: nuxt-php
+    build: .
+    volumes:
+      - ./public_html:/var/www/html
+    ports:
+      - 3000:80

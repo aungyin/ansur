@@ -19,7 +19,7 @@
             </div>
             <div class="mt-4">
               <p class="text-sm">大阪事業所</p>
-              <p class="px-4 md:pl-4 md:pr-0 mt-2 leading-tight">〒541-0053　大阪市中央区本町4丁目2番12号　東芝大阪ビル　8階</p>
+              <p class="px-4 md:pl-4 md:pr-0 mt-2 leading-tight">〒541-0053　大阪市中央区本町4丁目2番12号　野村不動産御堂筋本町ビル　8階</p>
             </div>
           </div>
           <div class="mt-2">

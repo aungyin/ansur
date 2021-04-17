@@ -113,36 +113,35 @@ export default {
     submitForm () {
       this.sendMail()
     },
+
+    // メール送信
     async sendMail() {
       this.submitting = true
       this.error = false
 
-      const subject = [this.inquryChoice, 'のお問い合わせ']
-      const text = ['=========================================\n',
-                    '【お名前】', this.name, '\n',
-                    '【ふりがな】', this.furigana, '\n',
-                    '【御社名】', this.companyName, '\n',
-                    '【部署名】', this.departmentName, '\n',
-                    '【電話番号】', this.phoneNum, '\n',
-                    '【メールアドレス】', this.email, '\n',
-                    '【お問合わせ対象】', this.inquryChoice, '\n',
-                    '【お問い合わせ内容】', '\n', this.inquryDetail]
+      const data = {
+        name: this.name,
+        furigana: this.furigana,
+        companyName: this.companyName,
+        departmentName: this.departmentName,
+        phoneNum: this.phoneNum,
+        email: this.email,
+        inquryChoice: this.inquryChoice,
+        inquryDetail: this.inquryDetail,
+      }
 
       try {
-        await this.$axios.$post('', {
-          email: this.email,
-          subject: "".concat(...subject),
-          text: "".concat(...text)
-        })
+        await this.$axios.$post('./mail.php', data);
         this.submitting = false
         this.isSubmitted = true
-        await new Promise(resolve => setTimeout(resolve, 2000))
+        await new Promise(resolve => setTimeout(resolve, 1000))
         window.location.href = "/contact-complete"
-        } catch (e) {
-          this.submitting = false
-          this.error = true
-          console.error(e)
-        }
+
+      } catch (e) {
+        this.submitting = false
+        this.error = true
+        console.error(e)
+      }
     }
   },
   head() {

@@ -88,3 +88,24 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Dependency directories
+public_html/vendor/
+
+# Nuxt build
+public_html/_nuxt
+public_html/company
+public_html/contact*
+public_html/culture
+public_html/organization
+public_html/philosophy
+public_html/privacy*
+public_html/product
+public_html/recruit
+public_html/service
+public_html/service
+public_html/README.md
+public_html/.nojekyll
+public_html/*.html
+public_html/*.lock
+public_html/*.ico

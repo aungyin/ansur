@@ -75,8 +75,9 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    ['@nuxtjs/axios', { baseURL: '/api/contact' }],
+    ['@nuxtjs/axios', { baseURL: '/' }],
   ],
+
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
@@ -87,13 +88,9 @@ export default {
   ** Custom Progress Bar color
   */
   loading: {
-    // color: '#4fd1c5',
     color: '#052CF9',
     height: '4px',
     duration: 1000,
     throttle: 0
-  },
-  serverMiddleware: [
-    '~/api/contact'
-  ]
+  }
 }

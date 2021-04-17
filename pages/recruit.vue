@@ -210,6 +210,7 @@
         </div>
       </section>
     </div>
+    <ScrollTop></ScrollTop>
 
   </main>
 </template>
@@ -221,6 +222,7 @@
 </style>
 
 <script>
+import { ScrollTop } from "@/components/ScrollTop";
 export default {
   head() {
     return {

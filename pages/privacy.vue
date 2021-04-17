@@ -46,7 +46,7 @@
               </li>
               <li>
                 ｂ）個人情報の保護管理者
-                <p class="ml-4 md:ml-12">管理者名：楊　旺</p>
+                <p class="ml-4 md:ml-12">管理者名：澤田 旺</p>
                 <p class="ml-4 md:ml-12">役職：代表取締役</p>
                 <p class="ml-4 md:ml-12">連絡先：TEL：03-6222-8295</p>
               </li>

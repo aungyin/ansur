@@ -6,12 +6,11 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "copy": "rm -rf ./public_html/_nuxt && cp -r ./dist/ ./public_html/"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.5",
-    "express": "^4.17.1",
-    "nodemailer": "^6.4.17",
     "nuxt": "^2.14.0",
     "vuelidate": "^0.7.6"
   },
