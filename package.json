@@ -7,7 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "copy": "rm -rf ./public_html/_nuxt && cp -r ./dist/ ./public_html/"
+    "copy": "rm -rf ./public_html/_nuxt && cp -r ./dist/* ./public_html/"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.5",
