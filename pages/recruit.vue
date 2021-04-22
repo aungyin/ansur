@@ -9,7 +9,7 @@
       </div>
       <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-gradient-to-r from-indigo-400 to-blue-400 text-gray-100 shadow-3xl">
         <h1 class=" font-light text-2xl md:text-5xl leading-none tracking-widest">RECRUIT</h1>
-        <p class=" mt-1 font-thin text-base md:text-2xl tracking-widest">採用情報</p>
+        <p class=" mt-1 font-extralight text-base md:text-2xl tracking-widest">採用情報</p>
       </div>
     </section>
 
@@ -17,17 +17,17 @@
       <!-- Links -->
       <section class="mb-10 py-3 bg-blue-100">
         <div class="flex flex-row justify-center space-x-5 md:space-x-10 text-xs md:text-base">
-          <NuxtLink class="border-b hover:text-branding-light-blue border-gray-400 hover:border-branding-light-blue" to="#programming">技術職</NuxtLink>
-          <span class=" text-branding-light-blue">/</span>
-          <NuxtLink class="border-b hover:text-branding-light-blue border-gray-400 hover:border-branding-light-blue" to="#sales">営業職</NuxtLink>
-          <span class=" text-branding-light-blue">/</span>
-          <NuxtLink class="border-b hover:text-branding-light-blue border-gray-400 hover:border-branding-light-blue" to="#lecturer">IT教師職</NuxtLink>
+          <NuxtLink class="border-b hover:text-blue-medium border-gray-400 hover:border-blue-medium" to="#programming">技術職</NuxtLink>
+          <span class=" text-blue-medium">/</span>
+          <NuxtLink class="border-b hover:text-blue-medium border-gray-400 hover:border-blue-medium" to="#sales">営業職</NuxtLink>
+          <span class=" text-blue-medium">/</span>
+          <NuxtLink class="border-b hover:text-blue-medium border-gray-400 hover:border-blue-medium" to="#lecturer">IT教師職</NuxtLink>
         </div>
       </section>
   
       <!-- 技術職 -->
       <section id="programming" class="programming pt-24 -mt-24">
-        <div class="pl-2 border-l-4 border-branding-light-blue">
+        <div class="pl-2 border-l-4 border-blue-medium">
             <h2 class=" text-2xl md:text-3xl tracking-widest">技術職</h2>
             <div class=" tracking-widest">フリー技術者 / 契約社員 / 正社員</div>
         </div>
@@ -94,7 +94,7 @@
   
       <!-- 営業職 -->
       <section id="sales" class="sales pt-24 -mt-16">
-        <div class="pl-2 border-l-4 border-branding-light-blue">
+        <div class="pl-2 border-l-4 border-blue-medium">
           <h2 class=" text-2xl md:text-3xl tracking-widest">営業職</h2>
         </div>
   
@@ -146,7 +146,7 @@
   
       <!-- IT教師職 -->
       <section id="lecturer" class="lecturer pt-24 -mt-16">
-        <div class="pl-2 border-l-4 border-branding-light-blue">
+        <div class="pl-2 border-l-4 border-blue-medium">
           <h2 class="text-2xl md:text-3xl tracking-widest">IT教師職</h2>
           <div class=" tracking-widest">※教員免許不要</div>
         </div>

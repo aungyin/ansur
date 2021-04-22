@@ -9,7 +9,7 @@
       </div>
       <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-gradient-to-r from-indigo-400 to-blue-400 text-gray-100 shadow-3xl">
         <h1 class=" font-light text-2xl md:text-5xl leading-none tracking-widest">CONTACT</h1>
-        <p class=" mt-1 font-thin text-base md:text-2xl tracking-widest">お問い合わせ</p>
+        <p class=" mt-1 font-extralight text-base md:text-2xl tracking-widest">お問い合わせ</p>
       </div>
     </section>
 
@@ -136,7 +136,7 @@
                 <label class="ml-2" for="agreement">個人情報の取り扱いについて同意する</label>
               </div>
               <div class="mt-10 md:mt-16 text-center">
-                <input :disabled="!isActive" class="px-10 py-4 cursor-pointer  rounded" :class="isActive ? 'bg-branding-lighter-blue text-gray-100 hover:bg-branding-light-blue' : 'bg-gray-400'" type="submit" id="confirm" value="内容を確認する">
+                <input :disabled="!isActive" class="px-10 py-4 cursor-pointer  rounded" :class="isActive ? 'bg-blue-light text-gray-100 hover:bg-blue-medium' : 'bg-gray-400'" type="submit" id="confirm" value="内容を確認する">
               </div>
             </div>
           </form>

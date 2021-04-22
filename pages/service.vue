@@ -8,7 +8,7 @@
       </div>
       <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-gradient-to-r from-indigo-400 to-blue-400 text-gray-100 shadow-3xl">
         <h1 class=" font-light text-2xl md:text-5xl leading-none tracking-widest">SERVICE</h1>
-        <p class=" mt-1 font-thin text-xs md:text-2xl tracking-widest">事業内容</p>
+        <p class=" mt-1 font-extralight text-xs md:text-2xl tracking-widest">事業内容</p>
       </div>
     </section>
 

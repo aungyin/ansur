@@ -9,7 +9,7 @@
       </div>
       <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-gradient-to-r from-indigo-400 to-blue-400 text-gray-100 shadow-3xl">
         <h1 class=" font-light text-2xl md:text-5xl leading-none tracking-widest">CONFIRM</h1>
-        <p class=" mt-1 font-thin text-base md:text-2xl tracking-widest">お問い合わせ内容確認画面</p>
+        <p class=" mt-1 font-extralight text-base md:text-2xl tracking-widest">お問い合わせ内容確認画面</p>
       </div>
     </section>
 
@@ -72,7 +72,7 @@
               </table>
   
               <div class="mt-10 md:mt-16 text-center">
-                  <a class="px-10 py-4 mx-2 bg-branding-lighter-blue text-gray-100 rounded cursor-pointer" id="back" @click="$router.go(-1)" value="前画面に戻る">前画面に戻る</a>
+                  <a class="px-10 py-4 mx-2 bg-blue-light text-gray-100 rounded cursor-pointer" id="back" @click="$router.go(-1)" value="前画面に戻る">前画面に戻る</a>
                   <input class="px-10 py-4 mx-2 bg-orange-500 text-gray-100 rounded cursor-pointer" type="submit" id="send" value="送信する">
               </div>
             </form>

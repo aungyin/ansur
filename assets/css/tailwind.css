@@ -1,3 +1,9 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer components {
+  .btn-blue {
+    @apply px-10 py-4 bg-blue-light hover:bg-blue-medium text-gray-100 rounded;
+  }
+}

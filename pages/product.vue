@@ -9,9 +9,9 @@
         </div>
         <div class="relative text-center md:text-left mt-10 md:mt-0">
           <h1 class=" font-light text-2xl md:text-4xl lg:text-5xl xl:text-6xl tracking-widest">小学校受験サービス</h1>
-          <p class=" mt-4 font-thin text-lg md:text-xl lg:text-2xl tracking-widest">豊富な問題集でいつでも簡単に<br class="hidden md:block lg:hidden">受験できる。</p>
+          <p class=" mt-4 font-extralight text-lg md:text-xl lg:text-2xl tracking-widest">豊富な問題集でいつでも簡単に<br class="hidden md:block lg:hidden">受験できる。</p>
           <p class=" mt-8 md:mt-16 mb-8">小学生向けの受験サービスです。</p>
-          <a class="mt-4 px-10 py-4 bg-branding-lighter-blue hover:bg-branding-light-blue text-gray-100 rounded" href="http://ansurs.com/ItemList/Menu1.aspx" target="_blank" rel="noopener noreferrer">無料問題サンプルをみる</a>
+          <a class="mt-4 btn-blue" href="http://ansurs.com/ItemList/Menu1.aspx" target="_blank" rel="noopener noreferrer">無料問題サンプルをみる</a>
         </div>
       </div>
     </section>
@@ -58,9 +58,9 @@
       <div class="flex flex-col md:flex-row justify-center items-center space-x-10">
         <div class="flex justify-center items-center space-x-4">
           <img class="w-10 md:w-16" src="~/assets/svg/stars.svg" alt="Stars">
-          <p class=" tracking-wider">無料問題<a class=" underline leading-loose hover:text-branding-light-blue" href="http://ansurs.com/ItemList/Menu1.aspx" target="_blank" rel="noopener noreferrer">サンプルをみる</a></p>
+          <p class=" tracking-wider">無料問題<a class=" underline leading-loose hover:text-blue-medium" href="http://ansurs.com/ItemList/Menu1.aspx" target="_blank" rel="noopener noreferrer">サンプルをみる</a></p>
         </div>
-        <!-- <button class=" mt-4 md:mt-0 px-10 py-4 bg-branding-lighter-blue hover:bg-branding-light-blue text-gray-100 rounded">試してみる</button> -->
+        <!-- <button class=" mt-4 md:mt-0 px-10 py-4 bg-blue-light hover:bg-blue-medium text-gray-100 rounded">試してみる</button> -->
       </div>
     </section>
 

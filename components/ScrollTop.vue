@@ -1,6 +1,6 @@
 <template>
     <a @click="scrollTop" v-show="visible"
-      class="fixed p-2 md:p-3 m-3 bottom-0 right-0 text-branding-light-blue text-sm cursor-pointer rounded border border-branding-light-blue bg-gray-100 hover:bg-branding-light-blue hover:text-gray-100">
+      class="fixed p-2 md:p-3 m-3 bottom-0 right-0 text-blue-medium text-sm cursor-pointer rounded border border-blue-medium bg-gray-100 hover:bg-blue-medium hover:text-gray-100">
         TOP
     </a>
 </template>

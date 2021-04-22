@@ -84,6 +84,14 @@ export default {
   */
   build: {
   },
+
+  /*
+  ** Tailwind configuration
+  */
+  tailwindcss: {
+    jit: true
+  },
+
   /*
   ** Custom Progress Bar color
   */
