@@ -11,7 +11,7 @@
               <img src="~/assets/svg/hand_shake.svg" alt="Hand Shake">
             </div>
             <h1 class=" pt-20 pb-20 xl:pl-10 text-5xl xl:text-6xl tracking-widest">
-              お客様の想い<span class=" text-branding-light-blue text-6xl font-light">+</span>αのIT<br>ソリューション
+              お客様の思い<span class=" text-branding-light-blue text-6xl font-light">+</span>αのIT<br>ソリューション
             </h1>
           </div>
           <div class="w-full">
@@ -40,27 +40,27 @@
         <div class=" mt-10 flex justify-evenly flex-wrap">
           <div class=" mb-8 md:mb-0 ">
             <div class="w-56 md:w-64 lg:w-72 flex text-center align-middle">
-              <div class="w-full h-full">
-                <img src="~/assets/svg/ses.svg" alt="System Engineering Service">
+              <div class="w-full h-52 md:h-56 flex justify-between items-center">
+                <img class="mx-auto" src="~/assets/svg/ses.svg" alt="System Engineering Service">
               </div>
             </div>
             <p class=" mt-2 text-md text-center">SES事業</p>
           </div>
           <div class=" mb-8 md:mb-0 ">
             <div class="w-56 md:w-64 lg:w-72 flex text-center align-middle">
-              <div class="w-full h-full">
-                <img src="~/assets/svg/contracted_development.svg" alt="Contracted Development">
+              <div class="w-full h-52 md:h-56 flex justify-between items-center">
+                <img class="mx-auto" src="~/assets/svg/contracted_development.svg" alt="Contracted Development">
               </div>
             </div>
             <p class=" mt-2 text-md text-center">受託開発</p>
           </div>
           <div class="">
             <div class="w-56 md:w-64 lg:w-72 flex text-center align-middle">
-              <div class="w-full h-full">
-                <img src="~/assets/svg/offshore.svg" alt="Offshore">
+              <div class="w-full h-52 md:h-56 flex justify-between items-center">
+                <img class="mx-auto" src="~/assets/svg/web_design.svg" alt="Web Design">
               </div>
             </div>
-            <p class=" mt-2 text-md text-center">オフショア</p>
+            <p class=" mt-2 text-md text-center">Webサイト制作</p>
           </div>
         </div>
         <div class=" mt-16 text-center">

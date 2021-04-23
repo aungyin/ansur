@@ -16,13 +16,13 @@
     <section id="ses" class="ses md:mt-6">
       <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto py-16">
         <h2 class=" text-2xl md:text-4xl mb-6 text-center tracking-widest"><span class="border-double border-b bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-500">SES事業</span></h2>
-        <div class="flex justify-between flex-col md:flex-row">
-          <div class=" w-56 md:w-64 flex-shrink-0 mx-auto">
-            <div class="w-full h-full">
-              <img src="~/assets/svg/ses.svg" alt="System Engineering Service">
+        <div class="flex justify-between flex-col lg:flex-row">
+          <div class=" w-56 lg:w-1/2 mx-auto">
+            <div class="w-full h-32 md:h-56">
+              <img class="w-full h-full mx-auto" src="~/assets/svg/ses.svg" alt="System Engineering Service">
             </div>
           </div>
-          <p class=" w-full pl-2 md:pl-6 mt-6 md:mt-0 flex flex-shrink items-center justify-center text-sm md:text-base leading-relaxed xl:leading-loose">
+          <p class=" w-full pl-2 md:pl-6 mt-6 md:mt-0 flex flex-shrink items-center justify-center text-sm md:text-base">
             当社スタッフがお客さま企業内に常駐し、各種アプリケーションおよびシステム開発、パッケージのカスタマイズ等の企画からシステムの開発、
             運用保守までをトータルにサポートします。オープン系、web系、組込系のシステム開発を中心に、ご要望に適した高品質で信頼のあるサービスを提供。 
             お客さまの業務効率を図りながら、トラブル時の対応も含め利用される方が安心して使用できるシステムの維持に取り組んでいます。
@@ -35,31 +35,44 @@
     <section id="contracted-development" class="contracted-development bg-gray-100">
       <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto py-16">
         <h2 class=" text-2xl md:text-4xl mb-6 text-center tracking-widest"><span class="border-double border-b bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-500">受託開発</span></h2>
-        <div class="flex justify-between flex-col md:flex-row">
-          <div class=" w-56 md:w-64 flex-shrink-0 mx-auto">
-            <div class="w-full h-full">
-              <img src="~/assets/svg/contracted_development.svg" alt="Contracted Development">
+        <div class="flex justify-between flex-col lg:flex-row">
+          <div class=" w-56 lg:w-1/2 mx-auto">
+            <div class="w-full h-32 md:h-56">
+              <img class="w-full h-full mx-auto" src="~/assets/svg/contracted_development.svg" alt="Contracted Development">
             </div>
           </div>
-          <p class=" w-full pl-2 md:pl-6 mt-6 md:mt-0 flex flex-shrink items-center justify-center text-sm md:text-base leading-relaxed xl:leading-loose">
+          <p class=" w-full pl-2 md:pl-6 mt-6 md:mt-0 flex flex-shrink items-center justify-center text-sm md:text-base">
             豊富な人材の中から、お客さま業務に精通したシステムエンジニアでプロジェクトを構成し、分析からサービス開始まで責任をもって開発します。金融・医療・公共等のシステムまで幅広く対応しています。
           </p>
         </div>
       </div>
     </section>
 
-    <!-- オフショア開発 -->
+    <!-- Webサイト制作 -->
     <section id="offshore" class="offshore">
       <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto py-16">
-        <h2 class=" text-2xl md:text-4xl mb-6 text-center tracking-widest"><span class="border-double border-b bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-500">オフショア開発</span></h2>
-        <div class="flex justify-between flex-col md:flex-row">
-          <div class=" w-56 md:w-64 flex-shrink-0 mx-auto">
-            <div class="w-full h-full">
-              <img src="~/assets/svg/offshore.svg" alt="Offshore">
+        <h2 class=" text-2xl md:text-4xl mb-6 text-center tracking-widest"><span class="border-double border-b bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-green-500">Webサイト制作</span></h2>
+        <div class="flex justify-between flex-col lg:flex-row">
+          <div class=" w-56 lg:w-1/2 mx-auto">
+            <div class="w-full h-32 md:h-56">
+              <img class="w-full h-full mx-auto" src="~/assets/svg/web_design.svg" alt="Web Design">
             </div>
           </div>
-          <p class=" w-full pl-2 md:pl-6 mt-6 md:mt-0 flex flex-shrink items-center justify-center text-sm md:text-base leading-relaxed xl:leading-loose">
-            弊社は中国やミャンマーにオフショア開発ができます。これまでの開発経験で培った管理方法やコミュニケーション手法により、お客様にとってはオフショアを意識する事なく、高品質でコストパフォーマンスの高いソフトウエア開発を提供いたします。
+          <p class=" w-full pl-2 md:pl-6 mt-6 md:mt-0 flex flex-shrink items-center justify-center text-sm md:text-base">
+            個性のないホームページは、つまらない！！<br>
+            すぐに忘れてしまいますよね。 <br>
+            せっかく作るなら、その中でも記憶に残るホームページにしたいと思いませんか？<br>
+            お客様に適した企画、提案を行い、お客様の意図に沿った、効果的なWebサイトを制作致します。<br><br>
+
+            ■Webサイト制作<br>
+            新規サイト制作、リニューアルといった大規模開発から、ランディングページなど比較的小規模な開発まで幅広く行っています。 クライアント様のニーズに応じてWebサイトの企画から制作、システム運用までトータルでサポートし、売上アップ、ブランディング等目的に応じたサイト制作を行います。<br><br>
+
+            ■モバイル/スマートフォンサイト制作<br>
+            携帯サイト・スマートフォンサイトをメイン事業にし、公式課金サイトや新規スマートフォンサイト構築から既存サイトのスマートフォン対応まで制作全般を行っています。<br><br>
+
+            ■SEO対策<br>
+            一般的には人が検索エンジンを使い情報を探す際、上位20件くらいまでから必要な情報を見つけだそうとするといわれます。自社のホームページ・作成したホームページが検索エンジンの上位に表示されれば、それだけユーザーの目にとまる機会を増大させることができます。 検索エンジン(Yahoo!・googleなど)の検索結果の上位に表示されるということは、必要な情報を集めているユーザー、顧客に自社のウェブサイトを見てもらうことができるために、有効なマーケティング戦略になる事が出来るはずです。<br>
+            弊社はコンテンツ内容が検索エンジンに最適に評価されるように内部施策を施し、お客様のWebサイトの上位表示へ貢献します。<br><br>
           </p>
         </div>
       </div>

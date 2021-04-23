@@ -15,16 +15,16 @@
     <div class="pt-4 md:pt-8">
       <!-- 社風・風土 -->
       <section class="culture-note text-center">
-        <div class="max-w-screen-lg mx-auto py-10 md:py-16">
-          <h2 class="hidden culture-title text-4xl leading-loose">ダミーダミーダミーダミーダミーダミー</h2>
-          <p class="hidden text-base md:text-lg px-4 md:px-12 mt-4 leading-loose">社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風社風</p>
+        <div class="max-w-screen-lg mx-auto px-10 py-20 md:py-32">
+          <h2 class="culture-title lg:text-2xl"><span class="xl:text-5xl">"</span>&nbsp;&nbsp;一人ひとりの希望や夢を大切にする会社だからできることがある！</h2>
+          <p class=" lg:text-2xl px-4 md:px-12">&nbsp;&nbsp;&nbsp;&nbsp;みんなで切磋琢磨、助け合いそして成長していくそんな会社です。<span class="xl:text-5xl">"</span></p>
         </div>
       </section>
   
       <!-- 2020 -->
-      <section style="background-color: #C6EBC9">
-        <div class="shadow-xl max-w-screen-lg mx-auto py-16 relative" style="background-color: #C6EBC9">
-          <h1 class="absolute top-0 left-0 text-5xl lg:text-6xl leading-none tracking-wider" style="color: #70AF85">2020忘年会</h1>
+      <section style="">
+        <div class="max-w-screen-lg mx-auto py-16 relative" style="">
+          <h1 class="absolute top-0 left-0 text-5xl lg:text-7xl leading-none tracking-wider" style="color: #70AF85">2020忘年会</h1>
           <div class="mt-4 flex flex-wrap justify-center space-y-4 md:space-x-16">
             <div>
               <div class="w-56 -ml-0 md:-ml-6 lg:-ml-16 text-sm leading-loose">
@@ -42,8 +42,8 @@
       </section>
   
       <!-- 2019 -->
-      <section style="background-color: #E8DCBF">
-        <div class="shadow-xl max-w-screen-lg mx-auto relative" style="background-color: #E8DCBF">
+      <section style="">
+        <div class="max-w-screen-lg mx-auto relative" style="">
           <h1 class="absolute top-0 right-0 text-5xl lg:text-6xl leading-none tracking-wider" style="color: #605D56">2019忘年会</h1>
           <div class="pt-20 md:pt-0 flex flex-wrap md:grid grid-cols-2">
             <div><img src="~/assets/img/culture/2019_YearEndPartyGroup.jpg" alt="2019 Year End Party Group Photo"></div>
@@ -65,8 +65,8 @@
       </section>
   
       <!-- 2018 -->
-      <section class="pb-8" style="background-color: #2D65D2">
-        <div class="shadow-xl max-w-screen-lg mx-auto px-4 md:px-8 md:py-16 text-white" style="background-color: #2D65D2">
+      <section class="pb-8" style="">
+        <div class="max-w-screen-lg mx-auto px-4 md:px-8 md:py-16" style="">
           <div class="grid md:grid-cols-2">
             <div class="mt-4 md:hidden flex items-center justify-evenly space-x-4">
               <hr class="w-1/2">
@@ -87,7 +87,7 @@
             <p class="text-5xl tracking-wider">2018</p>
           </div>
   
-          <h2 class=" text-center py-2 text-2xl md:text-5xl leading-relaxed">就職フェアー@ミャンマー</h2>
+          <h2 class=" text-center py-4 text-2xl md:text-5xl leading-relaxed">就職フェアー@ミャンマー</h2>
           <div class="flex flex-wrap md:grid md:grid-cols-2">
             <div><img src="~/assets/img/culture/2018_JobfairPresentation.jpg" alt="2018 Job Fair Presentation"></div>
             <div><img src="~/assets/img/culture/2018_JobfairCrowd.jpg" alt="2018 Job Fair Crowd"></div>
@@ -101,10 +101,6 @@
 </template>
 
 <style scoped>
-  /* .culture-title  {
-    background-image: url('~assets/img/culture/plus.svg');
-    background-size: 1rem;
-  } */
 </style>
 
 <script>

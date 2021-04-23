@@ -21,8 +21,8 @@
       <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
         <h2 class=" font-light text-2xl md:text-4xl tracking-widest">小学校受験サービス</h2>
         <p class="text-sm md:text-base mt-2">
-          幼児教育、国立小学校、私立小学校受験向けポータルサイトです。 鏡図形、変換図形、回転図形、点図形、重ね図形、回転重ね図形、移動図形、季節問題、塗り絵、ちぎり、模試問題など。
-他、ブログ、塾情報、各校偏差値情報、都内受験情報、掲示板、家庭学習方法、筑波大学附属小学校向け、お受験スーツ、学費、制服、服装等の記事があります。
+          本サービスは、お勉強や小学校受験向けのコンテンツを提供するサービスとして、練習図形問題16種類、問題数は12,000問以上あります。お勉強や公立・私立小学校お受験をする子供たちはもちろん、ご家族にどんどん情報発信してまいります。
+          試験のためだけではなく、子供たちに知識量を増やすこともでき、脳全体を活性化させる事もできます。
         </p>
       </div>
     </section>
@@ -37,7 +37,7 @@
               <h4 class="mt-6">豊富な問題集</h4>
             </div>
             <p class="mt-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor sem vel tortor tellus. Amet dictumst vel pulvinar enim varius blandit urna, eu feugiat. Rutrum viverra risus et amet.
+              図形問題を含む16種類、問題数は12,000問以上あります。
             </p>
           </div>
           <div class=" w-full md:w-1/2 mt-10 md:mt-0 text-center md:text-left">
@@ -46,7 +46,7 @@
               <h4 class="mt-6">問題集を簡単にプラント</h4>
             </div>
             <p class="mt-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam nisl non turpis elementum iaculis. Metus ullamcorper viverra mauris condimentum euismod eu. Integer amet.
+              インターネットとプリンターさえ用意すれば、いつでもどこでもプリントで勉強できます。
             </p>
           </div>
         </div>
@@ -60,7 +60,6 @@
           <img class="w-10 md:w-16" src="~/assets/svg/stars.svg" alt="Stars">
           <p class=" tracking-wider">無料問題<a class=" underline leading-loose hover:text-branding-light-blue" href="http://ansurs.com/ItemList/Menu1.aspx" target="_blank" rel="noopener noreferrer">サンプルをみる</a></p>
         </div>
-        <!-- <button class=" mt-4 md:mt-0 px-10 py-4 bg-branding-lighter-blue hover:bg-branding-light-blue text-gray-100 rounded">試してみる</button> -->
       </div>
     </section>
 

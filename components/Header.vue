@@ -1,7 +1,7 @@
 <template>
 
   <!-- HEADER -->
-  <header class="px-4 md:px-6 py-3 shadow sticky top-0 z-50 bg-white">
+  <header class="px-4 md:px-6 py-3 sticky top-0 z-50 bg-white">
     <div class="flex justify-between items-center tracking-widest">
       <NuxtLink to="/">
           <svg class=" w-24 md:w-40 fill-current" viewBox="0 0 220 69"  xmlns="http://www.w3.org/2000/svg">
