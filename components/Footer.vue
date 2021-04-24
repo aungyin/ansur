@@ -8,7 +8,7 @@
       <!-- Company Info -->
       <div class="md:w-2/4 lg:w-1/3 flex-shrink-0 pl-4 md:pr-10 md:mx-0 text-left text-xs md:border-r md:border-gray-500">
         <div>
-          <p class="text-2xl lg:text-4xl text-blue-100 tracking-wider leading-none">Ansurs</p>
+          <p class="text-2xl lg:text-4xl text-blue-100 tracking-wider leading-none">Ansur</p>
           <p class="font-light">株式会社アンスール</p>
         </div>
         <address class=" sm:mb-4 mb-0 not-italic">

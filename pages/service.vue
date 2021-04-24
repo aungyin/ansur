@@ -22,8 +22,8 @@
               <img class="w-full h-full mx-auto" src="~/assets/svg/ses.svg" alt="System Engineering Service">
             </div>
           </div>
-          <p class=" w-full pl-2 md:pl-6 mt-6 md:mt-0 flex flex-shrink items-center justify-center text-sm md:text-base">
-            当社スタッフがお客さま企業内に常駐し、各種アプリケーションおよびシステム開発、パッケージのカスタマイズ等の企画からシステムの開発、
+          <p class=" w-full pl-2 md:pl-6 mt-6 md:mt-0 flex flex-shrink items-center justify-center text-sm md:text-base leading-relaxed xl:leading-loose">
+            Ansurエンジニアがお客さま企業内に常駐し、各種アプリケーションおよびシステム開発、パッケージのカスタマイズ等の企画からシステムの開発、
             運用保守までをトータルにサポートします。オープン系、web系、組込系のシステム開発を中心に、ご要望に適した高品質で信頼のあるサービスを提供。 
             お客さまの業務効率を図りながら、トラブル時の対応も含め利用される方が安心して使用できるシステムの維持に取り組んでいます。
           </p>
@@ -41,7 +41,7 @@
               <img class="w-full h-full mx-auto" src="~/assets/svg/contracted_development.svg" alt="Contracted Development">
             </div>
           </div>
-          <p class=" w-full pl-2 md:pl-6 mt-6 md:mt-0 flex flex-shrink items-center justify-center text-sm md:text-base">
+          <p class=" w-full pl-2 md:pl-6 mt-6 md:mt-0 flex flex-shrink items-center justify-center text-sm md:text-base leading-relaxed xl:leading-loose">
             豊富な人材の中から、お客さま業務に精通したシステムエンジニアでプロジェクトを構成し、分析からサービス開始まで責任をもって開発します。金融・医療・公共等のシステムまで幅広く対応しています。
           </p>
         </div>
@@ -58,7 +58,7 @@
               <img class="w-full h-full mx-auto" src="~/assets/svg/web_design.svg" alt="Web Design">
             </div>
           </div>
-          <p class=" w-full pl-2 md:pl-6 mt-6 md:mt-0 flex flex-shrink items-center justify-center text-sm md:text-base">
+          <p class=" w-full pl-2 md:pl-6 mt-6 md:mt-0 flex flex-shrink items-center justify-center text-sm md:text-base leading-relaxed xl:leading-loose">
             個性のないホームページは、つまらない！！<br>
             すぐに忘れてしまいますよね。 <br>
             せっかく作るなら、その中でも記憶に残るホームページにしたいと思いませんか？<br>

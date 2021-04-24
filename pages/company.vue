@@ -48,18 +48,24 @@
                 <td class="border border-gray-200 pl-2 md:pl-10 py-2">〒541-0053　大阪市中央区本町4丁目2番12号<br>野村不動産御堂筋本町ビル　8階 　<NuxtLink class="border-b hover:text-branding-light-blue border-gray-400 hover:border-branding-light-blue" to="#access-osaka">＜アクセス＞</NuxtLink></td>
               </tr>
               <tr>
-                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">一般派遣</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">派13-314658</td>
+                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">事業認可</th>
+                <td class="border border-gray-200 pl-2 md:pl-10 py-2">
+                  一般労働者派遣事業：派13-314658<br>
+                  有料職業紹介番号：13-ユ-311868
+                </td>
               </tr>
               <tr>
                 <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">プライバシーマーク</th>
                 <td class="border border-gray-200 pl-2 md:pl-10 py-2 flex flex-wrap items-center">
                   <img class="h-auto w-20" src="~/assets/img/privacy_mark.jpg" alt="Privacy Mark">
-                  <div class="mt-2 ml-2">
-                    一般派遣番号：派13-314658<br>
-                    有料職業紹介番号：13-ユ-311868<br>
-                    プライバシーマーク番号：17003937
-                  </div>
+                  <div class="mt-2 ml-2">プライバシーマーク番号：17003937</div>
+                </td>
+              </tr>
+              <tr>
+                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">加盟団体</th>
+                <td class="border border-gray-200 pl-2 md:pl-10 py-2">
+                  一般社団法人日本情報システム・ユーザー協会（JUAS）<br>
+                  IoT推進コンソーシアム
                 </td>
               </tr>
               <tr>
@@ -70,7 +76,7 @@
                   ・Salesforce導入開発支援、人材育成業務<br>
                   ・ホームページの制作、更新、保守、SEO<br>
                   ・小学校受験に関するシステム上での情報提供、運営<br>
-                  ・小学校受験に関する情報誌発行、教室運営<br>
+                  <!-- ・小学校受験に関する情報誌発行、教室運営<br> -->
                   ・海外進出コンサルティング業務
                 </td>
               </tr>
@@ -88,10 +94,6 @@
               <tr>
                 <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">お問い合わせ先</th>
                 <td class="border border-gray-200 pl-2 md:pl-10 py-2">TEL：03-6222-8295　/　FAX：03-6222-8296<br>またはお問い合わせ</td>
-              </tr>
-              <tr>
-                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">加盟団体</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">一般社団法人日本情報システム・ユーザー協会<br>IoT推進コンソーシアム</td>
               </tr>
             </tbody>
           </table>
