@@ -93,7 +93,7 @@
               </tr>
               <tr>
                 <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">お問い合わせ先</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">TEL：03-6222-8295　/　FAX：03-6222-8296<br>またはお問い合わせ</td>
+                <td class="border border-gray-200 pl-2 md:pl-10 py-2">TEL：03-6222-8295　/　FAX：03-6222-8296<br>または <NuxtLink class="border-b hover:text-branding-light-blue border-gray-400 hover:border-branding-light-blue" to="/contact">お問い合わせ</NuxtLink></td>
               </tr>
             </tbody>
           </table>

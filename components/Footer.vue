@@ -52,7 +52,7 @@
                   <NuxtLink to="/service#contracted-development" class="text-xs hover:text-gray-400">受託開発</NuxtLink>
                 </li>
                 <li class=" leading-relexed">
-                  <NuxtLink to="/service#offshore" class="text-xs hover:text-gray-400">オフショア開発</NuxtLink>
+                  <NuxtLink to="/service#offshore" class="text-xs hover:text-gray-400">Webサイト制作</NuxtLink>
                 </li>
               </ul>
             </nav>
