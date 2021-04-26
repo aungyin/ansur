@@ -88,13 +88,13 @@
             <nav class="list-none mb-4 sm:mb-2">
               <ul>
                 <li class=" leading-relexed">
-                  <NuxtLink to="/recruit#programming" class="text-xs hover:text-gray-400">システムエンジニア</NuxtLink>
+                  <NuxtLink to="/recruit#programming" class="text-xs hover:text-gray-400">技術職(正社員 / 契約社員)</NuxtLink>
+                </li>
+                <li class=" leading-relexed">
+                  <NuxtLink to="/recruit#self-employed" class="text-xs hover:text-gray-400">技術職(個人事業主)</NuxtLink>
                 </li>
                 <li class=" leading-relexed">
                   <NuxtLink to="/recruit#sales" class="text-xs hover:text-gray-400">営業</NuxtLink>
-                </li>
-                <li class=" leading-relexed">
-                  <NuxtLink to="/recruit#lecturer" class="text-xs hover:text-gray-400">IT教師</NuxtLink>
                 </li>
               </ul>
             </nav>
