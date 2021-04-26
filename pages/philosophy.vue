@@ -15,7 +15,7 @@
     <!-- 経営理念 -->
     <section class="philosophy px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto mt-16 md:mt-24 md:pb-20">
       <div class="text-xs md:text-sm">
-        <p class="text-base md:text-xl"><span class="border-b w-1/3 border-branding-light-blue">Thank you for your thanks</span>　～みんなに喜ばれる会社を目指して～　はどうでしょう。</p>
+        <p class="text-base md:text-xl"><span class="border-b w-1/3 border-branding-light-blue">Thank you for your thanks</span>　～みんなに喜ばれる会社を目指して～　</p>
         <br>
         <p>私たちを取り巻く環境の変化は、日々スピードを増しています。それに伴い、技術革新は絶え間なく進み価値観も多様化しています。それでも、変わることがない大切なもの、それは人のための安心と安全です。そして、その安心と安全こそが健全で豊かな社会の基盤となっていくと考えています。</p>
         <br>
