@@ -3,21 +3,21 @@
 
     <!-- HERO -->
     <section class="hero mt-6 px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto overflow-hidden">
-      <div class="relative flex-col md:block pt-16 pb-1/12 md:pb-16 lg:pb-1/6 xl:pb-1/5">
-        <div class=" w-full md:w-3/5 lg:w-8/12 xl:w-7/12 md:absolute md:top-0 md:mt-16 md:right-0 -mr-10">
-          <img src="~/assets/svg/product_responsive.svg" alt="Product">
+      <div class="flex flex-col space-y-10 md:flex-row-reverse">
+        <div class="w-full md:w-3/5">
+          <img src="~/assets/img/product.jpeg" alt="Product">
         </div>
-        <div class="relative text-center md:text-left mt-10 md:mt-0">
-          <h1 class=" font-light text-2xl md:text-4xl lg:text-5xl xl:text-6xl tracking-widest">小学校受験サービス</h1>
-          <p class=" mt-4 font-thin text-lg md:text-xl lg:text-2xl tracking-widest">豊富な問題集でいつでも簡単に<br class="hidden md:block lg:hidden">受験できる。</p>
-          <p class=" mt-8 md:mt-16 mb-8">小学生向けの受験サービスです。</p>
-          <a class="mt-4 px-10 py-4 bg-branding-lighter-blue hover:bg-branding-light-blue text-gray-100 rounded" href="http://ansurs.com/ItemList/Menu1.aspx" target="_blank" rel="noopener noreferrer">無料問題サンプルをみる</a>
+        <div class="w-full h-full md:w-2/5 text-center md:text-left">
+          <h1 class=" font-light text-2xl md:text-3xl lg:text-4xl tracking-widest">小学校受験サービス</h1>
+          <p class=" mt-4 font-thin tracking-widest">豊富な問題集でいつでも簡単に<br class="hidden md:block lg:hidden">受験できる。</p>
+          <p class=" mt-8 md:mt-14">小学生向けの受験サービスです。</p>
+          <a class="mt-4 px-10 py-4 bg-branding-lighter-blue hover:bg-branding-light-blue text-gray-100 rounded inline-block" href="http://ansurs.com/ItemList/Menu1.aspx" target="_blank" rel="noopener noreferrer">無料問題サンプルをみる</a>
         </div>
       </div>
     </section>
 
     <!-- 目的 -->
-    <section class="aim py-16 md:py-20 border-gray-100 border-t border-b bg-gray-100">
+    <section class="aim mt-16 py-16 md:py-20 border-gray-100 border-t border-b bg-gray-100">
       <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
         <h2 class=" font-light text-2xl md:text-4xl tracking-widest">小学校受験サービス</h2>
         <p class="text-sm md:text-base mt-2">

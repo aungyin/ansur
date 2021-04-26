@@ -79,7 +79,6 @@
       <!-- PRODUCT -->
       <section class="product bg-gray-200">
         <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto flex flex-col lg:flex-row lg:relative">
-          <!-- <div class=" w-full h-56 xl:h-72 mt-48 xl:mt-24 -mr-16 bg-indigo-200 hidden lg:block absolute top-0 right-0 transform skew-y-12 xl:skew-y-16 rotate-90"></div> -->
           <div class="lg:w-3/5 w-full">
             <div class="py-16 md:py-20 px-10">
               <div>
@@ -101,8 +100,8 @@
             <div class="absolute w-11/12 md:w-full h-full rounded-lg bg-gray-400"  style="transform: rotate(5deg)"></div>
             <div class="relative w-11/12 md:w-full h-full rounded-lg bg-gradient-to-r from-indigo-400 to-blue-400">
               <div class="py-16 flex flex-wrap lg:flex-col justify-around items-center">
-                <div class=" w-48">
-                  <img src="~/assets/svg/product.svg" alt="Product">
+                <div class="w-5/6 md:w-1/2 lg:w-3/4 ">
+                  <img src="~/assets/img/product.jpeg" alt="Product">
                 </div>
                 <div class=" mt-10 md:mt-0 lg:mt-16">
                   <div class=" pb-3 px-3 border-b border-gray-900 hover:border-gray-600 inline-block">
