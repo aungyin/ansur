@@ -3,7 +3,7 @@
 
     <!-- HERO -->
     <section class="hero relative">
-      <div class="relative h-56 md:h-84 pb-1/3 md:pb-2/5">
+      <div class="relative h-56 md:h-84 pb-1/3 md:pb-1/5">
         <img class="block md:hidden absolute h-full w-full object-cover bg-center" src="~/assets/img/contact-sm.jpg" alt="Contact">
         <img class="hidden md:block absolute h-full w-full object-cover bg-center" src="~/assets/img/contact.jpg" alt="Contact">
       </div>

@@ -5,13 +5,13 @@
     <section class="hero mt-6 px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto overflow-hidden">
       <div class="flex flex-col space-y-10 md:flex-row-reverse">
         <div class="w-full md:w-3/5">
-          <img src="~/assets/img/product.jpeg" alt="Product">
+          <img src="~/assets/img/product.jpg" alt="Product">
         </div>
         <div class="w-full h-full md:w-2/5 text-center md:text-left">
           <h1 class=" font-light text-2xl md:text-3xl lg:text-4xl tracking-widest">小学校受験サービス</h1>
           <p class=" mt-4 font-thin tracking-widest">豊富な問題集でいつでも簡単に<br class="hidden md:block lg:hidden">受験できる。</p>
           <p class=" mt-8 md:mt-14">小学生向けの受験サービスです。</p>
-          <a class="mt-4 px-10 py-4 bg-branding-lighter-blue hover:bg-branding-light-blue text-gray-100 rounded inline-block" href="http://ansurs.com/ItemList/Menu1.aspx" target="_blank" rel="noopener noreferrer">無料問題サンプルをみる</a>
+          <a class="mt-4 px-10 py-4 bg-branding-lighter-blue hover:bg-branding-light-blue text-gray-100 rounded inline-block" href="http://ansurs.com/" target="_blank" rel="noopener noreferrer">今すぐアクセス</a>
         </div>
       </div>
     </section>

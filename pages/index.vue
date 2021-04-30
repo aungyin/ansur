@@ -101,7 +101,7 @@
             <div class="relative w-11/12 md:w-full h-full rounded-lg bg-gradient-to-r from-indigo-400 to-blue-400">
               <div class="py-16 flex flex-wrap lg:flex-col justify-around items-center">
                 <div class="w-5/6 md:w-1/2 lg:w-3/4 ">
-                  <img src="~/assets/img/product.jpeg" alt="Product">
+                  <img src="~/assets/img/product.jpg" alt="Product">
                 </div>
                 <div class=" mt-10 md:mt-0 lg:mt-16">
                   <div class=" pb-3 px-3 border-b border-gray-900 hover:border-gray-600 inline-block">
@@ -125,6 +125,10 @@
         <h2 class=" text-3xl md:text-4xl font-light tracking-widest">NOTICE</h2>
         <p class=" mt-2 tracking-wider text-gray-600 text-md">お知らせ</p>
         <div class="mt-6 text-sm lg:text-base">
+          <div class="flex py-2 md:py-0 flex-col md:flex-row border-b border-gray-200 leading-loose md:leading-10">
+            <span class=" mr-16 lg:mr-24"><time datetime="2021-04-26">2021年04月</time></span>
+            <span class="">ホームページリニューアル<span class="ml-2 p-1 leading-none rounded-md bg-yellow-500 text-white text-sm">NEW</span></span>
+          </div>
           <div class="flex py-2 md:py-0 flex-col md:flex-row border-b border-gray-200 leading-loose md:leading-10">
             <span class=" mr-16 lg:mr-24"><time datetime="2019-07-23">2019年07月</time></span>
             <span class="">3100万円に増資</span>
