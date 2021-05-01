@@ -34,38 +34,38 @@
       <!-- SERVICE -->
       <section class="service py-16 px-2 md:px-10 mx-auto">
         <div class="text-center">
-          <h2 class=" text-3xl md:text-4xl font-light tracking-widest">SERVICE</h2>
-          <p class=" mt-2 tracking-wider text-gray-600 text-md">事業内容</p>
+          <h2 class="section-title-en">SERVICE</h2>
+          <p class="section-title-jp">事業内容</p>
         </div>
         <div class=" mt-10 flex justify-evenly flex-wrap">
           <div class=" mb-8 md:mb-0 ">
-            <div class="w-56 md:w-64 lg:w-72 flex text-center align-middle">
-              <div class="w-full h-52 md:h-56 flex justify-between items-center">
+            <div class="service-item__wrapper">
+              <div class="service-item__img">
                 <img class="mx-auto" src="~/assets/svg/ses.svg" alt="System Engineering Service">
               </div>
             </div>
-            <p class=" mt-2 text-md text-center">SES事業</p>
+            <p class=" mt-2 text-center">SES事業</p>
           </div>
           <div class=" mb-8 md:mb-0 ">
-            <div class="w-56 md:w-64 lg:w-72 flex text-center align-middle">
-              <div class="w-full h-52 md:h-56 flex justify-between items-center">
+            <div class="service-item__wrapper">
+              <div class="service-item__img">
                 <img class="mx-auto" src="~/assets/svg/contracted_development.svg" alt="Contracted Development">
               </div>
             </div>
-            <p class=" mt-2 text-md text-center">受託開発</p>
+            <p class=" mt-2 text-center">受託開発</p>
           </div>
           <div class="">
-            <div class="w-56 md:w-64 lg:w-72 flex text-center align-middle">
-              <div class="w-full h-52 md:h-56 flex justify-between items-center">
+            <div class="service-item__wrapper">
+              <div class="service-item__img">
                 <img class="mx-auto" src="~/assets/svg/web_design.svg" alt="Web Design">
               </div>
             </div>
-            <p class=" mt-2 text-md text-center">Webサイト制作</p>
+            <p class=" mt-2 text-center">Webサイト制作</p>
           </div>
         </div>
         <div class=" mt-16 text-center">
           <div class=" pb-3 px-3 border-b hover:border-gray-500 inline-block">
-            <NuxtLink to="/service" class=" tracking-widest hover:text-gray-500 flex align-middle">
+            <NuxtLink to="/service" class="view-more">
               <span class="text-lg">VIEW MORE</span>
               <svg class="h-6 pl-12 pt-1 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path d="M7.6 5.8c0 .4.1.7.4.9l4.6 4.3c.5.5.5 1.4 0 1.9L8 17.2c-.3.2-.4.6-.4.9 0 1.1 1.3 1.7 2.1.9l6.8-6.2c.6-.5.6-1.4 0-1.9l-6.8-6c-.8-.7-2.1-.1-2.1.9z"/>
@@ -82,8 +82,8 @@
           <div class="lg:w-3/5 w-full">
             <div class="py-16 md:py-20 px-10">
               <div>
-                <h2 class=" text-3xl md:text-4xl font-light tracking-widest">PRODUCT</h2>
-                <p class=" mt-2 tracking-wider text-gray-600 text-md">製品</p>
+                <h2 class="section-title-en">PRODUCT</h2>
+                <p class="section-title-jp">製品</p>
               </div>
               <div class=" mt-10 flex justify-between">
                 <div class="">
@@ -105,7 +105,7 @@
                 </div>
                 <div class=" mt-10 md:mt-0 lg:mt-16">
                   <div class=" pb-3 px-3 border-b border-gray-900 hover:border-gray-600 inline-block">
-                    <NuxtLink to="/product" class=" tracking-widest hover:text-gray-600 flex align-middle">
+                    <NuxtLink to="/product" class="view-more">
                       <span class="text-lg">VIEW MORE</span>
                       <svg class="h-6 pl-12 pt-1 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                         <path d="M7.6 5.8c0 .4.1.7.4.9l4.6 4.3c.5.5.5 1.4 0 1.9L8 17.2c-.3.2-.4.6-.4.9 0 1.1 1.3 1.7 2.1.9l6.8-6.2c.6-.5.6-1.4 0-1.9l-6.8-6c-.8-.7-2.1-.1-2.1.9z"/>
@@ -122,32 +122,32 @@
 
       <!-- NOTICE -->
       <section class="notice py-16 px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
-        <h2 class=" text-3xl md:text-4xl font-light tracking-widest">NOTICE</h2>
-        <p class=" mt-2 tracking-wider text-gray-600 text-md">お知らせ</p>
+        <h2 class="section-title-en">NOTICE</h2>
+        <p class="section-title-jp">お知らせ</p>
         <div class="mt-6 text-sm lg:text-base">
-          <div class="flex py-2 md:py-0 flex-col md:flex-row border-b border-gray-200 leading-loose md:leading-10">
-            <span class=" mr-16 lg:mr-24"><time datetime="2021-04-26">2021年04月</time></span>
-            <span class="">ホームページリニューアル<span class="ml-2 p-1 leading-none rounded-md bg-yellow-500 text-white text-sm">NEW</span></span>
+          <div class="notice-item">
+            <span class="notice-item__date"><time datetime="2021-04-26">2021年04月</time></span>
+            <span>ホームページリニューアル<span class="notice-item__new">NEW</span></span>
           </div>
-          <div class="flex py-2 md:py-0 flex-col md:flex-row border-b border-gray-200 leading-loose md:leading-10">
-            <span class=" mr-16 lg:mr-24"><time datetime="2019-07-23">2019年07月</time></span>
-            <span class="">3100万円に増資</span>
+          <div class="notice-item">
+            <span class="notice-item__date"><time datetime="2019-07-23">2019年07月</time></span>
+            <span>3100万円に増資</span>
           </div>
-          <div class="flex py-2 md:py-0 flex-col md:flex-row border-b border-gray-200 leading-loose md:leading-10">
-            <span class=" mr-16 lg:mr-24"><time datetime="2019-05-01">2019年05月</time></span>
-            <span class="">事業拡大とそれに伴う人員増加のため、東京都中央区日本橋に事務所新設</span>
+          <div class="notice-item">
+            <span class="notice-item__date"><time datetime="2019-05-01">2019年05月</time></span>
+            <span>事業拡大とそれに伴う人員増加のため、東京都中央区日本橋に事務所新設</span>
           </div>
-          <div class="flex py-2 md:py-0 flex-col md:flex-row border-b border-gray-200 leading-loose md:leading-10">
-            <span class=" mr-16 lg:mr-24"><time datetime="2018-08-01">2018年08月</time></span>
-            <span class="">ホームページリニューアル</span>
+          <div class="notice-item">
+            <span class="notice-item__date"><time datetime="2018-08-01">2018年08月</time></span>
+            <span>ホームページリニューアル</span>
           </div>
-          <div class="flex py-2 md:py-0 flex-col md:flex-row border-b border-gray-200 leading-loose md:leading-10">
-            <span class=" mr-16 lg:mr-24"><time datetime="2018-05-01">2018年05月</time></span>
-            <span class="">2000万円に増資</span>
+          <div class="notice-item">
+            <span class="notice-item__date"><time datetime="2018-05-01">2018年05月</time></span>
+            <span>2000万円に増資</span>
           </div>
-          <div class="flex py-2 md:py-0 flex-col md:flex-row border-b border-gray-200 leading-loose md:leading-10">
-            <span class=" mr-16 lg:mr-24"><time datetime="2012-08-27">2012年08月</time></span>
-            <span class="">株式会社アンスール設立</span>
+          <div class="notice-item">
+            <span class="notice-item__date"><time datetime="2012-08-27">2012年08月</time></span>
+            <span>株式会社アンスール設立</span>
           </div>
         </div>
       </section>
@@ -157,22 +157,22 @@
       <!-- OTHERS -->
       <section class="other bg-gray-100">
         <div class="py-16 px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
-          <div class="">
-            <h2 class=" text-3xl md:text-4xl font-light tracking-widest">OTHERS</h2>
-            <p class=" mt-2 tracking-wider text-gray-600 text-md">その他</p>
+          <div>
+            <h2 class="section-title-en">OTHERS</h2>
+            <p class="section-title-jp">その他</p>
           </div>
           <div class=" md:mt-6 xl:mt-10 flex flex-col md:flex-row md:space-x-10 justify-between">
             <!-- 会社概要 -->
-            <div class="group w-full md:w-1/2 pt-10 md:pt-0 hover:shadow-2xl overflow-hidden">
+            <div class="group other-item">
               <NuxtLink to="/company" class="h-full">
-                <div class=" relative h-full pb-4/6">
-                  <img class="absolute w-full h-full object-cover bg-center rounded transform transition delay-75 duration-300 group-hover:scale-110" src="~/assets/img/company.jpg" alt="Company">
+                <div class=" other-item__bg">
+                  <img class="other-item__img" src="~/assets/img/company.jpg" alt="Company">
                 </div>
-                <div class=" w-full pt-2 -mt-20 lg:pt-3 lg:-mt-24 xl:pt-8 xl:-mt-40 relative">
-                  <div class=" p-5 lg:p-6 xl:p-10 flex justify-between bg-black bg-opacity-50 text-gray-100 rounded-b">
-                    <span class="text-xl lg:text-2xl xl:text-3xl xl:leading-relaxed tracking-widest">COMPANY
+                <div class="other-item__overlay">
+                  <div class="other-item__bar">
+                    <span class="other-item__text">COMPANY
                     </span>
-                    <svg class="h-8 xl:h-10 pl-12 pt-1 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <svg class="other-item__arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                       <path d="M7.6 5.8c0 .4.1.7.4.9l4.6 4.3c.5.5.5 1.4 0 1.9L8 17.2c-.3.2-.4.6-.4.9 0 1.1 1.3 1.7 2.1.9l6.8-6.2c.6-.5.6-1.4 0-1.9l-6.8-6c-.8-.7-2.1-.1-2.1.9z"/>
                     </svg>
                   </div>
@@ -180,15 +180,15 @@
               </NuxtLink>
             </div>
             <!-- 採用情報 -->
-            <div class="group w-full md:w-1/2 pt-10 md:pt-0 hover:shadow-2xl overflow-hidden">
+            <div class="group other-item">
               <NuxtLink to="/recruit" class="h-full">
-                <div class=" relative h-full pb-4/6">
-                  <img class="absolute w-full h-full object-cover rounded transform transition delay-75 duration-300 group-hover:scale-110" src="~/assets/img/recruit-sm.jpg" alt="Recruit">
+                <div class=" other-item__bg">
+                  <img class="other-item__img" src="~/assets/img/recruit-sm.jpg" alt="Recruit">
                 </div>
-                <div class=" w-full pt-2 -mt-20 lg:pt-3 lg:-mt-24 xl:pt-8 xl:-mt-40 relative">
-                  <div class=" p-5 lg:p-6 xl:p-10 flex justify-between bg-black bg-opacity-50 text-gray-100 rounded-b">
-                    <span class="text-xl lg:text-2xl xl:text-3xl xl:leading-relaxed tracking-widest">RECRUIT</span>
-                    <svg class="h-8 xl:h-10 pl-12 pt-1 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <div class="other-item__overlay">
+                  <div class="other-item__bar">
+                    <span class="other-item__text">RECRUIT</span>
+                    <svg class="other-item__arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                       <path d="M7.6 5.8c0 .4.1.7.4.9l4.6 4.3c.5.5.5 1.4 0 1.9L8 17.2c-.3.2-.4.6-.4.9 0 1.1 1.3 1.7 2.1.9l6.8-6.2c.6-.5.6-1.4 0-1.9l-6.8-6c-.8-.7-2.1-.1-2.1.9z"/>
                     </svg>
                   </div>
@@ -219,6 +219,64 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+  .section-title-en {
+    @apply text-3xl md:text-4xl font-light tracking-widest;
+  }
 
+  .section-title-jp {
+    @apply mt-2 tracking-wider text-gray-600 text-base;
+  }
+
+  .service-item__wrapper {
+    @apply w-56 md:w-64 lg:w-72 flex text-center align-middle;
+  }
+
+  .service-item__img {
+    @apply w-full h-52 md:h-56 flex justify-between items-center;
+  }
+
+  .view-more {
+    @apply tracking-widest hover:text-gray-600 flex align-middle;
+  }
+
+  .notice-item {
+    @apply flex py-2 md:py-0 flex-col md:flex-row border-b border-gray-200 leading-loose md:leading-10;
+  }
+
+  .notice-item__date {
+    @apply mr-16 lg:mr-24;
+  }
+
+  .notice-item__new {
+    @apply ml-2 p-1 leading-none rounded-md bg-yellow-500 text-white text-sm;
+  }
+
+  .other-item {
+    @apply w-full md:w-1/2 pt-10 md:pt-0 hover:shadow-2xl overflow-hidden;
+  }
+
+  .other-item__bg {
+    @apply relative h-full pb-4/6;
+  }
+
+  .other-item__img {
+    @apply absolute w-full h-full object-cover rounded transform transition delay-75 duration-300 group-hover:scale-110;
+  }
+
+  .other-item__overlay {
+    @apply w-full pt-2 -mt-20 lg:pt-3 lg:-mt-24 xl:pt-8 xl:-mt-40 relative;
+  }
+
+  .other-item__bar {
+    @apply p-5 lg:p-6 xl:p-10 flex justify-between bg-black bg-opacity-50 text-gray-100 rounded-b;
+  }
+
+  .other-item__text {
+    @apply text-xl lg:text-2xl xl:text-3xl xl:leading-relaxed tracking-widest;
+  }
+
+  .other-item__arrow {
+    @apply h-8 xl:h-10 pl-12 pt-1 fill-current;
+  }
 </style>
