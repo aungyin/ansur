@@ -8,7 +8,7 @@
       </div>
       <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-gradient-to-r from-indigo-400 to-blue-400 text-gray-100 shadow-3xl">
         <h1 class=" font-light text-2xl md:text-5xl leading-none tracking-widest">SERVICE</h1>
-        <p class=" mt-1 font-thin text-xs md:text-2xl tracking-widest">事業内容</p>
+        <p class=" mt-1 font-extralight text-xs md:text-2xl tracking-widest">事業内容</p>
       </div>
     </section>
 
@@ -126,31 +126,31 @@
         <div class="px-4 py-10 md:p-16 md:py-12 bg-white rounded">
           <div class="">
             <div>Java</div>
-            <div class="mt-2  bg-indigo-600 h-6 w-2/3"></div>
+            <div class="percentage-bar w-2/3"></div>
           </div>
           <div class=" my-3">
             <div>C#</div>
-            <div class="mt-2  bg-indigo-600 h-6 w-1/3"></div>
+            <div class="percentage-bar w-1/3"></div>
           </div>
           <div class=" my-3">
             <div>C/C++</div>
-            <div class="mt-2  bg-indigo-600 h-6 w-1/6"></div>
+            <div class="percentage-bar w-1/6"></div>
           </div>
           <div class=" my-3">
             <div>Javascript</div>
-            <div class="mt-2  bg-indigo-600 h-6 w-2/5"></div>
+            <div class="percentage-bar w-2/5"></div>
           </div>
           <div class=" my-3">
             <div>PHP</div>
-            <div class="mt-2  bg-indigo-600 h-6 w-1/4"></div>
+            <div class="percentage-bar w-1/4"></div>
           </div>
           <div class=" my-3">
             <div>Python</div>
-            <div class="mt-2  bg-indigo-600 h-6 w-2/12"></div>
+            <div class="percentage-bar w-2/12"></div>
           </div>
           <div class=" my-3">
             <div>その他</div>
-            <div class="mt-2  bg-indigo-600 h-6 w-1/12"></div>
+            <div class="percentage-bar w-1/12"></div>
           </div>
         </div>
       </div>
@@ -160,6 +160,9 @@
 </template>
 
 <style scoped>
+.percentage-bar {
+  @apply mt-2  bg-indigo-600 h-2 rounded-md;
+}
 </style>
 
 <script>

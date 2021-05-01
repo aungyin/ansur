@@ -8,7 +8,7 @@
       </div>
       <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-gradient-to-r from-indigo-400 to-blue-400 text-gray-100 shadow-3xl">
         <h1 class=" font-light text-2xl md:text-5xl leading-none tracking-widest">COMPANY</h1>
-        <p class=" mt-1 font-thin text-base md:text-2xl tracking-widest">会社概要</p>
+        <p class=" mt-1 font-extralight text-base md:text-2xl tracking-widest">会社概要</p>
       </div>
     </section>
 
@@ -41,11 +41,11 @@
               </tr>
               <tr>
                 <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">東京事務所</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">〒103-0006　東京都中央区日本橋富沢町3-18<br>サンウォールビル　4階 　<NuxtLink class="border-b hover:text-branding-light-blue border-gray-400 hover:border-branding-light-blue" to="#access-tokyo">＜アクセス＞</NuxtLink></td>
+                <td class="border border-gray-200 pl-2 md:pl-10 py-2">〒103-0006　東京都中央区日本橋富沢町3-18<br>サンウォールビル　4階 　<NuxtLink class="border-b hover:text-blue-medium border-gray-400 hover:border-blue-medium" to="#access-tokyo">＜アクセス＞</NuxtLink></td>
               </tr>
               <tr>
                 <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">大阪事務所</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">〒541-0053　大阪市中央区本町4丁目2番12号<br>野村不動産御堂筋本町ビル　8階 　<NuxtLink class="border-b hover:text-branding-light-blue border-gray-400 hover:border-branding-light-blue" to="#access-osaka">＜アクセス＞</NuxtLink></td>
+                <td class="border border-gray-200 pl-2 md:pl-10 py-2">〒541-0053　大阪市中央区本町4丁目2番12号<br>野村不動産御堂筋本町ビル　8階 　<NuxtLink class="border-b hover:text-blue-medium border-gray-400 hover:border-blue-medium" to="#access-osaka">＜アクセス＞</NuxtLink></td>
               </tr>
               <tr>
                 <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">事業認可</th>
@@ -103,7 +103,7 @@
       <!-- アクセス -->
       <section class="access mb-10 md:mb-20">
         <!-- 住所 -->
-        <div class="pl-2 border-l-4 border-branding-light-blue">
+        <div class="pl-2 border-l-4 border-blue-medium">
           <h2 class=" text-2xl md:text-3xl tracking-widest">ACCESS</h2>
           <div class="tracking-widest">アクセス</div>
         </div>

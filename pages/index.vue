@@ -5,23 +5,23 @@
 
       <!-- HERO -->
       <section class="relative overflow-hidden">
-        <div class="hidden lg:block">
+        <!-- PC -->
+        <div class="hidden lg:block relative">
           <div class="px-10 pt-12 relative lg:flex w-screen">
-            <div class="absolute top-0 right-0 mt-8 mr-10 w-7/12 z-10">
+            <div class="absolute top-8 right-10 w-7/12">
               <img src="~/assets/svg/hand_shake.svg" alt="Hand Shake">
             </div>
             <h1 class=" pt-20 pb-20 xl:pl-10 text-5xl xl:text-6xl tracking-widest">
-              お客様の思い<span class=" text-branding-light-blue text-6xl font-light">+</span>αのIT<br>ソリューション
+              お客様の思い<span class=" text-blue-medium text-6xl font-light">+</span>αのIT<br>ソリューション
             </h1>
           </div>
           <div class="w-full">
             <img src="~/assets/svg/wave.svg" alt="Waves">
           </div>
         </div>
-
         <div class="flex flex-col lg:hidden py-8 px-5 md:p-10 text-center">
           <h1 class="tracking-wider text-3xl md:text-5xl">
-            お客様の想い<span class="text-branding-light-blue font-light">+</span>αのITソリューション
+            お客様の思い<span class="text-blue-medium font-light">+</span>αのITソリューション
           </h1>
           <div class="mt-5 md:mt-0 w-full">
             <img src="~/assets/svg/hand_shake.svg" alt="Hand Shake">
@@ -29,10 +29,10 @@
         </div>
       </section>
 
-      <hr class="lg:hidden w-16 md:w-24 mx-auto border-branding-light-blue transform rotate-90">
+      <hr class="lg:hidden w-16 md:w-24 mx-auto border-blue-medium transform rotate-90">
 
       <!-- SERVICE -->
-      <section class="service py-16 px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
+      <section class="service py-16 px-2 md:px-10 mx-auto">
         <div class="text-center">
           <h2 class=" text-3xl md:text-4xl font-light tracking-widest">SERVICE</h2>
           <p class=" mt-2 tracking-wider text-gray-600 text-md">事業内容</p>
@@ -64,8 +64,8 @@
           </div>
         </div>
         <div class=" mt-16 text-center">
-          <div class=" pb-3 px-3 border-b border-gray-900 hover:border-gray-600 inline-block">
-            <NuxtLink to="/service" class=" tracking-widest hover:text-gray-600 flex align-middle">
+          <div class=" pb-3 px-3 border-b hover:border-gray-500 inline-block">
+            <NuxtLink to="/service" class=" tracking-widest hover:text-gray-500 flex align-middle">
               <span class="text-lg">VIEW MORE</span>
               <svg class="h-6 pl-12 pt-1 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path d="M7.6 5.8c0 .4.1.7.4.9l4.6 4.3c.5.5.5 1.4 0 1.9L8 17.2c-.3.2-.4.6-.4.9 0 1.1 1.3 1.7 2.1.9l6.8-6.2c.6-.5.6-1.4 0-1.9l-6.8-6c-.8-.7-2.1-.1-2.1.9z"/>

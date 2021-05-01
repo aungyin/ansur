@@ -11,7 +11,7 @@
           <h1 class=" font-light text-2xl md:text-3xl lg:text-4xl tracking-widest">小学校受験サービス</h1>
           <p class=" mt-4 font-thin tracking-widest">豊富な問題集でいつでも簡単に<br class="hidden md:block lg:hidden">受験できる。</p>
           <p class=" mt-8 md:mt-14">小学生向けの受験サービスです。</p>
-          <a class="mt-4 px-10 py-4 bg-branding-lighter-blue hover:bg-branding-light-blue text-gray-100 rounded inline-block" href="http://ansurs.com/" target="_blank" rel="noopener noreferrer">今すぐアクセス</a>
+          <a class="mt-4 btn-blue inline-block" href="http://ansurs.com/" target="_blank" rel="noopener noreferrer">今すぐアクセス</a>
         </div>
       </div>
     </section>
@@ -58,7 +58,7 @@
       <div class="flex flex-col md:flex-row justify-center items-center space-x-10">
         <div class="flex justify-center items-center space-x-4">
           <img class="w-10 md:w-16" src="~/assets/svg/stars.svg" alt="Stars">
-          <p class=" tracking-wider">無料問題<a class=" underline leading-loose hover:text-branding-light-blue" href="http://ansurs.com/ItemList/Menu1.aspx" target="_blank" rel="noopener noreferrer">サンプルをみる</a></p>
+          <p class=" tracking-wider">無料問題<a class=" underline leading-loose hover:text-blue-medium" href="http://ansurs.com/ItemList/Menu1.aspx" target="_blank" rel="noopener noreferrer">サンプルをみる</a></p>
         </div>
       </div>
     </section>

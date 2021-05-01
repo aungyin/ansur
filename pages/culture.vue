@@ -8,7 +8,7 @@
       </div>
       <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-gradient-to-r from-indigo-400 to-blue-400 text-gray-100 shadow-3xl">
         <h1 class=" font-light text-2xl md:text-5xl leading-none tracking-widest">社風・風土</h1>
-        <p class=" mt-1 font-thin text-xs md:text-2xl tracking-widest">Culture</p>
+        <p class=" mt-1 font-extralight text-xs md:text-2xl tracking-widest">Culture</p>
       </div>
     </section>
 
@@ -70,7 +70,7 @@
           <div class="grid md:grid-cols-2">
             <div class="mt-4 md:hidden flex items-center justify-evenly space-x-4">
               <hr class="w-1/2">
-              <p class="font-thin text-xs tracking-widest">OCTOBER</p>
+              <p class="font-extralight text-xs tracking-widest">OCTOBER</p>
               <p class="text-5xl tracking-wider">2018</p>
             </div>
             <div><img src="~/assets/img/culture/2018_Nttdata.jpg" alt="2018 NTTdata"></div>
@@ -83,7 +83,7 @@
   
           <div class="hidden mt-8 md:flex items-center justify-evenly space-x-4">
             <hr class="w-1/2">
-            <p class="font-thin text-xs tracking-widest">OCTOBER</p>
+            <p class="font-extralight text-xs tracking-widest">OCTOBER</p>
             <p class="text-5xl tracking-wider">2018</p>
           </div>
   

@@ -40,14 +40,14 @@
       <div class="hidden md:block">
         <nav>
           <ul class="flex justify-center space-x-3 lg:space-x-8 xl:space-x-10 list-none">
-            <li><NuxtLink to="/" class=" hover:text-branding-light-blue text-sm">ホーム</NuxtLink></li>
-            <li><NuxtLink to="/service" class=" hover:text-branding-light-blue text-sm">サービス</NuxtLink></li>
-            <li><NuxtLink to="/product" class=" hover:text-branding-light-blue text-sm">製品</NuxtLink></li>
+            <li><NuxtLink to="/" class=" hover:text-blue-medium text-sm">ホーム</NuxtLink></li>
+            <li><NuxtLink to="/service" class=" hover:text-blue-medium text-sm">サービス</NuxtLink></li>
+            <li><NuxtLink to="/product" class=" hover:text-blue-medium text-sm">製品</NuxtLink></li>
             <li class="relative my-auto"
               @mouseover="isHover = true"
               @mouseleave="isHover = false"
               @click="isHover = false">
-              <NuxtLink to="/company" class=" hover:text-branding-light-blue text-sm flex items-center">
+              <NuxtLink to="/company" class=" hover:text-blue-medium text-sm flex items-center">
                   <span>会社概要</span>
                   <svg class="w-4 ml-1 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.2 7.6c-.4 0-.7.1-.9.4L13 12.6c-.5.5-1.4.5-1.9 0L6.8 8c-.3-.2-.6-.4-1-.4-1.1 0-1.7 1.3-.9 2.1l6.2 6.8c.5.6 1.4.6 1.9 0l6.2-6.8c.6-.8 0-2.1-1-2.1z"/></svg>
               </NuxtLink>
@@ -55,15 +55,15 @@
               <div :class="isHover ? 'block' : 'hidden'" class="absolute top-auto inset-x-auto z-10">
                 <div class="mt-4 border border-gray-200 bg-white rounded shadow-2xl w-40">
                   <div class="flex flex-col py-4">
-                    <NuxtLink to="/philosophy" class="px-6 py-2 focus:outline-none hover:text-branding-light-blue text-sm">経営理念</NuxtLink>
-                    <NuxtLink to="/organization" class="px-6 py-2 focus:outline-none hover:text-branding-light-blue text-sm">組織構成</NuxtLink>
+                    <NuxtLink to="/philosophy" class="px-6 py-2 focus:outline-none hover:text-blue-medium text-sm">経営理念</NuxtLink>
+                    <NuxtLink to="/organization" class="px-6 py-2 focus:outline-none hover:text-blue-medium text-sm">組織構成</NuxtLink>
                   </div>
                 </div>
               </div>
             </li>
-            <li><NuxtLink to="/culture" class=" hover:text-branding-light-blue text-sm">社風・風土</NuxtLink></li>
-            <li><NuxtLink to="/recruit" class=" hover:text-branding-light-blue text-sm">採用情報</NuxtLink></li>
-            <li><NuxtLink to="/contact" class=" hover:text-branding-light-blue text-sm">お問い合わせ</NuxtLink></li>
+            <li><NuxtLink to="/culture" class=" hover:text-blue-medium text-sm">社風・風土</NuxtLink></li>
+            <li><NuxtLink to="/recruit" class=" hover:text-blue-medium text-sm">採用情報</NuxtLink></li>
+            <li><NuxtLink to="/contact" class=" hover:text-blue-medium text-sm">お問い合わせ</NuxtLink></li>
           </ul>
         </nav>
       </div>
