@@ -2,7 +2,29 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+/* Common CSS classes */
 @layer components {
+
+  .hero-container {
+    @apply relative h-56 md:h-84 pb-1/3 md:pb-1/5;
+  }
+
+  .hero-img {
+    @apply absolute h-full w-full object-cover bg-center;
+  }
+
+  .hero-bar {
+    @apply absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-gradient-to-r from-indigo-400 to-blue-400 text-gray-100;
+  }
+
+  .hero-title {
+    @apply font-light text-2xl md:text-5xl leading-none tracking-widest;
+  }
+
+  .hero-subtitle {
+    @apply mt-1 font-extralight text-base md:text-2xl tracking-widest;
+  }
+
   .btn-blue {
     @apply px-10 py-4 bg-blue-medium hover:bg-blue-dark text-gray-100 rounded;
   }

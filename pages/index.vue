@@ -7,7 +7,7 @@
       <section class="relative overflow-hidden">
         <!-- PC -->
         <div class="hidden lg:block relative">
-          <div class="px-10 pt-12 relative lg:flex w-screen">
+          <div class="px-10 pt-12 relative flex w-screen">
             <div class="absolute top-8 right-10 w-7/12">
               <img src="~/assets/svg/hand_shake.svg" alt="Hand Shake">
             </div>
@@ -19,6 +19,7 @@
             <img src="~/assets/svg/wave.svg" alt="Waves">
           </div>
         </div>
+        <!-- SP -->
         <div class="flex flex-col lg:hidden py-8 px-5 md:p-10 text-center">
           <h1 class="tracking-wider text-3xl md:text-5xl">
             お客様の思い<span class="text-blue-medium font-light">+</span>αのITソリューション

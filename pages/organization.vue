@@ -3,12 +3,12 @@
 
     <!-- HERO -->
     <section class="hero relative">
-      <div class="relative h-56 md:h-84 pb-1/3 md:pb-1/5">
-        <img class="absolute h-full w-full object-cover bg-center" src="~/assets/img/company.jpg" alt="Company">
+      <div class="hero-container">
+        <img class="hero-img" src="~/assets/img/company.jpg" alt="Company">
       </div>
-      <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-gradient-to-r from-indigo-400 to-blue-400 text-gray-100 shadow-3xl">
-        <h1 class=" font-light text-2xl md:text-5xl leading-none tracking-widest">ORGANIZATION</h1>
-        <p class=" mt-1 font-extralight text-base md:text-2xl tracking-widest">組織構成</p>
+      <div class="hero-bar">
+        <h1 class="hero-title">ORGANIZATION</h1>
+        <p class="hero-subtitle">組織構成</p>
       </div>
     </section>
 

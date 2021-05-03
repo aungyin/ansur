@@ -3,12 +3,11 @@
     <!-- HERO -->
     <section class="hero relative">
       <div class="relative h-56 md:h-84 pb-1/3 md:pb-2/5">
-        <!-- <img class="block md:hidden absolute h-full w-full object-cover bg-center" src="~/assets/img/service-sm.jpg" alt="Service"> -->
-        <img class="block absolute h-full w-full object-cover bg-center" src="~/assets/img/culture_hero.jpg" alt="Culture">
+        <img class="block hero-img" src="~/assets/img/culture_hero.jpg" alt="Culture">
       </div>
-      <div class=" absolute bottom-0 left-0 px-4 md:px-20 py-3 -mb-10 md:-mb-16 w-3/4 bg-gradient-to-r from-indigo-400 to-blue-400 text-gray-100 shadow-3xl">
-        <h1 class=" font-light text-2xl md:text-5xl leading-none tracking-widest">社風・風土</h1>
-        <p class=" mt-1 font-extralight text-xs md:text-2xl tracking-widest">Culture</p>
+      <div class="hero-bar">
+        <h1 class="hero-title">社風・風土</h1>
+        <p class="hero-subtitle">Culture</p>
       </div>
     </section>
 
@@ -78,7 +77,7 @@
             <div class="flex items-center justify-center md:justify-start">
               <p class="py-2 text-2xl md:text-5xl leading-relaxed">ミャンマー<br class="hidden md:block">現地で視察</p>
             </div>
-            <div><img src="~/assets/img/culture/2018_UIT.jpg" alt="2018 UIT Meeting"></div>
+            <div><img src="~/assets/img/culture/2018_UIT2.jpg" alt="2018 UIT Meeting"></div>
           </div>
   
           <div class="hidden mt-8 md:flex items-center justify-evenly space-x-4">
