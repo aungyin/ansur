@@ -3,13 +3,13 @@
 
     <!-- HERO -->
     <section class="hero relative">
-      <div class="hero-container">
-        <img class="block md:hidden hero-img" src="~/assets/img/contact-sm.jpg" alt="Contact">
-        <img class="hidden md:block hero-img" src="~/assets/img/contact.jpg" alt="Contact">
+      <div class="comm-hero-container">
+        <img class="block md:hidden comm-hero-img" src="~/assets/img/contact-sm.jpg" alt="Contact">
+        <img class="hidden md:block comm-hero-img" src="~/assets/img/contact.jpg" alt="Contact">
       </div>
-      <div class="hero-bar">
-        <h1 class="hero-title">CONTACT</h1>
-        <p class="hero-subtitle">お問い合わせ</p>
+      <div class="comm-hero-bar">
+        <h1 class="comm-hero-title">CONTACT</h1>
+        <p class="comm-hero-subtitle">お問い合わせ</p>
       </div>
     </section>
 

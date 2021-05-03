@@ -3,11 +3,11 @@
     <!-- HERO -->
     <section class="hero relative">
       <div class="relative h-56 md:h-84 pb-1/3 md:pb-2/5">
-        <img class="block hero-img" src="~/assets/img/culture_hero.jpg" alt="Culture">
+        <img class="block comm-hero-img" src="~/assets/img/culture_hero.jpg" alt="Culture">
       </div>
-      <div class="hero-bar">
-        <h1 class="hero-title">社風・風土</h1>
-        <p class="hero-subtitle">Culture</p>
+      <div class="comm-hero-bar">
+        <h1 class="comm-hero-title">社風・風土</h1>
+        <p class="comm-hero-subtitle">Culture</p>
       </div>
     </section>
 

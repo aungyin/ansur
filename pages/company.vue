@@ -3,12 +3,12 @@
 
     <!-- HERO -->
     <section class="hero relative">
-      <div class="hero-container">
-        <img class="hero-img" src="~/assets/img/company.jpg" alt="Company">
+      <div class="comm-hero-container">
+        <img class="comm-hero-img" src="~/assets/img/company.jpg" alt="Company">
       </div>
-      <div class="hero-bar">
-        <h1 class="hero-title">COMPANY</h1>
-        <p class="hero-subtitle">会社概要</p>
+      <div class="comm-hero-bar">
+        <h1 class="comm-hero-title">COMPANY</h1>
+        <p class="comm-hero-subtitle">会社概要</p>
       </div>
     </section>
 

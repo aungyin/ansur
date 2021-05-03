@@ -11,7 +11,7 @@
           <h1 class=" font-light text-2xl md:text-3xl lg:text-4xl tracking-widest">小学校受験サービス</h1>
           <p class=" mt-4 font-thin tracking-widest">豊富な問題集でいつでも簡単に<br class="hidden md:block lg:hidden">受験できる。</p>
           <p class=" mt-8 md:mt-14">小学生向けの受験サービスです。</p>
-          <a class="mt-4 btn-blue inline-block" href="http://ansurs.com/" target="_blank" rel="noopener noreferrer">今すぐアクセス</a>
+          <a class="mt-4 comm-btn--blue inline-block" href="http://ansurs.com/" target="_blank" rel="noopener noreferrer">今すぐアクセス</a>
         </div>
       </div>
     </section>

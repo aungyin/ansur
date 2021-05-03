@@ -3,13 +3,13 @@
 
     <!-- HERO -->
     <section class="hero relative mb-0 md:mb-4">
-      <div class="hero-container">
-        <img class="block md:hidden hero-img" src="~/assets/img/recruit-sm.jpg" alt="Recruit">
-        <img class="hidden md:block hero-img" src="~/assets/img/recruit.jpg" alt="Recruit">
+      <div class="comm-hero-container">
+        <img class="block md:hidden comm-hero-img" src="~/assets/img/recruit-sm.jpg" alt="Recruit">
+        <img class="hidden md:block comm-hero-img" src="~/assets/img/recruit.jpg" alt="Recruit">
       </div>
-      <div class="hero-bar">
-        <h1 class="hero-title">RECRUIT</h1>
-        <p class="hero-subtitle">採用情報</p>
+      <div class="comm-hero-bar">
+        <h1 class="comm-hero-title">RECRUIT</h1>
+        <p class="comm-hero-subtitle">採用情報</p>
       </div>
     </section>
 

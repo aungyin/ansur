@@ -2,13 +2,13 @@
   <main>
     <!-- HERO -->
     <section class="hero relative">
-      <div class="hero-container">
-        <img class="block md:hidden hero-img" src="~/assets/img/service-sm.jpg" alt="Service">
-        <img class="hidden md:block hero-img" src="~/assets/img/service.jpg" alt="Service">
+      <div class="comm-hero-container">
+        <img class="block md:hidden comm-hero-img" src="~/assets/img/service-sm.jpg" alt="Service">
+        <img class="hidden md:block comm-hero-img" src="~/assets/img/service.jpg" alt="Service">
       </div>
-      <div class="hero-bar">
-        <h1 class="hero-title">SERVICE</h1>
-        <p class="hero-subtitle">事業内容</p>
+      <div class="comm-hero-bar">
+        <h1 class="comm-hero-title">SERVICE</h1>
+        <p class="comm-hero-subtitle">事業内容</p>
       </div>
     </section>
 
