@@ -12,65 +12,65 @@
       </div>
     </section>
 
-    <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto">
+    <div class="content-wrapper">
       <!-- 企業情報 -->
-      <section class="overview py-10 md:p-20">
-        <div class=" mt-4 md:mt-10 text-xs md:text-sm align-middle">
-          <table class="table-fixed w-full mx-auto border-collapse border border-gray-200">
+      <section class="info py-10 md:p-20">
+        <div class="info-wrapper">
+          <table class="info-table">
             <thead></thead>
             <tbody>
               <tr>
-                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">社名</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">株式会社アンスール</td>
+                <th class="info-table__header">社名</th>
+                <td class="info-table__data">株式会社アンスール</td>
               </tr>
               <tr>
-                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">英語表記</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">Ansur Inc.</td>
+                <th class="info-table__header">英語表記</th>
+                <td class="info-table__data">Ansur Inc.</td>
               </tr>
               <tr>
-                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">設立</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">2012年8月</td>
+                <th class="info-table__header">設立</th>
+                <td class="info-table__data">2012年8月</td>
               </tr>
               <tr>
-                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">資本金</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">3100万円</td>
+                <th class="info-table__header">資本金</th>
+                <td class="info-table__data">3100万円</td>
               </tr>
               <tr>
-                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">役員</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">代表取締役  澤田 旺</td>
+                <th class="info-table__header">役員</th>
+                <td class="info-table__data">代表取締役  澤田 旺</td>
               </tr>
               <tr>
-                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">東京事務所</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">〒103-0006　東京都中央区日本橋富沢町3-18<br>サンウォールビル　4階 　<NuxtLink class="border-b hover:text-blue-medium border-gray-400 hover:border-blue-medium" to="#access-tokyo">＜アクセス＞</NuxtLink></td>
+                <th class="info-table__header">東京事務所</th>
+                <td class="info-table__data">〒103-0006　東京都中央区日本橋富沢町3-18<br>サンウォールビル　4階 　<NuxtLink class="info-table__link" to="#access-tokyo">＜アクセス＞</NuxtLink></td>
               </tr>
               <tr>
-                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">大阪事務所</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">〒541-0053　大阪市中央区本町4丁目2番12号<br>野村不動産御堂筋本町ビル　8階 　<NuxtLink class="border-b hover:text-blue-medium border-gray-400 hover:border-blue-medium" to="#access-osaka">＜アクセス＞</NuxtLink></td>
+                <th class="info-table__header">大阪事務所</th>
+                <td class="info-table__data">〒541-0053　大阪市中央区本町4丁目2番12号<br>野村不動産御堂筋本町ビル　8階 　<NuxtLink class="info-table__link" to="#access-osaka">＜アクセス＞</NuxtLink></td>
               </tr>
               <tr>
-                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">事業認可</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">
+                <th class="info-table__header">事業認可</th>
+                <td class="info-table__data">
                   一般労働者派遣事業：派13-314658<br>
                   有料職業紹介番号：13-ユ-311868
                 </td>
               </tr>
               <tr>
-                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">プライバシーマーク</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2 flex flex-wrap items-center">
+                <th class="info-table__header">プライバシーマーク</th>
+                <td class="info-table__data flex flex-wrap items-center">
                   <img class="h-auto w-20" src="~/assets/img/privacy_mark.jpg" alt="Privacy Mark">
                   <div class="mt-2 ml-2">プライバシーマーク番号：17003937</div>
                 </td>
               </tr>
               <tr>
-                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">加盟団体</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">
+                <th class="info-table__header">加盟団体</th>
+                <td class="info-table__data">
                   一般社団法人日本情報システム・ユーザー協会（JUAS）<br>
                   IoT推進コンソーシアム
                 </td>
               </tr>
               <tr>
-                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">事業概要</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">
+                <th class="info-table__header">事業概要</th>
+                <td class="info-table__data">
                   ・ソフトウェア企画、開発、サポート支援、保守<br>
                   ・インフラ設計構築・保守サービス<br>
                   ・Salesforce導入開発支援、人材育成業務<br>
@@ -81,19 +81,19 @@
                 </td>
               </tr>
               <tr>
-                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">決算期</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">7月</td>
+                <th class="info-table__header">決算期</th>
+                <td class="info-table__data">7月</td>
               </tr>
               <tr>
-                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">取引銀行</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">
+                <th class="info-table__header">取引銀行</th>
+                <td class="info-table__data">
                   みずほ銀行<br>
                   三菱東京UFJ銀行
                 </td>
               </tr>
               <tr>
-                <th class="border border-gray-200 bg-blue-700 text-white text-center font-light w-1/3">お問い合わせ先</th>
-                <td class="border border-gray-200 pl-2 md:pl-10 py-2">TEL：03-6222-8295　/　FAX：03-6222-8296<br>または <NuxtLink class="border-b hover:text-branding-light-blue border-gray-400 hover:border-branding-light-blue" to="/contact">お問い合わせ</NuxtLink></td>
+                <th class="info-table__header">お問い合わせ先</th>
+                <td class="info-table__data">TEL：03-6222-8295　/　FAX：03-6222-8296<br>または <NuxtLink class="info-table__link" to="/contact">お問い合わせ</NuxtLink></td>
               </tr>
             </tbody>
           </table>
@@ -103,11 +103,11 @@
       <!-- アクセス -->
       <section class="access mb-10 md:mb-20">
         <!-- 住所 -->
-        <div class="pl-2 border-l-4 border-blue-medium">
-          <h2 class=" text-2xl md:text-3xl tracking-widest">ACCESS</h2>
+        <div class="access-header">
+          <h2 class="access-header__title">ACCESS</h2>
           <div class="tracking-widest">アクセス</div>
         </div>
-        <div id="access-tokyo" class="leading-loose text-xs md:text-sm pt-32 -mt-32 md:pt-40 md:-mt-40">
+        <div id="access-tokyo" class="access-address__tokyo">
           <p class="mt-6">■東京本社所在地</p>
           <p class="pl-4">・東京都中央区日本橋富沢町3-18　サンウォールビル　4階</p>
           <p>■交通アクセス</p>
@@ -124,7 +124,7 @@
         </div>
   
         <hr class="my-6">
-        <div id="access-osaka" class="leading-loose text-xs md:text-sm pt-20 -mt-20 md:pt-24 md:-mt-24">
+        <div id="access-osaka" class="access-address__osaka">
           <p>■大阪営業所所在地</p>
           <p class="pl-4">・大阪市中央区本町4丁目2番12号　野村不動産御堂筋本町ビル　8階</p>
           <p>■交通アクセス</p>
@@ -140,6 +140,42 @@
 </template>
 
 <style scoped>
+
+  .content-wrapper {
+    @apply px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto;
+  }
+
+
+  .info-wrapper {
+    @apply mt-4 md:mt-10 text-xs md:text-sm align-middle;
+  }
+  .info-table {
+    @apply table-fixed w-full mx-auto border-collapse border border-gray-200;
+  }
+  .info-table__header {
+    @apply border border-gray-200 bg-blue-700 text-white font-light w-1/3;
+  }
+  .info-table__data {
+    @apply border border-gray-200 pl-2 md:pl-10 py-2;
+  }
+  .info-table__link {
+    @apply border-b hover:text-blue-medium border-gray-400 hover:border-blue-medium;
+  }
+
+
+  .access-header {
+    @apply pl-2 border-l-4 border-blue-medium;
+  }
+  .access-header__title {
+    @apply text-2xl md:text-3xl tracking-widest;
+  }
+  .access-address__tokyo {
+    @apply leading-loose text-xs md:text-sm pt-32 -mt-32 md:pt-40 md:-mt-40;
+  }
+  .access-address__osaka {
+    @apply leading-loose text-xs md:text-sm pt-20 -mt-20 md:pt-24 md:-mt-24;
+  }
+
 </style>
 
 <script>

@@ -13,32 +13,32 @@
       </div>
     </section>
 
-    <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto pb-10 md:pb-20 mt-16 md:mt-24">
+    <div class="job-container">
         <!-- Links -->
         <section class="mb-10 py-3 bg-blue-100">
-            <div class="flex flex-row justify-center space-x-5 md:space-x-10 text-xs md:text-base">
-                <NuxtLink class="border-b hover:text-blue-medium border-gray-400 hover:border-blue-medium" to="#programming">技術職(正社員 / 契約社員)</NuxtLink>
-                <span class=" text-blue-medium">/</span>
-                <NuxtLink class="border-b hover:text-blue-medium border-gray-400 hover:border-blue-medium" to="#self-employed">技術職(個人事業主)</NuxtLink>
-                <span class=" text-blue-medium">/</span>
-                <NuxtLink class="border-b hover:text-blue-medium border-gray-400 hover:border-blue-medium" to="#sales">営業職</NuxtLink>
-            </div>
+          <div class="job-menu">
+            <NuxtLink class="job-menu__link" to="#programming">技術職(正社員 / 契約社員)</NuxtLink>
+            <span class=" text-blue-medium">/</span>
+            <NuxtLink class="job-menu__link" to="#self-employed">技術職(個人事業主)</NuxtLink>
+            <span class=" text-blue-medium">/</span>
+            <NuxtLink class="job-menu__link" to="#sales">営業職</NuxtLink>
+          </div>
         </section>
 
         <!-- 技術職 -->
         <section id="programming" class="programming pt-24 -mt-24">
-            <div class="pl-2 border-l-4 border-blue-medium">
-                <h2 class=" text-2xl md:text-3xl tracking-widest">技術職</h2>
+            <div class="job-header">
+                <h2 class="job-header__category">技術職</h2>
                 <div class=" tracking-widest">正社員 / 契約社員</div>
             </div>
 
-            <div class=" mt-4 text-xs md:text-sm align-middle">
-                <table class=" mx-auto w-full border-collapse border border-gray-200">
+            <div class="info-wrapper">
+                <table class="info-table">
                     <thead></thead>
                     <tbody>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">採用職種</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">
+                            <th class="info-table__header">採用職種</th>
+                            <td class="info-table__data">
                                 ・プロジェクトマネージャー（PM）<br />
                                 ・プロジェクトリーダー（PL） <br />
                                 ・システムエンジニア(SE)<br />
@@ -46,12 +46,12 @@
                             </td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">募集形態</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">正社員 / 契約社員</td>
+                            <th class="info-table__header">募集形態</th>
+                            <td class="info-table__data">正社員 / 契約社員</td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">応募資格</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">
+                            <th class="info-table__header">応募資格</th>
+                            <td class="info-table__data">
                                 <p>学歴 / 国籍 / 性別不問。</p><br />
                                 <p>
                                     【必須経験・知識】<br />
@@ -70,27 +70,27 @@
                             </td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">給与待遇</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">経験・能力を考慮の上、協議して決定 昇給年１回、賞与年２回、通勤交通費全額支給 </td>
+                            <th class="info-table__header">給与待遇</th>
+                            <td class="info-table__data">経験・能力を考慮の上、協議して決定 昇給年１回、賞与年２回、通勤交通費全額支給 </td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">休日休暇</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">完全週休2日制(土・日)・祝日・年末年始・有給休暇・特別休暇</td>
+                            <th class="info-table__header">休日休暇</th>
+                            <td class="info-table__data">完全週休2日制(土・日)・祝日・年末年始・有給休暇・特別休暇</td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">勤務時間</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">9:00～18:00（休憩1時間） ※勤務地により変動あり </td>
+                            <th class="info-table__header">勤務時間</th>
+                            <td class="info-table__data">9:00～18:00（休憩1時間） ※勤務地により変動あり </td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">勤務地</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">
+                            <th class="info-table__header">勤務地</th>
+                            <td class="info-table__data">
                                 東京 または ⼤阪 のいずれかのオフィス<br />
                                 ※希望を考慮して配属します
                             </td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light text-white bg-blue-700">応募方法</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2">
+                            <th class="info-table__header">応募方法</th>
+                            <td class="info-table__data">
                                 Mail　:　info@ansurs.co.jp<br />
                                 Tel　:　03-6222-8295
                             </td>
@@ -102,18 +102,18 @@
 
         <!-- 技術職(個人事業主) -->
         <section id="self-employed" class="self-employed pt-24 -mt-16">
-            <div class="pl-2 border-l-4 border-blue-medium">
-                <h2 class=" text-2xl md:text-3xl tracking-widest">技術職</h2>
+            <div class="job-header">
+                <h2 class="job-header__category">技術職</h2>
                 <div class=" tracking-widest">個人事業主</div>
             </div>
 
-            <div class=" mt-4 text-xs md:text-sm align-middle">
-                <table class=" mx-auto w-full border-collapse border border-gray-200">
+            <div class="info-wrapper">
+                <table class="info-table">
                     <thead></thead>
                     <tbody>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">採用職種</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">
+                            <th class="info-table__header">採用職種</th>
+                            <td class="info-table__data">
                                 ・プロジェクトマネージャー（PM）<br />
                                 ・プロジェクトリーダー（PL） <br />
                                 ・システムエンジニア(SE)<br />
@@ -123,12 +123,12 @@
                             </td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">募集形態</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">個人事業主</td>
+                            <th class="info-table__header">募集形態</th>
+                            <td class="info-table__data">個人事業主</td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">応募資格</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">
+                            <th class="info-table__header">応募資格</th>
+                            <td class="info-table__data">
                                 <p>学歴 / 国籍 / 性別不問。</p><br>
                                 <p>
                                     【必須経験・知識】<br>
@@ -147,28 +147,28 @@
                             </td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">給与待遇</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">
+                            <th class="info-table__header">給与待遇</th>
+                            <td class="info-table__data">
                                 経験・能力を考慮の上、協議して決定
                             </td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">休日休暇</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">完全週休2日制(土・日)・祝日・その他</td>
+                            <th class="info-table__header">休日休暇</th>
+                            <td class="info-table__data">完全週休2日制(土・日)・祝日・その他</td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">勤務時間</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">9:00～18:00（休憩1時間） ※勤務地により変動あり</td>
+                            <th class="info-table__header">勤務時間</th>
+                            <td class="info-table__data">9:00～18:00（休憩1時間） ※勤務地により変動あり</td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">勤務地</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">
+                            <th class="info-table__header">勤務地</th>
+                            <td class="info-table__data">
                                 東京 または ⼤阪 の客先
                             </td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light text-white bg-blue-700">応募方法</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2">
+                            <th class="info-table__header">応募方法</th>
+                            <td class="info-table__data">
                                 Mail　:　info@ansurs.co.jp<br />
                                 Tel　:　03-6222-8295
                             </td>
@@ -180,47 +180,47 @@
 
         <!-- 営業職 -->
         <section id="sales" class="sales pt-24 -mt-16">
-            <div class="pl-2 border-l-4 border-blue-medium">
-                <h2 class=" text-2xl md:text-3xl tracking-widest">営業職</h2>
+            <div class="job-header">
+                <h2 class="job-header__category">営業職</h2>
             </div>
 
-            <div class=" mt-4 text-xs md:text-sm align-middle">
-                <table class=" mx-auto w-full border-collapse border border-gray-200">
+            <div class="info-wrapper">
+                <table class="info-table">
                     <thead></thead>
                     <tbody>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">採用職種</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">営業</td>
+                            <th class="info-table__header">採用職種</th>
+                            <td class="info-table__data">営業</td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">募集形態</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">契約社員 / 営業パートナー</td>
+                            <th class="info-table__header">募集形態</th>
+                            <td class="info-table__data">契約社員 / 営業パートナー</td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">応募資格</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">
+                            <th class="info-table__header">応募資格</th>
+                            <td class="info-table__data">
                                 学歴 / 国籍 / 性別不問。<br>営業経験者
                             </td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">給与待遇</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200"> 経験・能力を考慮の上、協議して決定</td>
+                            <th class="info-table__header">給与待遇</th>
+                            <td class="info-table__data"> 経験・能力を考慮の上、協議して決定</td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">休日休暇</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">完全週休2日制(土・日)・祝日・年末年始・有給休暇・特別休暇</td>
+                            <th class="info-table__header">休日休暇</th>
+                            <td class="info-table__data">完全週休2日制(土・日)・祝日・年末年始・有給休暇・特別休暇</td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">勤務時間</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">9:00～18:00</td>
+                            <th class="info-table__header">勤務時間</th>
+                            <td class="info-table__data">9:00～18:00</td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">勤務地</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">社内、社外</td>
+                            <th class="info-table__header">勤務地</th>
+                            <td class="info-table__data">社内、社外</td>
                         </tr>
                         <tr>
-                            <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light text-white bg-blue-700">応募方法</th>
-                            <td class=" px-2 md:px-4 lg:px-10 py-2">
+                            <th class="info-table__header">応募方法</th>
+                            <td class="info-table__data">
                                 Mail　:　info@ansurs.co.jp<br />
                                 Tel　:　03-6222-8295
                             </td>
@@ -232,26 +232,26 @@
 
         <!-- IT教師職
     <section id="lecturer" class="lecturer pt-24 -mt-16">
-      <div class="pl-2 border-l-4 border-blue-medium">
-        <h2 class="text-2xl md:text-3xl tracking-widest">IT教師職</h2>
+      <div class="job-header">
+        <h2 class="job-header__category">IT教師職</h2>
         <div class=" tracking-widest">※教員免許不要</div>
       </div>
 
-      <div class=" mt-4 text-xs md:text-sm align-middle">
-        <table class=" mx-auto w-full border-collapse border border-gray-200">
+      <div class="info-wrapper">
+        <table class="info-table">
           <thead></thead>
           <tbody>
             <tr>
-              <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">採用職種</th>
-              <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">・IT教師（教員免許不要）</td>
+              <th class="info-table__header">採用職種</th>
+              <td class="info-table__data">・IT教師（教員免許不要）</td>
             </tr>
             <tr>
-              <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">募集形態</th>
-              <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">フリー技術者 / 契約社員 / 正社員</td>
+              <th class="info-table__header">募集形態</th>
+              <td class="info-table__data">フリー技術者 / 契約社員 / 正社員</td>
             </tr>
             <tr>
-              <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">応募資格</th>
-              <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">
+              <th class="info-table__header">応募資格</th>
+              <td class="info-table__data">
                 <p>学歴 / 国籍 / 性別不問。</p><br>
                 <p>
                   【必須経験・知識】<br>
@@ -268,25 +268,25 @@
               </td>
             </tr>
             <tr>
-              <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">給与待遇</th>
-              <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">経験・技術力を考慮し、相談の上決定いたします。</td>
+              <th class="info-table__header">給与待遇</th>
+              <td class="info-table__data">経験・技術力を考慮し、相談の上決定いたします。</td>
             </tr>
             <tr>
-              <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">休日休暇</th>
-              <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">不定期休暇、各クラス課程により</td>
+              <th class="info-table__header">休日休暇</th>
+              <td class="info-table__data">不定期休暇、各クラス課程により</td>
             </tr>
             <tr>
-              <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">勤務時間</th>
-              <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">9:00～18:00、週末</td>
+              <th class="info-table__header">勤務時間</th>
+              <td class="info-table__data">9:00～18:00、週末</td>
             </tr>
             <tr>
-              <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700">勤務地</th>
-              <td class=" px-2 md:px-4 lg:px-10 py-2 border border-gray-200">東京本社</td>
+              <th class="info-table__header">勤務地</th>
+              <td class="info-table__data">東京本社</td>
             </tr>
 
             <tr>
-              <th class=" px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light text-white bg-blue-700">応募方法</th>
-              <td class=" px-2 md:px-4 lg:px-10 py-2">
+              <th class="info-table__header">応募方法</th>
+              <td class="info-table__data">
                 Mail　:　info@ansurs.co.jp<br>
                 Tel　:　03-6222-8295
               </td>
@@ -303,9 +303,40 @@
 </template>
 
 <style scoped>
-  /* h2 {
-    scroll-margin-top: 24;
-  } */
+
+  .job-container {
+    @apply px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto pb-10 md:pb-20 mt-16 md:mt-24;
+  }
+
+  .job-menu {
+    @apply flex flex-row justify-center space-x-5 md:space-x-10 text-xs md:text-base;
+  }
+  .job-menu__link {
+    @apply border-b hover:text-blue-medium border-gray-400 hover:border-blue-medium;
+  }
+
+
+  .job-header {
+    @apply pl-2 border-l-4 border-blue-medium;
+  }
+  .job-header__category {
+    @apply text-2xl md:text-3xl tracking-widest;
+  }
+
+
+  .info-wrapper {
+    @apply mt-4 text-xs md:text-sm align-middle;
+  }
+  .info-table {
+    @apply mx-auto w-full border-collapse border border-gray-200;
+  }
+  .info-table__header {
+    @apply px-2 md:px-10 w-24 md:w-56 lg:w-72 xl:w-96 font-light border border-gray-200 text-white bg-blue-700;
+  }
+  .info-table__data {
+    @apply px-2 md:px-4 lg:px-10 py-2 border border-gray-200;
+  }
+
 </style>
 
 <script>
