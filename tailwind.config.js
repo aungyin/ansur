@@ -7,6 +7,7 @@
 module.exports = {
   theme: {
     extend: {
+
       colors: {
         blue: {
         'light': '#0779e4',
@@ -14,6 +15,7 @@ module.exports = {
         'dark': '#052CF9',
         },
       },
+
       spacing: {
         '72': '18rem',
         '84': '21rem',
@@ -46,11 +48,30 @@ module.exports = {
         '10/12': '83.333333%',
         '11/12': '91.666667%',
       },
+
       skew: {
         '8': '8deg',
         '12': '12deg',
         '16': '16deg',
       },
+
+      keyframes: {
+        'fade-in-down': {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(-10px)'
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)'
+          }
+        }
+      },
+
+      animation: {
+        'fade-in-down': 'fade-in-down 0.5s ease-out'
+      }
+
     },
 
     // v1 Color
@@ -189,9 +210,11 @@ module.exports = {
 
   },
   variants: {
-    scale: ['group-hover']
+    scale: ['group-hover'],
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-debug-screens'),
+  ],
   purge: {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
     enabled: process.env.NODE_ENV === 'production',

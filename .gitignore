@@ -109,3 +109,6 @@ public_html/.nojekyll
 public_html/*.html
 public_html/*.lock
 public_html/*.ico
+
+# TODO
+TODO.md

@@ -11,19 +11,22 @@
       </div>
     </section>
 
-    <div class="pt-4 md:pt-8">
+    <div class="">
       <!-- 社風・風土 -->
-      <section class="culture-note text-center">
-        <div class="max-w-screen-lg mx-auto px-10 py-20 md:py-32">
-          <h2 class="culture-title lg:text-2xl"><span class="xl:text-5xl">"</span>&nbsp;&nbsp;一人ひとりの希望や夢を大切にする会社だからできることがある！</h2>
-          <p class=" lg:text-2xl px-4 md:px-12">&nbsp;&nbsp;&nbsp;&nbsp;みんなで切磋琢磨、助け合いそして成長していくそんな会社です。<span class="xl:text-5xl">"</span></p>
+      <section>
+        <div class="culture-quote">
+          <svg width="45" height="36" class="fill-current text-blue-light">
+            <path d="M13.415.001C6.07 5.185.887 13.681.887 23.041c0 7.632 4.608 12.096 9.936 12.096 5.04 0 8.784-4.032 8.784-8.784 0-4.752-3.312-8.208-7.632-8.208-.864 0-2.016.144-2.304.288.72-4.896 5.328-10.656 9.936-13.536L13.415.001zm24.768 0c-7.2 5.184-12.384 13.68-12.384 23.04 0 7.632 4.608 12.096 9.936 12.096 4.896 0 8.784-4.032 8.784-8.784 0-4.752-3.456-8.208-7.776-8.208-.864 0-1.872.144-2.16.288.72-4.896 5.184-10.656 9.792-13.536L38.183.001z"></path>
+          </svg>
+          <h2 class="mt-6">一人ひとりの希望や夢を大切にする会社だからできることがある！</h2>
+          <p>みんなで切磋琢磨、助け合いそして成長していくそんな会社です。</p>
         </div>
       </section>
   
       <!-- 2020 -->
-      <section style="">
-        <div class="max-w-screen-lg mx-auto py-16 relative" style="">
-          <h1 class="absolute top-0 left-0 text-5xl lg:text-7xl leading-none tracking-wider" style="color: #70AF85">2020忘年会</h1>
+      <section>
+        <div class="max-w-screen-lg mx-auto py-16 relative">
+          <h1 class="absolute top-0 left-0 text-5xl lg:text-6xl leading-none tracking-wider" style="color: #70AF85">2020忘年会</h1>
           <div class="mt-4 flex flex-wrap justify-center space-y-4 md:space-x-16">
             <div>
               <div class="w-56 -ml-0 md:-ml-6 lg:-ml-16 text-sm leading-loose">
@@ -41,8 +44,8 @@
       </section>
   
       <!-- 2019 -->
-      <section style="">
-        <div class="max-w-screen-lg mx-auto relative" style="">
+      <section>
+        <div class="max-w-screen-lg mx-auto relative">
           <h1 class="absolute top-0 right-0 text-5xl lg:text-6xl leading-none tracking-wider" style="color: #605D56">2019忘年会</h1>
           <div class="pt-20 md:pt-0 flex flex-wrap md:grid grid-cols-2">
             <div><img src="~/assets/img/culture/2019_YearEndPartyGroup.jpg" alt="2019 Year End Party Group Photo"></div>
@@ -64,8 +67,8 @@
       </section>
   
       <!-- 2018 -->
-      <section class="pb-8" style="">
-        <div class="max-w-screen-lg mx-auto px-4 md:px-8 md:py-16" style="">
+      <section class="pb-8">
+        <div class="max-w-screen-lg mx-auto px-4 md:px-8 md:py-16">
           <div class="grid md:grid-cols-2">
             <div class="mt-4 md:hidden flex items-center justify-evenly space-x-4">
               <hr class="w-1/2">
@@ -100,6 +103,11 @@
 </template>
 
 <style scoped>
+
+.culture-quote {
+  @apply max-w-screen-lg mx-auto px-10 py-16 md:py-32 text-lg md:text-xl lg:text-2xl text-center;
+}
+
 </style>
 
 <script>

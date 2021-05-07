@@ -13,7 +13,7 @@
       </div>
     </section>
 
-    <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto mt-16 md:mt-24 pb-12 md:pb-20">
+    <div class="contact-container">
       <!-- お問い合わせ -->
       <section class="contact">
         <div class=" text-xs md:text-sm align-middle">
@@ -23,50 +23,50 @@
           </p>
   
           <form action="/contact-confirm" method="GET">
-            <table class=" mt-8 mx-auto w-full border-collapse shadow-2xl">
+            <table class="contact-table">
               <thead></thead>
               <tbody>
                 <tr>
-                  <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">お名前<span class="px-1 ml-1 text-xs font-light bg-orange-500 text-gray-100 align-baseline">必須</span></th>
-                  <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
-                    <input required class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="name" v-model.trim="$v.name.$model" id="name" maxlength="48">
+                  <th class="contact-table__header">お名前<span class="contact-table__require">必須</span></th>
+                  <td class=" contact-table__data">
+                    <input required class="contact-table__input" type="text" name="name" v-model.trim="$v.name.$model" id="name" maxlength="48">
                     <p class="error text-red-700" v-if="$v.name.$dirty && !$v.name.required">お名前を入力してください。</p>
                     <p class="error text-red-700" v-if="$v.name.$dirty && !$v.name.minLength">お名前を2桁以上入力してください。</p>
                   </td>
                 </tr>
                 <tr>
-                  <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">ふりがな<span class="px-1 ml-1 text-xs font-light bg-orange-500 text-gray-100 align-baseline">必須</span></th>
-                  <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
-                    <input required class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="furigana" v-model.trim="$v.furigana.$model" id="furigana" maxlength="48">
+                  <th class="contact-table__header">ふりがな<span class="contact-table__require">必須</span></th>
+                  <td class=" contact-table__data">
+                    <input required class="contact-table__input" type="text" name="furigana" v-model.trim="$v.furigana.$model" id="furigana" maxlength="48">
                     <p class="error text-red-700" v-if="$v.furigana.$dirty && !$v.furigana.required">ふりがなを入力してください。</p>
                     <p class="error text-red-700" v-if="$v.furigana.$dirty && !$v.furigana.minLength">ふりがなを2桁以上入力してください。</p>
                   </td>
                 </tr>
                 <tr>
-                  <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">御社名</th>
-                  <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
-                    <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="companyName" id="company-name" maxlength="255">
+                  <th class="contact-table__header">御社名</th>
+                  <td class=" contact-table__data">
+                    <input class="contact-table__input" type="text" name="companyName" id="company-name" maxlength="255">
                   </td>
                 </tr>
                 <tr>
-                  <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">部署名</th>
-                  <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
-                    <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="text" name="departmentName" id="department-name" maxlength="48">
+                  <th class="contact-table__header">部署名</th>
+                  <td class=" contact-table__data">
+                    <input class="contact-table__input" type="text" name="departmentName" id="department-name" maxlength="48">
                   </td>
                 </tr>
                 <tr>
-                  <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">電話番号</th>
-                  <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
-                    <input class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" type="tel" name="phoneNum" v-model.trim="$v.phoneNum.$model" id="phone-num" maxlength="255">
+                  <th class="contact-table__header">電話番号</th>
+                  <td class=" contact-table__data">
+                    <input class="contact-table__input" type="tel" name="phoneNum" v-model.trim="$v.phoneNum.$model" id="phone-num" maxlength="255">
                     <p class="error text-red-700" v-if="$v.phoneNum.$dirty && !$v.phoneNum.numeric">電話番号を入力してください。</p>
                     <p class="error text-red-700" v-if="$v.phoneNum.$dirty && !$v.phoneNum.minLength">10桁か11桁の電話番号を入力してください。</p>
                     <p class="error text-red-700" v-if="$v.phoneNum.$dirty && !$v.phoneNum.maxLength">10桁か11桁の電話番号を入力してください。</p>
                   </td>
                 </tr>
                 <tr>
-                  <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700">メールアドレス<br class="block lg:hidden"><span class="px-1 ml-1 text-xs font-light bg-orange-500 text-gray-100 align-baseline">必須</span></th>
-                  <td class=" px-2 md:px-6 py-1 border-b border-gray-200">
-                    <input required class="px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" 
+                  <th class="contact-table__header">メールアドレス<br class="block lg:hidden"><span class="contact-table__require">必須</span></th>
+                  <td class=" contact-table__data">
+                    <input required class="contact-table__input" 
                       type="email" 
                       title="有効なメールアドレスを入力してください" 
                       name="email" v-model.trim="$v.email.$model" 
@@ -77,23 +77,24 @@
                   </td>
                 </tr>
                 <tr>
-                  <th class=" w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light bg-blue-700">お問い合わせ内容<br class="block lg:hidden"><span class="px-1 ml-1 text-xs font-light bg-orange-500 text-gray-100 align-baseline">必須</span></th>
-                  <td class=" px-2 md:px-6 py-1 md:py-6">
-                    <div class="flex items-center justify-left">
-                      <input required class="h-4 w-4 md:h-6 md:w-6" type="radio" name="inquryChoice" v-model.trim="$v.inquryChoice.$model" value="ビジネスパートナー" id="business-partner" checked>
-                      <label class="ml-2" for="business-partner">ビジネスパートナー</label>
+                  <th class="contact-table__header">お問い合わせ内容<br class="block lg:hidden"><span class="contact-table__require">必須</span></th>
+                  <td class=" contact-table__data">
+                    <div class="contact-input__wrapper">
+                      <div class="contact-input__item">
+                        <input required class="contact-input__radio" type="radio" name="inquryChoice" v-model.trim="$v.inquryChoice.$model" value="ビジネスパートナー" id="business-partner" checked>
+                        <label class="ml-2" for="business-partner">ビジネスパートナー</label>
+                      </div>
+                      <div class="contact-input__item">
+                        <input required class="mt-2 contact-input__radio" type="radio" name="inquryChoice" v-model.trim="$v.inquryChoice.$model" value="製品・サービス" id="product-service">
+                        <label class="ml-2" for="product-service">製品・サービス</label>
+                      </div>
+                      <div class="contact-input__item">
+                        <input required class="mt-2 contact-input__radio" type="radio" name="inquryChoice" v-model.trim="$v.inquryChoice.$model" value="その他" id="others">
+                        <label class="ml-2" for="others">その他</label>
+                      </div>
                     </div>
-                    <div class="mt-2 flex items-center justify-left">
-                      <input required class="mt-2 h-4 w-4 md:h-6 md:w-6" type="radio" name="inquryChoice" v-model.trim="$v.inquryChoice.$model" value="製品・サービス" id="product-service">
-                      <label class="ml-2" for="product-service">製品・サービス</label>
-                    </div>
-                    <div class="mt-2 flex items-center justify-left">
-                      <input required class="mt-2 h-4 w-4 md:h-6 md:w-6" type="radio" name="inquryChoice" v-model.trim="$v.inquryChoice.$model" value="その他" id="others">
-                      <label class="ml-2" for="others">その他</label>
-                    </div>
-                    <textarea required class="mt-2 md:mt-4 px-3 py-4 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500" 
+                    <textarea required class="contact-input__textarea" 
                       name="inquryDetail" v-model.trim="$v.inquryDetail.$model" id="inqury-detail" cols="72" rows="5" maxlength="600"></textarea>
-
                     <p class="error text-red-700" v-if="$v.inquryChoice.$dirty && !$v.inquryChoice.required">お問い合わせ内容を入力してください。</p>
                     <p class="error text-red-700" v-if="$v.inquryDetail.$dirty && !$v.inquryDetail.required">お問い合わせ内容を入力してください。</p>
                     <p class="error text-red-700" v-if="$v.inquryDetail.$dirty && !$v.inquryDetail.minLength">お問い合わせ内容を10桁以上入力してください。</p>
@@ -103,7 +104,7 @@
             </table>
   
             <div>
-              <textarea readonly class=" mt-10 py-4 border w-full text-gray-800 text-xs focus:outline-none focus:border-indigo-500" name="" id="" cols="72" rows="10">
+              <textarea readonly class="privacy-textarea" name="" id="" cols="72" rows="10">
               このフォームで頂戴する個人情報の取り扱いについて
   
               1. 事業者の氏名又は名称
@@ -131,12 +132,12 @@
               6. 個人情報を提供されることの任意性について　
                   ご本人様が当社に個人情報を提供されるかどうかは任意によるものです。 ただし、必要な項目をいただけない場合、適切な対応ができない場合があります。
               </textarea>
-              <div class="mt-4 flex items-center justify-center">
-                <input v-model="isActive" type="checkbox" name="agreement" id="agreement" class="h-4 w-4 md:h-6 md:w-6 rounded border border-gray-200">
+              <div class="privacy-agreement">
+                <input v-model="isActive" type="checkbox" name="agreement" id="agreement" class="privacy-agreement__checkbox">
                 <label class="ml-2" for="agreement">個人情報の取り扱いについて同意する</label>
               </div>
-              <div class="mt-10 md:mt-16 text-center">
-                <input :disabled="!isActive" class="px-10 py-4 cursor-pointer  rounded" :class="isActive ? 'bg-blue-medium text-gray-100 hover:bg-blue-dark' : 'bg-gray-400'" type="submit" id="confirm" value="内容を確認する">
+              <div class="privacy-cta">
+                <input :disabled="!isActive" class="privacy-cta__btn" :class="isActive ? 'bg-blue-medium text-gray-100 hover:bg-blue-dark' : 'bg-gray-400'" type="submit" id="confirm" value="内容を確認する">
               </div>
             </div>
           </form>
@@ -149,6 +150,54 @@
 </template>
 
 <style scoped>
+
+  .contact-container {
+    @apply px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto mt-16 md:mt-24 pb-12 md:pb-20;
+  }
+
+  .contact-table {
+    @apply mt-8 mx-auto w-full border-collapse shadow-2xl;
+  }
+  .contact-table__header {
+    @apply w-32 md:w-56 lg:w-72 xl:w-96 text-white font-light border-b border-gray-200 bg-blue-700;
+  }
+  .contact-table__data {
+    @apply px-2 md:px-6 py-1 border-b border-gray-200;
+  }
+  .contact-table__input {
+    @apply px-2 py-1 md:px-3 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500;
+  }
+  .contact-table__require {
+    @apply px-1 ml-1 text-xs font-light bg-orange-500 text-gray-100 align-baseline;
+  }
+  .contact-input__wrapper {
+    @apply md:py-3 flex-col space-y-2;
+  }
+  .contact-input__item {
+    @apply flex items-center;
+  }
+  .contact-input__radio {
+    @apply h-4 w-4 md:h-6 md:w-6;
+  }
+  .contact-input__textarea {
+    @apply mt-2 md:mt-4 px-3 py-4 w-full bg-gray-200 rounded text-gray-800 focus:outline-none focus:border-indigo-500;
+  }
+
+  .privacy-textarea {
+    @apply mt-10 py-4 border w-full text-gray-800 text-xs focus:outline-none focus:border-indigo-500;
+  }
+  .privacy-agreement {
+    @apply mt-4 flex items-center justify-center;
+  }
+  .privacy-agreement__checkbox {
+    @apply h-4 w-4 md:h-6 md:w-6 rounded border border-gray-200;
+  }
+  .privacy-cta {
+    @apply mt-10 md:mt-16 text-center;
+  }
+  .privacy-cta__btn {
+    @apply px-10 py-4 cursor-pointer rounded;
+  }
 
 </style>
 

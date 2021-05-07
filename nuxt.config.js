@@ -4,17 +4,25 @@ export default {
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
   */
-  mode: 'universal',
+  // mode: 'universal',
+  /*
+  ** Client Side Rendering Only
+  ** See https://nuxtjs.org/docs/2.x/features/rendering-modes#client-side-rendering-only
+  */
+  ssr: false,
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
   */
-  target: 'server',
+  target: 'static',
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
+    htmlAttrs: {
+      lang: 'en',
+    },
     title: '株式会社アンスール',
     titleTemplate: '%s｜株式会社アンスール',
     meta: [
@@ -100,5 +108,10 @@ export default {
     height: '4px',
     duration: 1000,
     throttle: 0
+  },
+
+  publicRuntimeConfig: {
+    dev: process.env.NODE_ENV !== 'production'
   }
+
 }

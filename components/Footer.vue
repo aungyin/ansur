@@ -3,7 +3,7 @@
   <!-- FOOTER -->
   <footer class=" bg-blue-700 text-gray-100">
 
-    <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto py-12 flex items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+    <div class="px-2 md:px-6 max-w-screen-lg xl:max-w-screen-xl mx-auto py-12 flex items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
 
       <!-- Company Info -->
       <div class="md:w-2/4 lg:w-1/3 flex-shrink-0 pl-4 md:pr-10 md:mx-0 text-left text-xs md:border-r md:border-gray-500">
@@ -130,20 +130,9 @@
 
     </div>
 
-    <!-- PRIVACY MARK -->
-    <!-- <div class="privacy-mark md:px-20 py-4 flex flex-wrap justify-center md:justify-start">
-      <div class="bg-gray-100"><img class="h-auto w-20 mx-auto md:mx-0" src="~/assets/img/privacy_mark.jpg" alt="Privacy Mark"></div>
-      <div class=" ml-4 mt-2 text-sm">
-        一般派遣番号：派13-314658<br>
-        有料職業紹介番号：13-ユ-311868<br>
-        プライバシーマーク番号：17003937
-      </div>
-    </div> -->
-
-
     <!-- Copyright -->
-    <div class="bg-blue-900 mx-auto py-6 text-center">
-      <p class="text-gray-300 text-sm">Copyright© 2020 株式会社アンスール<br class="md:hidden"> All Rights Reserved.</p>
+    <div class="mx-auto text-center">
+      <p class="px-10 py-6 text-gray-300 text-sm border-t border-gray-500">Copyright© 2021 株式会社アンスール<br class="md:hidden"> All Rights Reserved.</p>
     </div>
   </footer>
 

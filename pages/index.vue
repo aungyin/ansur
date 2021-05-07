@@ -78,24 +78,18 @@
 
 
       <!-- PRODUCT -->
-      <section class="product bg-gray-200">
-        <div class="px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto flex flex-col lg:flex-row lg:relative">
-          <div class="lg:w-3/5 w-full">
-            <div class="py-16 md:py-20 px-10">
-              <div>
-                <h2 class="section-title-en">PRODUCT</h2>
-                <p class="section-title-jp">製品</p>
-              </div>
-              <div class=" mt-10 flex justify-between">
-                <div class="">
-                  <h2 class=" text-2xl md:text-3xl">小学校受験サービス</h2>
-                  <p class="mt-4 pr-0 xl:pr-20 tracking-wide text-sm md:text-base leading-relaxed">
-                    本サービスは、お勉強や小学校受験向けのコンテンツを提供するサービスとして、練習図形問題16種類、問題数は12,000問以上あります。お勉強や公立・私立小学校お受験をする子供たちはもちろん、ご家族にどんどん情報発信してまいります。<br>
-                    試験のためだけではなく、子供たちに知識量を増やすこともでき、脳全体を活性化させる事もできます。
-                  </p>
-                </div>
-              </div>
+      <section class="product bg-gray-100 text-gray-800">
+        <div class="product-container">
+          <div class="w-full lg:w-3/5 py-16 md:py-20">
+            <div>
+              <h2 class="section-title-en">PRODUCT</h2>
+              <p class="section-title-jp">製品</p>
             </div>
+            <h2 class="mt-10 text-2xl md:text-3xl">小学校受験サービス</h2>
+            <p class="mt-4 pr-0 lg:pr-8 xl:pr-20 tracking-wide text-sm md:text-base leading-relaxed">
+              本サービスは、お勉強や小学校受験向けのコンテンツを提供するサービスとして、練習図形問題16種類、問題数は12,000問以上あります。お勉強や公立・私立小学校お受験をする子供たちはもちろん、ご家族にどんどん情報発信してまいります。<br>
+              試験のためだけではなく、子供たちに知識量を増やすこともでき、脳全体を活性化させる事もできます。
+            </p>
           </div>
           <div class="relative w-full h-full lg:w-2/5 my-auto flex items-center justify-center">
             <div class="absolute w-11/12 md:w-full h-full rounded-lg bg-gray-400"  style="transform: rotate(5deg)"></div>
@@ -224,15 +218,14 @@ export default {
   .section-title-en {
     @apply text-3xl md:text-4xl font-light tracking-widest;
   }
-
   .section-title-jp {
     @apply mt-2 tracking-wider text-gray-600 text-base;
   }
 
+
   .service-item__wrapper {
     @apply w-56 md:w-64 lg:w-72 flex text-center align-middle;
   }
-
   .service-item__img {
     @apply w-full h-52 md:h-56 flex justify-between items-center;
   }
@@ -241,42 +234,41 @@ export default {
     @apply tracking-widest hover:text-gray-600 flex align-middle;
   }
 
+
+  .product-container {
+    @apply px-2 md:px-10 max-w-screen-lg xl:max-w-screen-xl mx-auto flex flex-col lg:flex-row lg:relative;
+  }
+
+
   .notice-item {
     @apply flex py-2 md:py-0 flex-col md:flex-row border-b border-gray-200 leading-loose md:leading-10;
   }
-
   .notice-item__date {
     @apply mr-16 lg:mr-24;
   }
-
   .notice-item__new {
     @apply ml-2 p-1 leading-none rounded-md bg-yellow-500 text-white text-sm;
   }
 
+
   .other-item {
     @apply w-full md:w-1/2 pt-10 md:pt-0 hover:shadow-2xl overflow-hidden;
   }
-
   .other-item__bg {
     @apply relative h-full pb-4/6;
   }
-
   .other-item__img {
     @apply absolute w-full h-full object-cover rounded transform transition delay-75 duration-300 group-hover:scale-110;
   }
-
   .other-item__overlay {
     @apply w-full pt-2 -mt-20 lg:pt-3 lg:-mt-24 xl:pt-8 xl:-mt-40 relative;
   }
-
   .other-item__bar {
     @apply p-5 lg:p-6 xl:p-10 flex justify-between bg-black bg-opacity-50 text-gray-100 rounded-b;
   }
-
   .other-item__text {
     @apply text-xl lg:text-2xl xl:text-3xl xl:leading-relaxed tracking-widest;
   }
-
   .other-item__arrow {
     @apply h-8 xl:h-10 pl-12 pt-1 fill-current;
   }
