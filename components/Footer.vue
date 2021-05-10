@@ -41,8 +41,8 @@
       <div class="mt-4 md:mt-0 border-t border-gray-100 md:border-none w-full">
         <!-- Site Map -->
         <div class="flex-grow flex flex-wrap md:pl-8 mt-4 md:mt-0 text-left font-light text-sm">
-          <div class="lg:w-1/5 md:w-1/2 w-1/2 px-4">
-            <h2 class="title-font font-medium tracking-widest md:border-b md:border-gray-100 text-sm mb-1">サービス</h2>
+          <div class="px-4 w-1/2 lg:w-1/3 xl:w-1/6">
+            <h2 class="title-font font-medium tracking-widest text-sm mb-1">サービス</h2>
             <nav class="list-none mb-4 sm:mb-2">
               <ul>
                 <li class=" leading-relexed">
@@ -57,8 +57,8 @@
               </ul>
             </nav>
           </div>
-          <div class="lg:w-1/5 md:w-1/2 w-1/2 px-4">
-            <h2 class="title-font font-medium tracking-widest md:border-b md:border-gray-100 text-sm mb-1">製品</h2>
+          <div class="px-4 w-1/2 lg:w-1/3 xl:w-1/6">
+            <h2 class="title-font font-medium tracking-widest text-sm mb-1">製品</h2>
             <nav class="list-none mb-4 sm:mb-2">
               <ul>
                 <li class=" leading-relexed">
@@ -67,8 +67,8 @@
               </ul>
             </nav>
           </div>
-          <div class="lg:w-1/5 md:w-1/2 w-1/2 px-4">
-            <h2 class="title-font font-medium tracking-widest md:border-b md:border-gray-100 text-sm mb-1">会社情報</h2>
+          <div class="px-4 w-1/2 lg:w-1/3 xl:w-1/6">
+            <h2 class="title-font font-medium tracking-widest text-sm mb-1">会社情報</h2>
             <nav class="list-none mb-4 sm:mb-2">
               <ul>
                 <li class=" leading-relexed">
@@ -83,8 +83,18 @@
               </ul>
             </nav>
           </div>
-          <div class="lg:w-1/5 md:w-1/2 w-1/2 px-4">
-            <h2 class="title-font font-medium tracking-widest md:border-b md:border-gray-100 text-sm mb-1">採用情報</h2>
+          <div class="px-4 w-1/2 lg:w-1/3 xl:w-1/6">
+            <h2 class="title-font font-medium tracking-widest text-sm mb-1">社風・風土</h2>
+            <nav class="list-none mb-4 sm:mb-2">
+              <ul>
+                <li class=" leading-relexed">
+                  <NuxtLink to="/culture" class="text-xs hover:text-gray-400">社風・風土</NuxtLink>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="px-4 w-1/2 lg:w-1/3 xl:w-1/6">
+            <h2 class="title-font font-medium tracking-widest text-sm mb-1">採用情報</h2>
             <nav class="list-none mb-4 sm:mb-2">
               <ul>
                 <li class=" leading-relexed">
@@ -99,8 +109,8 @@
               </ul>
             </nav>
           </div>
-          <div class="lg:w-1/5 md:w-1/2 w-1/2 pl-4">
-            <h2 class="title-font font-medium tracking-widest md:border-b md:border-gray-100 text-sm mb-1">その他</h2>
+          <div class="pl-4 w-1/2 lg:w-1/6">
+            <h2 class="title-font font-medium tracking-widest text-sm mb-1">その他</h2>
             <nav class="list-none mb-4 sm:mb-2">
               <ul>
                 <li class=" leading-relexed">
@@ -118,7 +128,7 @@
         </div><!-- .site map -->
 
         <!-- PRIVACY MARK -->
-        <div class="privacy-mark md:hidden lg:flex pl-4 md:pl-12 mt-2 md:mt-10 flex items-center justify-start">
+        <div class="privacy-mark md:hidden lg:flex pl-4 md:pl-12 mt-2 flex items-center justify-start">
           <div class="bg-gray-100 mr-2 lg:mr-4"><img class="h-auto w-20 mx-auto md:mx-0" src="~/assets/img/privacy_mark.jpg" alt="Privacy Mark"></div>
           <div class=" mt-2 text-xs">
             一般派遣番号：派13-314658<br>
@@ -131,8 +141,8 @@
     </div>
 
     <!-- Copyright -->
-    <div class="mx-auto text-center">
-      <p class="px-10 py-6 text-gray-300 text-sm border-t border-gray-500">Copyright© 2021 株式会社アンスール<br class="md:hidden"> All Rights Reserved.</p>
+    <div class="mx-auto px-2 text-center max-w-screen-lg xl:max-w-screen-xl">
+      <p class="md:px-6 py-6 text-gray-300 text-sm border-t border-gray-500">Copyright© 2021 株式会社アンスール<br class="md:hidden"> All Rights Reserved.</p>
     </div>
   </footer>
 

@@ -6,7 +6,8 @@
 @layer components {
 
   .comm-hero-container {
-    @apply relative h-56 md:h-84 pb-1/3 md:pb-1/5;
+    /* @apply relative mt-16 md:mt-20 h-56 md:h-84 pb-1/3 md:pb-1/5; */
+    @apply relative mt-16 md:mt-20 h-56 md:h-84 aspect-w-4 aspect-h-1;
   }
 
   .comm-hero-img {

@@ -1,7 +1,7 @@
 <template>
 
   <!-- HEADER -->
-  <header class="px-4 md:px-6 py-3 sticky top-0 z-50 bg-white">
+  <header class="px-4 md:px-6 py-4 fixed top-0 w-full z-50 bg-white">
     <div class="flex justify-between items-center tracking-widest">
       <!-- LOGO -->
       <NuxtLink to="/">
@@ -19,7 +19,7 @@
         </button>
       </div>
       <div v-if="isOpen" @click="toggle()" class="fixed inset-0 min-w-full min-h-full z-40 lg:hidden">
-        <div class=" flex justify-between px-4 md:px-6 py-3 text-2xl lg:text-4xl">
+        <div class=" flex justify-between px-4 md:px-6 py-4 text-2xl lg:text-4xl">
           <!-- LOGO -->
           <NuxtLink class="w-full text-blue-600" to="/">
             <svg class=" w-24 md:w-40 fill-current" viewBox="0 0 220 69"  xmlns="http://www.w3.org/2000/svg">

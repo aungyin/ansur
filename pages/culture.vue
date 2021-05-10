@@ -1,9 +1,11 @@
 <template>
   <main>
     <!-- HERO -->
-    <section class="hero relative">
-      <div class="relative h-56 md:h-84 pb-1/3 md:pb-2/5">
-        <img class="block comm-hero-img" src="~/assets/img/culture_hero.jpg" alt="Culture">
+    <section class="hero mt-16 md:mt-20 relative">
+      <!-- <div class="relative h-56 md:h-84 pb-1/3 md:pb-2/5"> -->
+      <div class="relative h-56 md:h-84 aspect-w-8 aspect-h-3">
+        <img class="block md:hidden comm-hero-img" src="~/assets/img/culture_hero-sm.jpg" alt="Culture">
+        <img class="hidden md:block comm-hero-img" src="~/assets/img/culture_hero.jpg" alt="Culture">
       </div>
       <div class="comm-hero-bar">
         <h1 class="comm-hero-title">社風・風土</h1>
@@ -66,10 +68,20 @@
         </div>
       </section>
   
+      <section style="">
+        <div class="max-w-screen-lg mx-auto py-16 relative" style="">
+          <h1 class="absolute top-0 left-0 text-5xl lg:text-7xl leading-none tracking-wider" style="color: #70AF85">みんなの勉強会</h1>
+          <div class="pt-20 md:pt-0 flex flex-wrap md:grid grid-cols-2">
+            <div><img src="~/assets/img/culture/study01.jpg" alt="2019 Year End Party Group Photo"></div>
+            <p class="p-12 md:p-16 flex items-center mx-auto text-sm leading-loose">楽しんで勉強する様子</p>
+          </div>
+        </div>
+      </section>
+
       <!-- 2018 -->
       <section class="pb-8">
         <div class="max-w-screen-lg mx-auto px-4 md:px-8 md:py-16">
-          <div class="grid md:grid-cols-2">
+          <!-- <div class="grid md:grid-cols-2">
             <div class="mt-4 md:hidden flex items-center justify-evenly space-x-4">
               <hr class="w-1/2">
               <p class="font-extralight text-xs tracking-widest">OCTOBER</p>
@@ -81,9 +93,10 @@
               <p class="py-2 text-2xl md:text-5xl leading-relaxed">ミャンマー<br class="hidden md:block">現地で視察</p>
             </div>
             <div><img src="~/assets/img/culture/2018_UIT2.jpg" alt="2018 UIT Meeting"></div>
-          </div>
+          </div> -->
   
-          <div class="hidden mt-8 md:flex items-center justify-evenly space-x-4">
+          <!-- <div class="hidden mt-8 md:flex items-center justify-evenly space-x-4"> -->
+          <div class="mt-8 flex items-center justify-evenly space-x-4">
             <hr class="w-1/2">
             <p class="font-extralight text-xs tracking-widest">OCTOBER</p>
             <p class="text-5xl tracking-wider">2018</p>

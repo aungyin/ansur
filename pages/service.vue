@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="relative">
     <!-- HERO -->
     <section class="hero relative">
       <div class="comm-hero-container">

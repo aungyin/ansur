@@ -1,11 +1,11 @@
 <template>
-  <main class="">
+  <main>
 
     <!-- HERO -->
-    <section class="hero mt-6 section-container">
-      <div class="hero-container">
+    <section class="hero mt-16 md:mt-20 py-20" style="background: linear-gradient(to right, #021B79, #0575E6);">
+      <div class="section-container hero-container">
         <div class="hero-img">
-          <img class="mx-auto" src="~/assets/img/product.jpg" alt="Product">
+          <img class="mx-auto rounded-md" src="~/assets/img/product.jpg" alt="Product">
         </div>
         <div class="hero-content">
           <h1 class="hero-content__header">小学校受験サービス</h1>
@@ -17,7 +17,7 @@
     </section>
 
     <!-- 目的 -->
-    <section class="aim mt-16 py-16 md:py-20 bg-gray-100">
+    <section class="aim py-16 md:py-20 bg-gray-100">
       <div class="section-container">
         <h2 class="aim-header">小学校受験サービス</h2>
         <p class="aim-text">
@@ -78,7 +78,7 @@
     @apply w-full md:w-3/5;
   }
   .hero-content {
-    @apply w-full h-full md:w-2/5 text-center md:text-left;
+    @apply w-full h-full md:w-2/5 text-center md:text-left text-white;
   }
   .hero-content__header {
     @apply font-light text-2xl md:text-3xl lg:text-4xl tracking-widest;

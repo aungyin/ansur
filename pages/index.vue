@@ -4,27 +4,32 @@
     <main>
 
       <!-- HERO -->
-      <section class="relative overflow-hidden">
+      <section class="relative pt-16 lg:h-screen w-full lg:overflow-hidden">
         <!-- PC -->
-        <div class="hidden lg:block relative">
-          <div class="px-10 pt-12 relative flex w-screen">
-            <div class="absolute top-8 right-10 w-7/12">
+        <div class="hidden lg:block w-screen overflow-hidden">
+          <div class="px-10 pt-12">
+            <div class="absolute top-28 right-10 w-7/12 xl:w-6/12">
               <img src="~/assets/svg/hand_shake.svg" alt="Hand Shake">
             </div>
-            <h1 class=" pt-20 pb-20 xl:pl-10 text-5xl xl:text-6xl tracking-widest">
-              お客様の思い<span class=" text-blue-medium text-6xl font-light">+</span>αのIT<br>ソリューション
+            <h1 class="relative pt-24 xl:pl-10 flex flex-col leading-tight space-y-3 text-5xl xl:text-6xl tracking-widest">
+              <span class="hero-header__text">お客様の思い</span>
+              <span class="hero-header__text">+α</span>
+              <span class="hero-header__text">のITソリューション</span>
             </h1>
           </div>
-          <div class="w-full">
-            <img src="~/assets/svg/wave.svg" alt="Waves">
+          <div class="ocean">
+            <div class="wave"></div>
+            <div class="wave"></div>
           </div>
         </div>
         <!-- SP -->
-        <div class="flex flex-col lg:hidden py-8 px-5 md:p-10 text-center">
-          <h1 class="tracking-wider text-3xl md:text-5xl">
-            お客様の思い<span class="text-blue-medium font-light">+</span>αのITソリューション
+        <div class="flex flex-col space-y-5 lg:hidden py-8 px-5 md:p-10 justify-center items-center">
+          <h1 class="tracking-wider flex flex-col leading-tight space-y-3 text-3xl md:text-5xl">
+            <span class="hero-header__text">お客様の思い</span>
+            <span class="hero-header__text">+α</span>
+            <span class="hero-header__text">のITソリューション</span>
           </h1>
-          <div class="mt-5 md:mt-0 w-full">
+          <div class="w-4/5">
             <img src="~/assets/svg/hand_shake.svg" alt="Hand Shake">
           </div>
         </div>
@@ -215,6 +220,51 @@ export default {
 </script>
 
 <style scoped>
+
+  .hero-header__text {
+    @apply px-3 text-white bg-blue-medium flex w-max;
+  }
+
+  .ocean {
+    height: 5%;
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background: #0069FF;
+  }
+  .wave {
+    background: url(~/assets/svg/wave.svg) repeat-x; 
+    position: absolute;
+    top: -198px;
+    width: 6400px;
+    height: 198px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+  }
+  .wave:nth-of-type(2) {
+    top: -175px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+    opacity: 1;
+  }
+  @keyframes wave {
+    0% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: -1600px;
+    }
+  }
+  @keyframes swell {
+    0%, 100% {
+      transform: translate3d(0,-25px,0);
+    }
+    50% {
+      transform: translate3d(0,5px,0);
+    }
+  }
+
+
   .section-title-en {
     @apply text-3xl md:text-4xl font-light tracking-widest;
   }
@@ -227,7 +277,7 @@ export default {
     @apply w-56 md:w-64 lg:w-72 flex text-center align-middle;
   }
   .service-item__img {
-    @apply w-full h-52 md:h-56 flex justify-between items-center;
+    @apply w-full md:h-56 flex justify-between items-center;
   }
 
   .view-more {
